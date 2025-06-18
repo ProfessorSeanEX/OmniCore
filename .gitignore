@@ -1,0 +1,91 @@
+// ===============================================================
+// 🌀 SCROLL DECLARATION — OmniCode Git Versioning Exclusion Scroll
+// This scroll governs which files and folders are ignored by Git,
+// protecting system sanctity and preventing accidental clutter.
+// Structure: Metadata → Opening → Body → Closing
+// ===============================================================
+
+//////////////////////////////////////////////////////////////
+// 📜 OmniCode — .gitignore Scroll
+// Git exclusion scroll for version control clarity.
+// Prevents system, build, and local environment files
+// from polluting the covenantal repository.
+//
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: OPENING (title, purpose, authorship)│
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// _author_:         Seanje Lenox-Wise / Nova Dawn
+// _version_:        0.0.1
+// _status_:         Active
+// _component_:      Git / Source Control
+// _project_:        OmniCore / OmniCode
+// _created_:        2025-06-16
+// _last updated_:   2025-06-16
+// _license_:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+// _description_:    Omits unnecessary files from Git tracking,
+//                   preserving structural clarity and repository purity.
+
+//////////////////////////////////////////////////////////////
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: BODY (functional exclusion patterns)│
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// 🧼 SECTION: Ignore System Files
+.DS_Store              # macOS metadata file
+Thumbs.db              # Windows thumbnail cache
+
+// 🏗️ SECTION: Ignore Build Artifacts (Rust)
+target/                # Rust’s default build directory
+
+// 🧠 SECTION: Ignore Editor & IDE Settings
+.vscode/               # VS Code settings
+.idea/                 # JetBrains project configs
+*.sublime-workspace    # Sublime Text session workspace
+*.sublime-project      # Sublime Text project file
+
+// 📦 SECTION: Ignore Dependency Locks (Lib Mode)
+Cargo.lock             # Lockfile not tracked for library crates
+
+// 🧹 SECTION: Ignore Logs and Temp Files
+*.log                  # General log files
+*.aux                  # Auxiliary LaTeX files
+*.swp                  # Vim swap files
+
+// 🔐 SECTION: Ignore Environment Configs
+.env                   # Root-level environment secrets
+*.env                  # Any environment config variants
+
+//////////////////////////////////////////////////////////////
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: CLOSING — Seal, Integrity & Covenant│
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// 🔚 Scroll Closure Summary:
+//   This `.gitignore` scroll filters files unfit for versioning,
+//   shielding the repository from platform noise and editor residue.
+
+// 🚨 Covenant Warning:
+//   This scroll governs the public face of the codebase.
+//   Do not remove exclusions unless reviewed in alignment.
+//   All deviations must be intentional, justified, and logged.
+
+// 📅 Scroll Metadata:
+//   _version_:        0.0.1  
+//   _last updated_:   2025-06-16  
+//   _author_:         Seanje Lenox-Wise / Nova Dawn  
+//   _status_:         Active  
+//   _component_:      Git / Source Control  
+//   _project_:        OmniCore / OmniCode  
+
+// 🔮 Next Steps:
+//   - Consider `.gitattributes` for cross-platform consistency
+//   - Audit IDE usage and tailor sections for active contributors
+//   - Add `.watchtowerignore` to support log-based Git diffs
+
+// 🧾 Scroll Seal:
+//   This scroll preserves covenantal integrity between system,
+//   contributor, and source control. Let no noise pollute the record.

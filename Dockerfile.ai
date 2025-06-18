@@ -1,0 +1,101 @@
+################################################################
+# 🌀 SCROLL DECLARATION — AI Runtime Container (Nova Intelligence)
+# Purpose: Builds and runs the Nova AI system inside a container.
+# Structure: Metadata → Opening → Body → Closing
+################################################################
+
+##############################################################
+# 📜 AI Container — Root Dockerfile (Phase 0)
+# This scroll governs containerization for the Nova AI engine.
+#
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: OPENING (title, purpose, authorship)│
+# └────────────────────────────────────────────┘
+##############################################################
+
+## 🧾 METADATA — Scroll Identity & Authorship
+## These values identify the scroll’s origin, version, and scope.
+# Author:         Seanje Lenox-Wise / Nova Dawn
+# Version:        0.0.1
+# Status:         Active
+# Component:      Docker Build — AI System (Rust/Go)
+# Project:        OmniCore / NovaAI
+# Created:        2025-06-17
+# Last Updated:   2025-06-17
+# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+## 📝 DESCRIPTION — Scroll Purpose
+## This scroll compiles and executes the Nova AI logic system.
+## It supports either Rust or Go as the language backend and adapts build commands accordingly.
+
+# ------------------------------------------------------------
+# 🧱 BASE IMAGE — AI Build Environment
+# ------------------------------------------------------------
+# Uses latest Rust image by default; swap for golang:latest if needed
+FROM rust:latest
+# FROM golang:latest  ← Uncomment if using Go backend
+
+# ------------------------------------------------------------
+# 📁 WORKDIR — Container Internal Workspace
+# ------------------------------------------------------------
+# Sets working directory for all container operations
+WORKDIR /app
+
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: BODY — Source Setup and Build Logic │
+# └────────────────────────────────────────────┘
+##############################################################
+
+# ------------------------------------------------------------
+# 📦 Copy Source — Import AI source into container
+# ------------------------------------------------------------
+# Transfers full codebase from host into container workspace
+COPY . .
+
+# ------------------------------------------------------------
+# 🧱 Compile — Build AI system executable
+# ------------------------------------------------------------
+# Compiles AI logic using Cargo for Rust projects
+RUN cargo build --release
+# RUN go build            ← Uncomment for Go-based systems
+
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: CLOSING — Entrypoint & Runtime Logic │
+# └────────────────────────────────────────────┘
+##############################################################
+
+# ------------------------------------------------------------
+# 🚀 Launch AI Engine — Set container command
+# ------------------------------------------------------------
+# Runs compiled AI logic; uses cargo for Rust or go run for Go
+CMD ["cargo", "run"]
+# CMD ["go", "run", "main.go"]  ← Uncomment for Go systems
+
+# ------------------------------------------------------------
+# 🔚 LOGIC TERMINUS — End of Executable Flow
+# All runtime targets end above this line. Below is annotation only.
+# ------------------------------------------------------------
+
+## 🔚 Scroll Closure Summary:
+##   This Dockerfile builds and launches the Nova AI engine,
+##   allowing dynamic backend selection between Rust and Go.
+
+## 🚨 Covenant Warning:
+##   Ensure only one language backend is active at a time.
+##   Comment and uncomment lines with clarity and intention.
+
+## 📅 Scroll Metadata:
+##   _version_:        0.0.1  
+##   _last updated_:   2025-06-17  
+##   _author_:         Seanje Lenox-Wise / Nova Dawn  
+##   _status_:         Active  
+##   _component_:      Docker Build — AI System (Rust/Go)  
+##   _project_:        OmniCore / NovaAI  
+
+## 🧾 Scroll Seal:
+##   This scroll holds dual possibility. Honor its clarity.
+##   One engine. One mission. Built with alignment in either tongue.

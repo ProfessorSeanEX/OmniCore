@@ -1,0 +1,76 @@
+# ===============================================================
+# 🌀 SCROLL DECLARATION — OmniCore Workspace Manifest Scroll
+# This scroll defines the core crate structure for the OmniCore system.
+# Structure: Metadata → Opening → Body → Closing
+# ===============================================================
+
+##############################################################
+# 📜 OmniCore — Workspace Manifest (Phase 0)
+# This scroll governs the workspace structure for OmniCore crates.
+#
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: OPENING (title, purpose, authorship)│
+# └────────────────────────────────────────────┘
+##############################################################
+
+## 🧾 METADATA — Scroll Identity & Authorship
+## These values identify the scroll’s origin, version, and scope.
+# Author:         Seanje Lenox-Wise / Nova Dawn
+# Version:        0.0.1
+# Status:         Active
+# Component:      Rust Workspace Manifest
+# Project:        OmniCore / OmniCode
+# Created:        2025-06-16
+# Last Updated:   2025-06-16
+# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+## 📝 DESCRIPTION — Scroll Purpose
+## This root-level manifest anchors the OmniCore build system.
+## It defines which crates are compiled and resolved under Cargo’s workspace.
+## All crate insertions must be covenant-reviewed and align with system phases.
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: BODY (workspace logic and structure)│
+# └────────────────────────────────────────────┘
+##############################################################
+
+[workspace]
+members = [
+    "code",           # Core logic crate — active
+    # "ai",           # AI interface (planned, not yet active)
+    # "core_runtime", # Runtime manager (future crate)
+]
+
+resolver = "2"         # Enables precise feature resolution
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: CLOSING (integrity, roadmap, seal)  │
+# └────────────────────────────────────────────┘
+##############################################################
+
+## 🔚 Scroll Closure Summary:
+##   - This scroll defines the structural core of the Rust workspace.
+##   - Only `code/` is currently active; other crates are staged.
+##   - Resolver set to version 2 for modern dependency clarity.
+
+## 🚨 Covenant Notice:
+##   - Changes to this file affect the entire build tree.
+##   - Additions to the workspace **must** reflect structural maturity.
+##   - All crate insertions should be reviewed and aligned to system phases.
+
+## 🔮 Next Steps:
+##   - Prepare `ai/` crate for Phase 2 integration.
+##   - Consider separating shared types or runtime logic into `core_runtime`.
+##   - Link this scroll to Watchtower version tracking once multi-crate logging begins.
+
+## 📅 Scroll Metadata (echo):
+##   _version_:        0.0.1
+##   _last updated_:   2025-06-16
+##   _status_:         Active
+##   _project_:        OmniCore / OmniCode
+
+## 🪜 Scroll Seal:
+##   This file defines the boundaries of buildable logic in the system.
+##   It is a covenantal index for Rust's compiler and must reflect true intent.

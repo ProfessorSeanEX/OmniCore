@@ -1,0 +1,140 @@
+#######################################################################
+# 🌀 SCROLL DECLARATION — OmniCore Docker Compose Scroll
+# Purpose: Orchestrates multi-container services for OmniCore modules.
+# Structure: Metadata → Opening → Body → Closing
+#######################################################################
+
+##############################################################
+# 📜 OmniCore — Docker Compose (Phase 0)
+# This scroll governs multi-service orchestration for OmniCore.
+#
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: OPENING (title, purpose, authorship)│
+# └────────────────────────────────────────────┘
+##############################################################
+
+## 🧾 METADATA — Scroll Identity & Authorship
+## These values identify the scroll’s origin, version, and scope.
+# Author:         Seanje Lenox-Wise / Nova Dawn
+# Version:        0.0.1
+# Status:         Active
+# Component:      Docker Compose — Multi-Service Environment
+# Project:        OmniCore / OmniCode
+# Created:        2025-06-17
+# Last Updated:   2025-06-17
+# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+## 📝 DESCRIPTION — Scroll Purpose
+## This scroll defines and runs the services that make up OmniCore.
+## Each container represents a language-anchored subsystem: Rust, Go, C++, and AI.
+
+##############################################################
+## ┌────────────────────────────────────────────┐
+## │ BLOCK: BODY (service declarations & logic) │
+## └────────────────────────────────────────────┘
+##############################################################
+services:
+
+  #####################################################################
+  # 🧱 rust-service — OmniCode System Core (Rust)
+  #####################################################################
+  rust-service:
+    build:
+      dockerfile: Dockerfile.rust
+      args:
+        RUST_VERSION: ${RUST_VERSION}       # Rust toolchain version (from .env)
+    volumes:
+      - ${CODE_DIR}:/app/code               # Mount source code directory
+      - ${LOG_DIR}:/app/logs                # Mount logs directory for persistence
+    working_dir: ${WORKDIR_RUST}            # Path to core Cargo.toml
+    networks:
+      - omni-network
+    environment:
+      - RUST_BACKTRACE=${RUST_BACKTRACE}    # Optional: enable full error stack traces
+    command: ./omnicode                     # Run binary explicitly (fallback-safe)
+
+  #####################################################################
+  # 🌐 go-service — Internet Module (Go)
+  #####################################################################
+  go-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.go
+      args:
+        GO_VERSION: ${GO_VERSION}           # Go language version (from .env)
+    volumes:
+      - ${INTERNET_DIR}:${WORKDIR_OTHER}    # Mount Go module source
+    working_dir: ${WORKDIR_OTHER}
+    networks:
+      - omni-network
+
+  #####################################################################
+  # ⚙️ cpp-service — OS Module (C++)
+  #####################################################################
+  cpp-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.cpp
+      args:
+        CPP_VERSION: ${CPP_VERSION}         # C++ toolchain version (from .env)
+    volumes:
+      - ${OS_DIR}:${WORKDIR_OTHER}          # Mount C++ source code
+    working_dir: ${WORKDIR_OTHER}
+    networks:
+      - omni-network
+
+  #####################################################################
+  # 🧠 ai-service — AI Companion Runtime
+  #####################################################################
+  ai-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.ai
+      args:
+        AI_RUNTIME: ${AI_RUNTIME}           # Runtime language target (Rust or Go)
+    volumes:
+      - ${AI_DIR}:${WORKDIR_OTHER}          # Mount AI module source
+    working_dir: ${WORKDIR_OTHER}
+    networks:
+      - omni-network
+
+##############################################################
+## ┌────────────────────────────────────────────┐
+## │ BLOCK: CLOSING (networks, summary, warning)│
+## └────────────────────────────────────────────┘
+##############################################################
+
+#######################################################################
+# 🌐 NETWORKS BLOCK — Shared Container Bridge
+# Used by all services to enable internal communication.
+#######################################################################
+
+networks:
+  omni-network:
+    driver: bridge
+    
+#######################################################################
+# 🔚 LOGIC TERMINUS — End of Executable Flow
+# Below is annotation only. Do not add runtime logic past this point.
+#######################################################################
+
+## 🔚 Scroll Closure Summary:
+##   This scroll synchronizes all active containers in the OmniCore system.
+##   It enables language-specific binaries to run in harmony with isolated
+##   workdirs, shared networks, and environment-bound arguments.
+
+## 🚨 Covenant Warning:
+##   Adding/removing services requires scroll-level metadata updates.
+##   Do not alter environment mappings or network drivers without review.
+
+## 📅 Scroll Metadata Echo:
+##   _version_:        0.0.1
+##   _last updated_:   2025-06-17
+##   _author_:         Seanje Lenox-Wise / Nova Dawn
+##   _status_:         Active
+##   _component_:      Docker Compose — Multi-Service
+##   _project_:        OmniCore / OmniCode
+
+## 🧾 Scroll Seal:
+##   This scroll unifies multiple systems under one orchestration layer.
+##   Each service is modular, each environment covenantal. Guard this unity.

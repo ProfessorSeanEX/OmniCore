@@ -1,0 +1,209 @@
+################################################################
+# 🌀 SCROLL DECLARATION — OmniCode Docker Build Scroll
+# Purpose: Compiles and runs the OmniCode system via container.
+# Structure: Metadata → Opening → Body → Closing
+################################################################
+
+##############################################################
+# 📜 OmniCode — Root Dockerfile (Phase 0)
+# This scroll governs two-stage containerization of OmniCode.
+#
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: OPENING (title, purpose, authorship)│
+# └────────────────────────────────────────────┘
+##############################################################
+
+## 🧾 METADATA — Scroll Identity & Authorship
+## These values identify the scroll’s origin, version, and scope.
+## Do not alter without Watchtower review or covenantal approval.
+# Author:         Seanje Lenox-Wise / Nova Dawn
+# Version:        0.0.1
+# Status:         Active
+# Component:      Docker Build & Runtime
+# Project:        OmniCore / OmniCode
+# Created:        2025-06-16
+# Last Updated:   2025-06-16
+# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+## 📝 DESCRIPTION — Scroll Purpose
+## This scroll builds and launches OmniCode using a two-stage Docker process:
+## Stage 1 compiles the system binary; Stage 2 launches it cleanly as non-root.
+
+# ------------------------------------------------------------
+# 🧱 BASE IMAGE SETUP
+# Defines foundational container base and versioning pin
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# ⚙️ RUST VERSION DECLARATION
+# ------------------------------------------------------------
+# 📌 ARG — Base Rust image version to build with
+# This allows for flexible version pinning across environments.
+# Slim variant reduces image size while retaining compiler support.
+ARG RUST_VERSION=1.87.0-slim
+
+# ------------------------------------------------------------
+# 🧱 BASE IMAGE SETUP
+# ------------------------------------------------------------
+# 🧱 BASE IMAGE — Rust Build Environment
+# Pulls the official Rust image with specified version for compiling source code.
+FROM rust:${RUST_VERSION} AS builder
+
+# ------------------------------------------------------------
+# 📁 WORKSPACE & DIRECTORY SETUP
+# Defines internal container root and staging path
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# 📁 WORKSPACE & DIRECTORY SETUP
+# ------------------------------------------------------------
+# 📁 WORKDIR — Container Internal Workspace
+# All subsequent commands will execute from this path inside the container.
+# Helps maintain a clean, organized container filesystem.
+WORKDIR /app
+
+# ------------------------------------------------------------
+# 🧩 SYSTEM DEPENDENCIES
+# Installs only essential packages required for Rust compilation
+# ------------------------------------------------------------
+
+# ------------------------------------------------------------
+# 🧩 SYSTEM DEPENDENCIES
+# ------------------------------------------------------------
+# 🧩 SYSTEM DEPENDENCIES — Required Packages for Compilation
+# Installs only the minimum necessary to compile Rust code,
+# including SSL libraries and build tools.
+# Cleans up after install to reduce image size and avoid cache bloat.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    # Core build utilities: gcc, make, etc.
+    build-essential \
+    # Trust store for HTTPS requests
+    ca-certificates \
+    # SSL support (for crates like reqwest)
+    libssl-dev \
+    # Build helper for system libraries
+    pkg-config \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: BODY (build and runtime container)  │
+# └────────────────────────────────────────────┘
+##############################################################
+
+##############################################################
+# 📂 BUILD STAGE — Compile OmniCode Binary (Stage 1)
+##############################################################
+
+# This stage prepares a clean build environment, installs all required
+# dependencies, and compiles the OmniCode system binary using Cargo.
+# It does not contain any runtime logic—only compilation and validation.
+
+# ------------------------------------------------------------
+# 📦 Copy Source — Move OmniCode codebase into container
+# ------------------------------------------------------------
+# Transfer full source tree from host to /app/code
+COPY code/ /app/code
+
+# ------------------------------------------------------------
+# 🔍 Pre-Build Debug — Inspect source structure
+# ------------------------------------------------------------
+# Optional debug: lists files prior to build
+RUN echo "📦 Pre-Build: /app/code/" && ls -la /app/code
+
+# ------------------------------------------------------------
+# 🧱 Compile — Build release binary using Cargo
+# ------------------------------------------------------------
+# Builds system binary in release mode using specified manifest path
+RUN cargo build --release --manifest-path code/Cargo.toml
+
+# ------------------------------------------------------------
+# 🧾 Post-Build Debug — Confirm compiled artifacts
+# ------------------------------------------------------------
+# Optional debug: lists compiled output for verification
+RUN echo "🧱 Build complete: /app/code/target/release" && ls -R /app/code/target/release
+
+
+##############################################################
+# 📂 RUNTIME STAGE — Prepare Container for Execution (Stage 2)
+##############################################################
+
+# This stage creates the runtime environment for the built OmniCode binary.
+# It sets up the logs directory, enforces safer execution with a non-root user,
+# and brings in the compiled binary without bloating the final image with build tools.
+
+# ------------------------------------------------------------
+# 🏠 Set Runtime Environment — Working directory
+# ------------------------------------------------------------
+# Uses a slim Rust base (no compiler) to minimize image size
+FROM rust:1.87.0-slim
+
+# Sets working directory inside container
+WORKDIR /app
+
+# ------------------------------------------------------------
+# 🗂 Logs & User Setup — Safer execution context
+# ------------------------------------------------------------
+# Creates logs folder for runtime use
+# Adds non-root system user for secure process execution
+# Assigns ownership of logs directory to appuser
+RUN mkdir -p /app/logs \
+ && useradd -m appuser \
+ && chown -R appuser:appuser /app/logs
+
+# ------------------------------------------------------------
+# 📥 Transfer Binary — Move built release binary to runtime
+# ------------------------------------------------------------
+# Copies compiled binary from builder container into runtime image
+COPY --from=builder /app/code/target/release/omnicode .
+
+# ------------------------------------------------------------
+# 🔐 Permissions — Ensure binary is executable
+# ------------------------------------------------------------
+# Grants execute permissions on binary file
+RUN chmod +x ./omnicode
+
+##############################################################
+# ┌────────────────────────────────────────────┐
+# │ BLOCK: CLOSING — Seal, Integrity & Covenant│
+# └────────────────────────────────────────────┘
+##############################################################
+
+# ------------------------------------------------------------
+# 🔒 Privilege Drop — Enforce non-root execution
+# ------------------------------------------------------------
+# Switch to unprivileged user (defined in prior setup)
+USER appuser
+
+# ------------------------------------------------------------
+# 🚀 Launch OmniCode — Set container entrypoint
+# ------------------------------------------------------------
+# Defines the command executed when container starts
+CMD ["./omnicode"]
+
+# ------------------------------------------------------------
+# 🔚 LOGIC TERMINUS — End of Executable Flow
+# All runtime targets end above this line. Below is annotation only.
+# ------------------------------------------------------------
+
+## 🔚 Scroll Closure Summary:
+##   This Dockerfile anchors Phase 0 of OmniCode’s build system.
+##   It ensures the Rust binary is compiled cleanly, securely run,
+##   and future-proofed for CI/CD and orchestration integrations.
+
+## 🚨 Covenant Warning:
+##   Do not alter build stages without Watchtower log and test.
+##   The split-stage design protects system integrity and traceability.
+
+## 📅 Scroll Metadata:
+##   _version_:        0.0.1
+##   _last updated_:   2025-06-16
+##   _author_:         Seanje Lenox-Wise / Nova Dawn
+##   _status_:         Active
+##   _component_:      Docker Build & Runtime
+##   _project_:        OmniCore / OmniCode
+
+## 🧾 Scroll Seal:
+##   This scroll is covenantal—preserve structure and order.
+##   All scrolls begin and end with alignment. Guard this.

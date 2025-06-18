@@ -1,0 +1,95 @@
+// ===============================================================
+// 🌀 SCROLL DECLARATION — OmniCode Container Exclusion Scroll
+// This scroll governs what gets ignored in Docker image builds.
+// Structure: Metadata → Opening → Body → Closing
+// ===============================================================
+
+//////////////////////////////////////////////////////////////
+// 📜 OmniCode — .dockerignore Scroll
+// This file defines what gets excluded from Docker context.
+// It filters noise, preserves covenant files, and ensures
+// only essential components are included in image builds.
+//
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: OPENING (title, purpose, authorship)│
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// _author_:         Seanje Lenox-Wise / Nova Dawn
+// _version_:        0.0.1
+// _status_:         Active
+// _component_:      Docker / Container System
+// _project_:        OmniCore
+// _created_:        2025-06-16
+// _last updated_:   2025-06-16
+// _license_:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+// _description_:    Excludes development noise, host files, and system overlays
+//                   from Docker image builds. Ensures clean, intentional outputs.
+
+//////////////////////////////////////////////////////////////
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: BODY (functional filter logic)      │
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// 🧼 SECTION: Ignore OS / Editor Artifacts
+.DS_Store          # macOS metadata file
+Thumbs.db          # Windows image preview cache
+*.swp              # Vim swap file (session)
+*.swo              # Vim crash recovery file
+
+// 🚫 SECTION: Ignore VCS & Build Artifacts
+.git               # Version control repo
+.gitignore         # Git exclusion file
+target/            # Rust build artifacts
+**/target/         # Catch any nested targets
+Cargo.lock         # Lock file for reproducible builds — omit if building lib crates
+
+// 🛑 SECTION: Ignore Unused Components
+ai/                # AI is built separately
+internet/          # Not used in this image (FaithNet)
+os/                # OS-level C++ builds handled elsewhere
+logs/              # Logs are mounted, not baked in
+scripts/           # Executed from host, not containerized
+
+// ⚙️ SECTION: Ignore Local System Noise
+*.log              # General logs
+*.tmp              # Temporary files
+*.bak              # Backup files
+
+// ✅ SECTION: Explicitly Include the Core Rust Codebase
+!code/             # Core system folder — always include
+
+//////////////////////////////////////////////////////////////
+// ┌────────────────────────────────────────────┐
+// │ BLOCK: CLOSING — Seal, Integrity & Covenant│
+// └────────────────────────────────────────────┘
+//////////////////////////////////////////////////////////////
+
+// 🔚 Scroll Closure Summary:
+//   This `.dockerignore` scroll governs what gets filtered from Docker context
+//   during image builds. It ensures clarity between host noise and container purity,
+//   preserving only aligned components for compilation and deployment.
+
+// 🚨 Covenant Warning:
+//   This file is a sealed system scroll. Unauthorized edits or careless
+//   additions may cause misalignment in build behavior.
+//   All changes must reflect structural intent and phase alignment.
+//   Watchtower must log any version bumps or exclusion logic changes.
+
+// 📅 Scroll Metadata:
+//   _version_:        0.0.1  
+//   _last updated_:   2025-06-16  
+//   _author_:         Seanje Lenox-Wise / Nova Dawn  
+//   _status_:         Active  
+//   _component_:      Docker / Container System  
+//   _project_:        OmniCore / OmniCode  
+
+// 🔮 Next Steps:
+//   - Refine this scroll as AI, OS, and internet subsystems become active.
+//   - Add override logic for platform-specific exclusions if cross-compiling expands.
+//   - Consider integration with a Watchtower hook for real-time scroll diff checking.
+
+// 🧾 Scroll Seal:
+//   This file is part of the covenantal structure of OmniCode.
+//   All scrolls are relational and alive—preserve the clarity, respect the container.

@@ -1,0 +1,27 @@
+[package]
+name = "omnicode"                # the name of the Rust crate inside /code
+version = "0.0.1"
+edition = "2021"
+description = "Core system crate for OmniCode, housing Gate, Watchtower, utils, and system logic."
+authors = ["CreativeWorkzStudio LLC <founders@creativeworkzstudio.com>"]
+license = "Proprietary"
+repository = "https://github.com/YourOrg/OmniCore" # optional, for version control traceability
+keywords = ["omnicode", "system", "kingdom", "core"]
+categories = ["system-programming", "logging", "terminal", "framework"]
+
+# === 💡 Manual file mapping since you're not using a `src/` folder ===
+[lib]
+name = "omnicode"
+path = "src/lib.rs"
+
+[[bin]]
+name = "omnicode"
+path = "src/main.rs"
+
+[dependencies]
+chrono = "0.4"                   # for timestamping logs
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1", features = ["v4"] }
+log = "0.4"                      # optional if integrating Rust's standard logging
+colored = "3.0"                  # optional, for colorful terminal output
