@@ -15,13 +15,17 @@
 
 ## 🧾 METADATA — Scroll Identity & Authorship
 ## These values identify the scroll’s origin, version, and scope.
+# Title:          Cargo.toml — Rust Workspace Manifest
 # Author:         Seanje Lenox-Wise / Nova Dawn
 # Version:        0.0.1
 # Status:         Active
+# Type:           Config
 # Component:      Rust Workspace Manifest
 # Project:        OmniCore / OmniCode
+# ID:             FILE-ROOT-005
+# Path:           OmniCore/Cargo.toml
 # Created:        2025-06-16
-# Last Updated:   2025-06-16
+# Last Updated:   2025-06-18
 # License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
 
 ## 📝 DESCRIPTION — Scroll Purpose

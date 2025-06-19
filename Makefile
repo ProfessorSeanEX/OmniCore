@@ -18,19 +18,25 @@
 # 🧾 METADATA — Scroll Identity & Authorship
 # These declarations identify the scroll’s origin, version, and scope.
 # Do not alter without Watchtower review.
+
+_title_          := Makefile — Build Root Targets
 _author_         := Seanje Lenox-Wise / Nova Dawn
 _version_        := 0.0.1
 _status_         := Active
+_type_           := Config
 _component_      := Root Build System (Make)
 _project_        := OmniCore / OmniCode
+_id_             := FILE-ROOT-012
+_path_           := OmniCore/Makefile
 _created_        := 2025-06-16
-_last_updated_   := 2025-06-16
+_last_updated_   := 2025-06-18
 _license_        := CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
 
 # 📝 DESCRIPTION — Scroll Purpose
 # Declares targets and instructions for building, testing,
 # and preparing OmniCode components. Phase 0 initializes Rust core.
-_description_    := Declares targets and instructions for building, testing, and preparing OmniCode components. Phase 0 initializes Rust.
+
+_description_    := Declares targets and instructions for building, testing, and preparing OmniCode components. Phase 0 initializes Rust core.
 
 # ------------------------------------------------------------
 # 📂 DIRECTORY DEFINITIONS

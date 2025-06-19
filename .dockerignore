@@ -15,14 +15,22 @@
 // └────────────────────────────────────────────┘
 //////////////////////////////////////////////////////////////
 
+// 🧾 METADATA — Scroll Identity & Authorship
+// These declarations identify the scroll’s origin, version, and scope.
+// _title_:          .dockerignore — Docker Build Exclusions
 // _author_:         Seanje Lenox-Wise / Nova Dawn
 // _version_:        0.0.1
 // _status_:         Active
+// _type_:           Config
 // _component_:      Docker / Container System
-// _project_:        OmniCore
+// _project_:        OmniCore / OmniCode
+// _id_:             FILE-ROOT-001
+// _path_:           OmniCore/.dockerignore
 // _created_:        2025-06-16
-// _last updated_:   2025-06-16
+// _last_updated_:   2025-06-18
 // _license_:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+// 📝 DESCRIPTION — Scroll Purpose
 // _description_:    Excludes development noise, host files, and system overlays
 //                   from Docker image builds. Ensures clean, intentional outputs.
 

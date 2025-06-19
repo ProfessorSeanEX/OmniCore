@@ -14,15 +14,21 @@
 ##############################################################
 
 ## 🧾 METADATA — Scroll Identity & Authorship
-## These values identify the scroll’s origin, version, and scope.
-# Author:         Seanje Lenox-Wise / Nova Dawn
-# Version:        0.0.1
-# Status:         Active
-# Component:      Docker Compose — Multi-Service Environment
-# Project:        OmniCore / OmniCode
-# Created:        2025-06-17
-# Last Updated:   2025-06-17
-# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+## These declarations identify the scroll’s origin, version, and scope.
+## Do not alter without Watchtower review.
+
+## Title:        docker-compose.yml — OmniCore Environment
+## Author:       Seanje Lenox-Wise / Nova Dawn
+## Version:      0.0.1
+## Status:       Active
+## Type:         Config
+## Component:    Docker Compose — Multi-Service Environment
+## Project:      OmniCore / OmniCode
+## ID:           FILE-ROOT-010
+## Path:         OmniCore/docker-compose.yml
+## Created:      2025-06-17
+## Last Updated: 2025-06-18
+## License:      CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
 
 ## 📝 DESCRIPTION — Scroll Purpose
 ## This scroll defines and runs the services that make up OmniCore.

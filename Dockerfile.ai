@@ -13,20 +13,26 @@
 # └────────────────────────────────────────────┘
 ##############################################################
 
-## 🧾 METADATA — Scroll Identity & Authorship
-## These values identify the scroll’s origin, version, and scope.
-# Author:         Seanje Lenox-Wise / Nova Dawn
-# Version:        0.0.1
-# Status:         Active
-# Component:      Docker Build — AI System (Rust/Go)
-# Project:        OmniCore / NovaAI
-# Created:        2025-06-17
-# Last Updated:   2025-06-17
-# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+# 🧾 METADATA — Scroll Identity & Authorship
+# These declarations identify the scroll’s origin, version, and scope.
+# Do not alter without Watchtower review.
 
-## 📝 DESCRIPTION — Scroll Purpose
-## This scroll compiles and executes the Nova AI logic system.
-## It supports either Rust or Go as the language backend and adapts build commands accordingly.
+# Title:        Dockerfile — AI System (Rust/Go)
+# Author:       Seanje Lenox-Wise / Nova Dawn
+# Version:      0.0.1
+# Status:       Inactive
+# Type:         Config
+# Component:    Docker Build — AI System (Rust/Go)
+# Project:      OmniCore / NovaAI
+# ID:           FILE-ROOT-006
+# Path:         OmniCore/Dockerfile.ai
+# Created:      2025-06-17
+# Last Updated: 2025-06-18
+# License:      CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+# 📝 DESCRIPTION — Scroll Purpose
+# This scroll compiles and executes the Nova AI logic system.
+# It supports either Rust or Go as the language backend and adapts build commands accordingly.
 
 # ------------------------------------------------------------
 # 🧱 BASE IMAGE — AI Build Environment

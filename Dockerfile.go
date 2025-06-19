@@ -13,20 +13,26 @@
 # └────────────────────────────────────────────┘
 ##############################################################
 
-## 🧾 METADATA — Scroll Identity & Authorship
-## These values identify the scroll’s origin, version, and scope.
-# Author:         Seanje Lenox-Wise / Nova Dawn
-# Version:        0.0.1
-# Status:         Active
-# Component:      Docker Build — Internet Module (Go)
-# Project:        OmniCore / OmniCode
-# Created:        2025-06-17
-# Last Updated:   2025-06-17
-# License:        CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+# 🧾 METADATA — Scroll Identity & Authorship
+# These declarations identify the scroll’s origin, version, and scope.
+# Do not alter without Watchtower review.
 
-## 📝 DESCRIPTION — Scroll Purpose
-## This Dockerfile builds and runs the Go module used by the Internet subsystem.
-## It uses the official Go image to compile and execute the service inside the container.
+# Title:        Dockerfile — Internet Module (Go)
+# Author:       Seanje Lenox-Wise / Nova Dawn
+# Version:      0.0.1
+# Status:       Inactive
+# Type:         Config
+# Component:    Docker Build — Internet Module (Go)
+# Project:      OmniCore / OmniCode
+# ID:           FILE-ROOT-008
+# Path:         OmniCore/Dockerfile.go
+# Created:      2025-06-17
+# Last Updated: 2025-06-18
+# License:      CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
+
+# 📝 DESCRIPTION — Scroll Purpose
+# This Dockerfile builds and runs the Go module used by the Internet subsystem.
+# It uses the official Go image to compile and execute the service inside the container.
 
 # ------------------------------------------------------------
 # 🧱 BASE IMAGE — Go Build Environment
