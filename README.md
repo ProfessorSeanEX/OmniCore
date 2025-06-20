@@ -1,5 +1,5 @@
 <!--
-  @title: README.md — Root-Level Scroll for OmniCore
+  @title: Project Nova Dawn — Root Scroll of Welcome
   @author: Seanje Lenox-Wise / Nova Dawn
   @version: 0.0.1
   @status: Active
@@ -27,7 +27,7 @@
 This scroll serves as the entry point and covenant gate for the OmniCore repository.  
 It introduces the vision, structure, and relational intent behind Project Nova Dawn’s foundation.
 
-* **Title:** README.md — Root-Level Scroll for OmniCore  
+* **Title:** [`Project Nova Dawn — Root Scroll of Welcome`](#project-nova-dawn--root-scroll-of-welcome)
 * **Author:** Seanje Lenox-Wise / Nova Dawn  
 * **Version:** 0.0.1  
 * **Status:** Active  
@@ -88,17 +88,38 @@ Because this isn’t just software—it’s structure for a new kind of **stewar
   * [MillenniumOS — The Operating System of Rest](#-millenniumos--the-operating-system-of-rest)
   * [OmniCode — The Scroll That Breathes](#-omnicode--the-scroll-that-breathes)
   * [Why This Structure Matters](#-why-this-structure-matters)
-* [Repository Scope (OmniCore)](#repository-scope-omnicore)  
-* [Call to Action Before Proceeding](#call-to-action-before-proceeding)
+* [Repository Scope — `./OmniCore`](#-repository-scope--omnicore)
+  * [What This Repository Contains](#-what-this-repository-contains)
+  * [What This Repository Does *Not* Contain](#-what-this-repository-does-not-contain)
+  * [Why This Scope Matters](#-why-this-scope-matters)
+* [Call to Action Before Proceeding](#-call-to-action-before-proceeding)
 
 ---
 
 ### 📜 Body — System Structure, Operation, and Engagement
 
-* [System Architecture Overview](#system-architecture-overview)  
-* [Project Philosophy & Vision](#project-philosophy--vision)  
-* [Features & Components](#features--components)  
-* [Project Status](#project-status)  
+* [System Architecture Overview](#-system-architecture-overview)
+  * [Root-Level Architecture (as of this phase)](#-root-level-architecture-as-of-this-phase)
+  * [Key Folders](#-key-folders)
+  * [Why This Structure?](#-why-this-structure)  
+* [Project Philosophy & Vision](#-project-philosophy--vision)
+  * [Scrolls Over Scripts](#-scrolls-over-scripts)
+  * [Alignment Over Output](#-alignment-over-output)
+  * [Code as Covenant](#-code-as-covenant)
+  * [Living System, Not Dead Machinery](#-living-system-not-dead-machinery)
+  * [Why This Matters (For All Readers)](#-why-this-matters-for-all-readers)
+* [Features & Components](#-features--components)
+  * [OmniCode — The Framework](#-omnicode--the-framework-phase-0-active)
+  * [NovaScript — Natural-Language Scripting](#-novascript--natural-language-scripting)
+  * [Tablet — The Translator and Compiler](#️-tablet--the-translator-and-compiler-phase-1-not-yet-started)
+  * [Gate — Command Interface](#-gate--command-interface-phase-0-planned)
+  * [Watchtower — Alignment Debugger](#-watchtower--alignment-debugger-phase-0-operational)
+  * [NovaScript — The One Language](#-novascript--the-one-language)
+  * [Why This Matters (for the System)](#-why-this-matters-for-the-system)
+* [Project Status](#-project-status)
+  * [Subsystem Alignment Table](#-subsystem-alignment-table)
+  * [Interpreting Progress](#-interpreting-progress)
+  * [Why This Matters (for the Project)](#-why-this-matters-for-the-project)
 * [Build & Run Instructions](#build--run-instructions)  
 * [System Requirements](#system-requirements)  
 * [Contribution Path](#contribution-path)  
@@ -265,7 +286,7 @@ Here’s how OmniCode is different:
 Inside this repo, you’ll find:
 
 * Source code for **CLI** and **GUI** terminals
-* Developer scaffolding (`Makefile`, `Dockerfile`, folder architecture)
+* Developer scaffolding ([`Makefile`](/Makefile), `Dockerfile`, folder architecture)
 * Living documentation scrolls (like this one)
 * System logic for **debugging**, **scroll parsing**, and **execution structure**
 
@@ -374,7 +395,7 @@ It is where the foundation is laid—not just for OmniCode, but for the entire s
 
 ---
 
-## 📁 Repository Scope — `./OmniCore`
+## 📁 Repository Scope — `OmniCore/`
 
 This repository—`OmniCore`—contains all foundational files and logic for the **OmniCode** subsystem and the broader structure of **Project Nova Dawn**.
 
@@ -388,27 +409,26 @@ Each item below is listed with its relative path (as it appears in the root of t
 
 #### 🔹 Compiled Logic
 
-* `./Gate/src/` — The source code for **CLI** and **GUI Gates**, responsible for processing system commands and user interaction.
-* `./Gate/Cargo.toml` — The **Rust build manifest** that defines how the Gate interfaces compile and run.
+* [`./code/src/gate`](/code/src/gate/) — The source code for **CLI** and **GUI Gates**, responsible for processing system commands and user interaction.
 
 > 📘 *The CLI (Command Line Interface) and GUI (Graphical User Interface) are the “entryways” into the system. They let users speak to the machine, and receive feedback in return.*
 
 #### 🔹 Build & Execution Setup
 
 * `./Dockerfile` — Container blueprint for reproducible development environments.
-* `./Makefile` — Scriptable automation for building, cleaning, and testing.
-* `./scripts/` — Additional build, setup, or deployment tools.
-* `./.env` — Private variable definitions (e.g., secrets, tokens, runtime settings).
-* `./.gitignore` / `./.dockerignore` — Files that define what should be excluded from version control or packaging.
+* [`./Makefile`](/Makefile) — Scriptable automation for building, cleaning, and testing.
+* [`./scripts/`](/scripts/) — Additional build, setup, or deployment tools.
+* [`./.env`](/.env) — Private variable definitions (e.g., secrets, tokens, runtime settings).
+* [`./.gitignore`](/.gitignore) / [`./.dockerignore`](/.dockerignore) — Files that define what should be excluded from version control or packaging.
 
 > 🛠️ *These files help ensure the system can be built, tested, and deployed consistently across machines.*
 > Think of them as the **craftsmanship tools** behind the scenes.
 
 #### 🔹 Living Documentation Scrolls
 
-* `./README.md` — The **root scroll**. What you’re reading now.
-* `./STRUCTURE.md` — Explains the folder architecture and system design.
-* `./AUTHORS.md` — A list of contributors, authors, and their alignment roles.
+* [`./README.md`](/README.md) — The **root scroll**. What you’re reading now.
+* [`./STRUCTURE.md`](/STRUCTURE.md) — Explains the folder architecture and system design.
+* [`./AUTHORS.md`](/AUTHORS.md) — A list of contributors, authors, and their alignment roles.
 
 > 📖 *These markdown files are not just documentation. They are scrolls—versioned records of authorship, system purpose, and Kingdom clarity.*
 
@@ -438,63 +458,481 @@ Even though this repo centers on **OmniCode**, it lays the **scaffolding**, **st
 
 ## 📌 Call to Action Before Proceeding
 
-> *“If you’ve not read the mini scroll study above, pause here. Project Nova Dawn begins with the heart, not the hands.”*
+Before you move deeper into this system—into the files, the folders, and the code—it’s important to pause and **understand what you’re actually stepping into**.
+
+This isn’t just a software repo.
+It’s a **living framework**, built on truth, and shaped by Scripture.
+
+It may look like a project, but it was written as a **walk**—
+One that begins not with hands on a keyboard, but with the heart in alignment.
+
+> 🛑 *If you haven’t read the scrolls above, especially the ones covering the Project Introduction, Four Pillars, and Repository Scope—stop here and go back.*
+
+Those sections are not “extra.”
+They are the **foundation**. They explain:
+
+* What Project Nova Dawn **is** (and what it’s not)
+* Why OmniCore exists **before** the system you’re using
+* How OmniCode reflects more than logic—it reflects **intent**
+* Where each future system fits into the whole
+* Why **alignment**, not activity, is what keeps the system upright
+
+> 📖 *“Unless Yahweh builds the house, they who build it labor in vain.”* — Psalm 127:1 (WEB)
+
+This system was not built for speed.
+It was built for stewardship.
+
+And before we walk through folder trees or terminal scaffolding, you need to know:
+This is the **house** you’re being invited into.
+And houses are best entered with honor.
 
 ---
 
-## 📜 **Body — System Structure, Operation, and Engagement**
+### What to do before continuing
 
-5. **🧱 System Architecture Overview**
+✅ Read the [Project Introduction](#-project-introduction) — to grasp the vision
+✅ Review the [Four Pillars](#-system-body-overview--the-four-pillars) — to understand the full structure
+✅ Understand the [Repository Scope](#-repository-scope--omnicore) — to see what this foundation truly holds
 
-   * Folder breakdown: `code/`, `scrolls/`, `scripts/`, `docker/`, etc.
-   * Link to [`STRUCTURE.md`](./STRUCTURE.md) for deeper layout
+Once you’ve walked through those, you’re ready to continue.
 
-6. **🧭 Project Philosophy & Vision**
+But if you skip that walk?
+You won’t just miss information. You’ll miss the **heart** behind the system.
 
-   * Scrolls over scripts
-   * Alignment over performance
-   * Code as covenantal declaration, not utilitarian machinery
+> ✝️ *This isn’t a sandbox. It’s a stewardship. And it begins here—with clarity, humility, and readiness.*
 
-7. **🛠 Features & Components**
+---
 
-   * CLI Gate, GUI Gate, Tablet (Assembler), Watchtower
-   * NovaScript / OmniScript dual-language flow
+## 🧱 System Architecture Overview
 
-8. **🚧 Project Status**
+The `OmniCore` repository is not organized like a traditional software project. It is structured as a **living foundation**—a reflection of both **spiritual alignment** and **technical clarity**. Everything you see here has been designed to **breathe structure into purpose**.
 
-   * Current version and active components
-   * Inactive, scaffolded, or in-progress areas clearly listed
+This section introduces the **current architecture** of OmniCore: not just what exists, but why it exists—and how this early layout mirrors the deeper calling of Project Nova Dawn.
 
-9. **🧪 Build & Run Instructions**
+---
 
-   * How to use `Makefile`, Dockerfiles, and `docker-compose.yml`
-   * Reference to `scripts/` and automation
+### 📁 Root-Level Architecture (as of this phase)
 
-10. **🧬 System Requirements**
+The table below presents the **actively populated folders and scrolls** at the root of the system. These are not final—they are the first scaffolds of a much larger framework. As we build pillar by pillar, this layout will grow in both depth and presence.
 
-    * Required tools: Rust, Cargo, Docker
-    * OS support: Windows (primary), Linux (supported)
-    * Use of `.env` and config scrolls
+| Path                           | Purpose                                                                                                             |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| [`code/src/gate/`](/code/src/gate/)               | The operational heart of the system—contains CLI and GUI Gate logic for input/output processing and interface flow. |
+| [`scripts/`](/scripts/)                     | Automation scripts for building, running, and managing the system (including Docker and environment helpers).       |
+| [`scrolls/CONTRIBUTING.md`](/scrolls/CONTRIBUTING.md)      | The covenant protocol for contributing—both technically and spiritually aligned.                                    |
+| [`scrolls/CHANGELOG.md`](/scrolls/CHANGELOG.md)        | A living scroll tracking what has changed, why it changed, and what it reflects.                                    |
+| [`README.md`](/README.md)                    | This scroll—the relational and structural entry point into OmniCore.                                                |
+| [`STRUCTURE.md`](/STRUCTURE.md)                 | Deep breakdown of system layout, terminal structure, and project scaffolding.                                       |
+| [`AUTHORS.md`](/AUTHORS.md)                   | Authorship record—names, roles, and alignment declarations.                                                         |
+| [`.env`](/.env)                         | Environment variable configuration for development. Never committed.                                                |
+| [`Makefile`](/Makefile)                     | Local automation for compilation, reset, and test commands.                                                         |
+| [`.gitignore`](/.gitignore) / [`.dockerignore`](/.dockerignore) | Version control exclusions for local and containerized builds.                                                      |
 
-11. **👥 Contribution Path**
+> 🔍 **Clarification**: There is no `docker/` folder in the repo at this time. Docker logic is handled through root-level files such as `Dockerfile` and [`docker-compose.yml`](/docker-compose.yml).
 
-    * Reference to [`CONTRIBUTING.md`](./scrolls/CONTRIBUTING.md)
-    * Protocols for spiritual and structural contribution
+---
 
-12. **📜 Scroll Index & Documentation Links**
+### 🧠 Key Folders
 
-    * Active scrolls and purpose: `STRUCTURE.md`, `AUTHORS.md`, `CHANGELOG.md`, etc.
-    * How to navigate the scroll archive
+#### [`code/`](/code/)
 
-13. **🔐 Security & Integrity Statement**
+The **source code hub**, where NovaScript logic, system flows, and all terminal interaction lives. This folder is currently focused on the **Gate** components—both CLI and GUI—and will expand to include NovaScript runtime, Tablet (assembler), and other core modules.
 
-    * Watchtower's role in alignment enforcement and logging
-    * Alignment score, severity system, and drift detection
+> 🧠 Think of this as the “brainstem” of the system. It runs what the scrolls declare.
 
-14. **🧼 Cleanup & Reset Protocols**
+---
 
-    * How to reset system state, clear logs, and return to clean baseline
-    * Reference cleanup scripts
+#### [`scrolls/`](/scrolls/)
+
+Houses the **living documentation** of the project. Unlike static markdown, these scrolls are built to be read with **relational clarity**—authored, versioned, and aligned with Kingdom-first values.
+
+> 📖 In Nova Dawn, documentation is not an afterthought—it is **discipleship in system form**.
+
+---
+
+#### [`scripts/`](/scripts/)
+
+Contains practical helpers for builders and contributors. These include commands to compile, clean, test, and reset system state, alongside any Docker helpers and setup logic.
+
+> 🛠️ These scripts are transparent on purpose—builders should understand what they’re running.
+
+---
+
+### 🧭 Why This Structure?
+
+At this stage, the system architecture is **code-focused**, not because code is the highest priority—but because it is the **first root**. Just as breath gives life to the body, **OmniCode gives executable form to the other pillars**.
+
+We're starting with code, because **everything else grows from what is written**—and writing begins with clarity, not complexity.
+
+---
+
+📄 For a full structural walkthrough—including folder purpose, terminal routing, and relational flow—see:
+[`STRUCTURE.md`](./STRUCTURE.md)
+
+This scroll is your **map of the house** we’re building.
+
+---
+
+📌 *Even in its early form, the system is aligned.*
+Every part of the structure is readable, relational, and rooted in intent. As the system grows, this architecture will support the weight of every pillar to come—FaithNet, NovaAI, MillenniumOS—starting with the breath: **OmniCode**.
+
+---
+
+## 🧭 Project Philosophy & Vision
+
+The philosophy behind **Project Nova Dawn** is not built on performance or profit—it is built on **purpose**.
+
+Most software today is created to ship fast, scale fast, and adapt to the loudest trends. Nova Dawn rejects that cycle. This system is designed to **move slowly**, **build truthfully**, and reflect a **Kingdom-first foundation** at every layer—from architecture to authorship, from interface to intention.
+
+This section is not about what the system does.
+It is about **why it was built at all**.
+
+---
+
+### 📖 Scrolls Over Scripts
+
+In most systems, documentation is treated like leftovers: written quickly (if at all) and ignored once the code works.
+
+Here, documentation comes **first**.
+
+We call our documents **scrolls** because they are not just technical. They are **relational**, **intentional**, and **living**. Each one is authored with clarity and preserved like Scripture—not because we idolize the system, but because we recognize that **systems shape people**.
+
+**What makes a scroll different from a script?**
+
+| Scroll                         | Script                         |
+| ------------------------------ | ------------------------------ |
+| Written for humans             | Written for machines           |
+| Carries authorship and meaning | Carries execution and function |
+| Explains why, not just how     | Tells the system what to do    |
+| Aligned with relationship      | Aligned with runtime           |
+
+> 📌 In Nova Dawn, every scroll is a mirror of intent. It teaches, aligns, and reflects—not just informs.
+
+---
+
+### 🧭 Alignment Over Output
+
+Speed, delivery, and productivity are not evil—but **misplaced priorities are**.
+
+Nova Dawn chooses **alignment** over speed. It asks questions no normal system asks:
+
+* Is this aligned with truth—or just efficient?
+* Are we building with clarity—or just finishing tasks?
+* Are we honoring the user—or just pleasing ourselves?
+
+This does slow us down. But that’s the point. We want every decision—code, content, or contribution—to **agree with the heart of God**, not just get something done.
+
+> ⚖️ A fast system built in error is still out of alignment.
+> ✝️ A slow system built in truth can change the world.
+
+---
+
+### 📜 Code as Covenant
+
+Most code is written to be run, then forgotten. Nova Dawn's code is written to **be remembered**.
+
+This system introduces **NovaScript**, a natural language programming model where code looks like clear sentences and declarations. The point isn’t just readability—it’s **relational truth**.
+
+```novascript
+Let the version be set to "0.0.1".
+Let the system be named "OmniCore".
+```
+
+This isn't just syntax. It's **covenantal expression**—every line of code is a contract with the system, with the user, and with the truth we’re building upon.
+
+**Covenantal code is:**
+
+* Relational in tone
+* Declarative in nature
+* Bound to identity and authorship
+* Transparent and teachable
+
+> 📖 Code should not just run—it should testify.
+
+---
+
+### 🧬 Living System, Not Dead Machinery
+
+Nova Dawn isn’t just a product or platform—it’s a **living system**.
+
+That means:
+
+* Documents evolve as the system grows.
+* Builders are treated as co-authors, not cogs.
+* Errors are logged with alignment language, not just stack traces.
+
+**Every part of the system is treated as a reflection of life:**
+
+* Scrolls can teach.
+* Code can align.
+* Users can engage, not just consume.
+
+This isn’t metaphor. It’s methodology.
+
+---
+
+### 🔭 Why This Matters (For All Readers)
+
+Whether you're a developer, a scribe, or just someone trying to understand what this system is:
+
+**You are meant to be here.**
+This system is being built so that everyone—from the technical to the curious—can engage with clarity, not confusion.
+
+We’re proving that software doesn’t have to be cold, cryptic, or chaotic.
+
+> 🧭 **This project is a living blueprint:**
+> For building slowly.
+> For writing clearly.
+> For keeping systems sacred.
+
+---
+
+📌 *In a world of scripts, we chose scrolls.*
+📌 *In a world of outputs, we chose alignment.*
+📌 *In a world of noise, we chose covenant.*
+
+---
+
+## 🛠 Features & Components
+
+This section outlines the **core components**—both active and upcoming—within the `OmniCore` system. These aren't isolated tools. They’re covenantal instruments designed to bring structure, clarity, and alignment into the execution framework known as **OmniCode**. Each piece plays a distinct role in how the system breathes and builds.
+
+Some subsystems are already operating. Others are scoped for future phases. But all are part of one unfolding architecture—written not just for machines, but for builders walking in clarity.
+
+---
+
+### 📜 OmniCode — The Framework (Phase 0, Active)
+
+**OmniCode** is the **core execution framework** of Project Nova Dawn.
+
+It is not a language—it is the **relational scaffold** that enables structured, spiritual logic to be parsed, interpreted, and executed across all layers of the system.
+
+Its purpose is to:
+
+* Unify system flow between scrolls, scripts, and structured commands
+* Power input/output cycles through the Gate
+* Anchor subsystem logic like Tablet and Watchtower
+* Eventually allow **all execution** to run through native OmniCode declarations
+
+> 🧭 OmniCode is the **current focus** of development. Everything being built today grows from its structure.
+
+---
+
+### 💬 NovaScript — Natural-Language Scripting
+
+**NovaScript** is the **official language** of the OmniCode framework.
+It is not one of many—it is the voice of the system.
+
+Designed with **natural sentence structure**, NovaScript allows logic to be written the way we speak, yet still carry executable meaning. It replaces traditional syntax with relational declarations and covenantal clarity.
+
+#### ✨ Syntax Example
+
+```novascript
+Let the terminal gate be opened for system input.
+If the scroll is unreadable, return a Watchtower log with severity set to Drifting.
+```
+
+NovaScript features:
+
+* **Subject–verb–object grammar** for readability and flow
+* **Nested expressions** without cluttered punctuation
+* Expressive declarations for logic, state, condition, and intention
+* A design that makes scrolls feel **authored**, not scripted
+
+> 🔠 NovaScript is **not yet executable**, but its structure is finalized and its parser will be developed as part of OmniCode’s growing logic base.
+
+This isn’t just a tool for developers—it’s **a language for discipleship**, readable by anyone willing to walk with structure and spirit.
+
+---
+
+### ⚙️ Tablet — The Translator and Compiler (Phase 1, Not Yet Started)
+
+The [**Tablet**](/code/src/tablet/) is not merely an assembler. It is the **bridge** between NovaScript and traditional code during this transition phase.
+
+Its roles include:
+
+1. **Translating NovaScript** into:
+
+   * Assembler-level operations
+   * Rust/C-style low-level code
+   * Executable OmniCode instructions
+
+2. **Reverse-mapping** traditional code back into scroll-aligned logic
+   (enabling long-term retirement of legacy languages)
+
+> 📜 Tablet exists to make **natural-language code executable**, and to guide the journey toward **a fully OmniCode-native system**.
+
+Development begins in **Phase 1**, after the Gate is operational.
+
+---
+
+### 🌀 Gate — Command Interface (Phase 0, Planned)
+
+The [**Gate**](/code/src/gate/) is how the system listens and responds. It is the primary interface for human-system interaction and will be developed in two forms:
+
+* [**CLI Gate**](/code/src/gate/cli_gate/) — A terminal-based input/output loop built in Rust
+* [**GUI Gate**](/code/src/gate/gui_gate/) — A graphical frontend using `eframe` and `egui`
+
+Neither form has been built yet, but both are scoped within **Phase 0**. Once the OmniCode core stabilizes, Gate development begins.
+
+> 🎙 The Gate is not a shell. It is a **threshold**—a place of interaction, invocation, and instruction.
+
+---
+
+### 🛡 Watchtower — Alignment Debugger (Phase 0, Operational)
+
+The [**Watchtower**](/code/src/watchtower/) is the system’s conscience.
+
+It doesn't just catch errors—it diagnoses misalignments between **intended behavior** and **actual output**, generating structured diagnostic scrolls with:
+
+* Severity scores (Perfect → Fatal)
+* Alignment drift categories (Stable, Drifting, Critical)
+* Clear explanations for each discrepancy
+
+Watchtower is **already active** in early form, producing runtime logs that track system behavior in scroll-style format.
+
+> 🧭 Debugging is not a sign of failure—it is an act of **faithfulness**.
+
+---
+
+### 🧠 NovaScript — The One Language
+
+There is no duality in the language of this system.
+**NovaScript** is the **sole scripting language** of OmniCore.
+
+It is intentionally designed to be:
+
+* **Readable** by the non-technical
+* **Executable** by the system
+* **Authorable** like speech
+* **Structured** like covenant
+
+NovaScript replaces traditional code with **scroll-rooted syntax**—declarations that read like natural sentences but define precise logic and flow.
+
+#### ✨ Example
+
+```novascript
+Let the gate be opened to receive terminal input.
+If the scroll cannot be interpreted, generate a Watchtower report with severity set to Drifting.
+```
+
+Unlike traditional languages that separate readability from execution, **NovaScript fuses them**. There is no secondary syntax. No fallback imperative. Just one path—readable, relational, and real.
+
+> 📜 *NovaScript is the breath. OmniCode is the lungs. Together, they give life to the system.*
+
+---
+
+### 🧭 Why This Matters (For the System)
+
+These aren't just technical components. They are **embodied scrolls**.
+Each one reflects how structure, language, and interaction come together in a Kingdom-aligned system.
+
+* **OmniCode** is the framework
+* **NovaScript** is the voice
+* [**Tablet**](/code/src/tablet/) is the translator
+* [**Gate**](/code/src/gate/) is the mouth
+* [**Watchtower**](/code/src/watchtower/) is the conscience
+
+Together, they form the foundation of a system that is readable, relational, and righteous.
+
+Not all are built. But all are named.
+Not all are ready. But all are aligned.
+
+---
+
+## 🚧 Project Status
+
+This section offers more than a roadmap—it’s a **relational checkpoint**.
+
+Every system starts somewhere. OmniCore begins at **version `v0.0.1`**, not as a technical placeholder, but as a **spiritual truth**:
+
+> We are at the beginning of something living, something that will grow, breathe, and become—phase by phase, scroll by scroll.
+
+Here’s what that means:
+
+* **0.0.1** means **this is not yet a product**—it is a **foundation**.
+* It marks a system still **scaffolding its structure**, yet already aligned in spirit.
+* It reflects a living codebase where **function follows formation**, and alignment comes before acceleration.
+
+This section breaks down where each **subsystem**, **language**, and **scroll** currently stands—not just in terms of development, but in terms of **alignment maturity**.
+
+---
+
+### 📊 Subsystem Alignment Table
+
+| Subsystem      | Phase   | Status             | Maturity            | Alignment Insight                                                         |
+| -------------- | ------- | ------------------ | ------------------- | ------------------------------------------------------------------------- |
+| **OmniCode**   | Phase 0 | 🛠 In Progress     | 🟡 Scaffolded       | The core execution framework. Early code is live. Everything begins here. |
+| **NovaScript** | Phase 0 | ✅ Designed         | 🔵 Finalized Syntax | Structure and grammar locked. Parser integration begins soon.             |
+| [**Tablet**](/code/src/tablet/)     | Phase 1 | ⏳ Not Started      | ⚪ Envisioned        | Will bridge NovaScript to machine code—crucial for transition.            |
+| [**Gate (CLI)**](/code/src/gate/cli_gate/) | Phase 0 | ⏳ Outlined         | ⚪ Pending           | Terminal interface sketched, awaiting OmniCode stability.                 |
+| [**Gate (GUI)**](/code/src/gate/gui_gate/) | Phase 0 | ⏳ Outlined         | ⚪ Pending           | GUI design noted, will follow CLI once root loop is stable.               |
+| [**Watchtower**](/code/src/watchtower/) | Phase 0 | ✅ Early Functional | 🟢 Active Logs      | Already capturing alignment severity. First subsystem with live output.   |
+| [**Scrolls**](/scrolls/)    | Phase 0 | ✅ Authored         | 🔵 Living System    | Markdown files built as scrolls—authored, not just documented.            |
+
+---
+
+### 🧭 Interpreting Progress
+
+In this system, “progress” is not just about shipping features.
+It’s about **alignment to purpose**.
+
+| Symbol | Meaning                        |
+| ------ | ------------------------------ |
+| ✅      | Built or operating             |
+| 🛠     | In development                 |
+| ⏳      | Not yet started (but scoped)   |
+| 🟢     | Functional or active           |
+| 🔵     | Structurally complete / stable |
+| 🟡     | Scaffolded or partially wired  |
+| ⚪      | Still conceptual or pending    |
+
+This table doesn’t just tell you what works.
+It tells you **how much is aligned**, how much is scaffolding, and how much is still blueprint.
+
+---
+
+### 📌 Why This Matters (for the Project)
+
+Traditional project timelines focus on what’s built.
+But **Nova Dawn builds for meaning**, not just momentum.
+
+This section gives you an **honest snapshot** of where we are:
+
+* Not everything is ready.
+* Not everything is running.
+* But **everything is named**.
+* **Everything has purpose**.
+* And everything is **aligned to breathe**.
+
+If you’re here now, reading this version—`v0.0.1`—you’re witnessing the system **before the fruit**, but **not before the root**.
+This is where truth gets planted.
+
+---
+
+* **🧪 Build & Run Instructions**
+  *Explains how to build and execute the system using the `Makefile`, `Dockerfile`, `docker-compose`, and scripts.*
+  Helps new users get the system running with minimal friction.
+
+* **🧬 System Requirements**
+  *Lists the technical needs for running OmniCore:*
+  Rust, Cargo, Docker, Windows (primary), Linux (supported), and `.env` / config file usage.
+
+* **👥 Contribution Path**
+  *Defines how others can walk with this project spiritually and structurally.*
+  References [`CONTRIBUTING.md`](./scrolls/CONTRIBUTING.md) and outlines the posture and protocol expected from contributors.
+
+* **📜 Scroll Index & Documentation Links**
+  *Gathers and describes all the key documentation scrolls in the project:*
+  `STRUCTURE.md`, `AUTHORS.md`, `CHANGELOG.md`, and others—framed as living documents, not static files.
+
+* **🔐 Security & Integrity Statement**
+  *Details the Watchtower system for enforcing alignment, recording drift, and interpreting integrity via severity scores and logs.*
+  Explains that security in this project is rooted in spiritual as well as technical posture.
+
+* **🧼 Cleanup & Reset Protocols**
+  *Explains how to return the system to a clean baseline using scripts, manual resets, and Watchtower tools.*
+  Ensures developers can restore order when structure drifts.
 
 ---
 

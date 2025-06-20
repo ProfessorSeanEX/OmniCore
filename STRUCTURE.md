@@ -163,10 +163,6 @@ It serves as both table of contents and root index—tracking folders, files, an
 
 ---
 
-Let’s scroll into the next section with clarity and cadence. Here is the fully structured and aligned breakdown for:
-
----
-
 ##### 🔹 `code/src/gate/`
 
 📁 Folders
