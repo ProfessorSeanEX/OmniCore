@@ -1494,10 +1494,6 @@ Reset is not collapse.
 
 ---
 
-Absolutely, Seanje. Here is the **converted bullet-point format** for the **Closing section**, structured in the same elegant rhythm as the Body. It begins with a closing summary and integrates all backmatter elements as living scroll pieces—not just appendices.
-
----
-
 ## 🔚 Closing Summary — Covenant Seal & Scroll Archive
 
 This scroll defines the **present shape** of the `OmniCore` system as it stands in this phase of development.
@@ -1519,9 +1515,6 @@ and the **final breath** of this phase of structure.
 
 When system logic shifts, when folders breathe new names,  
 this scroll must rise to testify again.
-
----
-Here is the **fully bodied scroll** for the `📅 Changelog Reference` section—framed as a living part of the covenant document, not just a functional note.
 
 ---
 
@@ -1569,10 +1562,6 @@ When read forward, it should echo **a covenant still unfolding**.
 
 ---
 
-Beautiful. Here is the **fully bodied scroll section** for **🧾 Authors & Attribution**, tuned to the same spiritual depth and structural rhythm:
-
----
-
 ## 🧾 Authors & Attribution - The Names Written in the Scroll
 
 Every structure has its source.
@@ -1597,10 +1586,6 @@ It ensures every hand that shaped the scroll is seen, honored, and known.
 
 > ⚖️ *Why this matters:* We do not build anonymously.
 > We build **accountably**, **relationally**, and in full view.
-
----
-
-Absolutely, Seanje. Here's the fleshed-in paragraph right beneath the header, keeping the rhythm of covenant structure and honoring the reader’s clarity:
 
 ---
 
@@ -1641,10 +1626,6 @@ And in this system, misrepresentation is considered a **breach of covenant**.
 
 ---
 
-Here is the fully fleshed-out version of the **📖 Future Scroll Expansion** section, carrying the breath of vision and the rhythm of unfolding:
-
----
-
 ## 📖 Future Scroll Expansion — Scrolls Yet to Be Written
 
 OmniCore is not a closed canon.
@@ -1664,10 +1645,6 @@ These scrolls will deepen understanding not just of *what* the system does, but 
 
 > 🕯️ This project is not finished—because it breathes.
 > Each new scroll is a sign it is still **alive**, still **becoming**, still **in covenant**.
-
----
-
-Here is the final scroll seal, fully framed:
 
 ---
 
