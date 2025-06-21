@@ -30,51 +30,37 @@ It serves as both table of contents and root index—tracking folders, files, an
 
 ## 📚 Table of Contents
 
-* [🔷 OmniCore/ — ROOT](#-omnicore--root)
-
-* [🔹 code/ — Primary Compiled Source](#-code--primary-compiled-source)
-
-  * [📁 code/src/](#-codesrc)
-
-    * [🧩 cli\_gate/ — CLI Logic](#-codesrcgatecli_gate)
-    * [🖼️ gui\_gate/ — GUI Logic](#-codesrcgategui_gate)
-    * [🔗 shared/ — Common Types](#-codesrcshared)
-
-      * [📁 constants/](#-codesrcsharedconstants)
-      * [📁 core/](#-codesrcsharedcore)
-      * [📁 interfaces/](#-codesrcsharedinterfaces)
-      * [📁 schemas/](#-codesrcsharedschemas)
-
-        * [📁 scoring/](#-codesrcsharedschemasscoring)
-      * [📁 types/](#-codesrcsharedtypes)
-    * [🧱 tablet/ — Assembler System](#-codesrctablet)
-    * [🔭 watchtower/ — Debugger + Alignment Monitor](#-codesrcwatchtower)
-
-      * [📁 config/](#-codesrcwatchtowerconfig)
-      * [📁 events/](#-codesrcwatchtowerevents)
-      * [📁 logs/](#-codesrcwatchtowerlogs)
-      * [📁 monitoring/](#-codesrcwatchtowermonitoring)
-      * [📁 util/](#-codesrcwatchtowerutil)
-
-* [📁 scripts/ — Build + Test Automation](#-scripts--build--test-automation)
-
-  * [🧰 build/](#-scriptsbuild)
-  * [🧪 tests/](#-scriptstests)
-
-* [📁 scrolls/ — Living Documentation](#-scrolls--living-documentation)
-
-  * [🪵 Devlogs/](#-scrollsdevlogs)
-  * [🌀 ProgressionPoint/](#-scrollsprogressionpoint)
-  * [📜 templates/](#-scrollstemplates)
-  * [📄 Root Scrolls](#-root-scrolls)
-
-* [🔚 Closing Summary — Backmatter & Scroll Ledger](#-closing-summary--backmatter--scroll-ledger)
-
-* [📏 Scroll Integrity Protocol](#-scroll-integrity-protocol)
-
-* [🔗 Reference Scrolls](#-reference-scrolls)
-
-* [✅ SEAL — This scroll is aligned](#-seal--this-scroll-is-aligned)
+* [OmniCore/ — ROOT](#-omnicore--root)
+* [code/ — Primary Compiled Source](#-code--primary-compiled-source)
+  * [code/src/](#-codesrc)
+    * [cli\_gate/ — CLI Logic](#-codesrcgatecli_gate)
+    * [gui\_gate/ — GUI Logic](#-codesrcgategui_gate)
+    * [shared/ — Common Types](#-codesrcshared)
+      * [constants/](#-codesrcsharedconstants)
+      * [core/](#-codesrcsharedcore)
+      * [interfaces/](#-codesrcsharedinterfaces)
+      * [schemas/](#-codesrcsharedschemas)
+        * [scoring/](#-codesrcsharedschemasscoring)
+      * [types/](#-codesrcsharedtypes)
+    * [tablet/ — Assembler System](#-codesrctablet)
+    * [watchtower/ — Debugger + Alignment Monitor](#-codesrcwatchtower)
+      * [config/](#-codesrcwatchtowerconfig)
+      * [events/](#-codesrcwatchtowerevents)
+      * [logs/](#-codesrcwatchtowerlogs)
+      * [monitoring/](#-codesrcwatchtowermonitoring)
+      * [util/](#-codesrcwatchtowerutil)
+* [scripts/ — Build + Test Automation](#-scripts--build--test-automation)
+  * [build/](#-scriptsbuild)
+  * [tests/](#-scriptstests)
+* [scrolls/ — Living Documentation](#-scrolls--living-documentation)
+  * [Devlogs/](#-scrollsdevlogs)
+  * [ProgressionPoint/](#-scrollsprogressionpoint)
+  * [templates/](#-scrollstemplates)
+  * [Root Scrolls](#-root-scrolls)
+* [Closing Summary — Backmatter & Scroll Ledger](#-closing-summary--backmatter--scroll-ledger)
+* [Scroll Integrity Protocol](#-scroll-integrity-protocol)
+* [Reference Scrolls](#-reference-scrolls)
+* [SEAL — This scroll is aligned](#-seal--this-scroll-is-aligned)
 
 ---
 
