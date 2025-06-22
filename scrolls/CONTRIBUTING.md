@@ -5,6 +5,71 @@ This is not just how we code—it’s how we build in covenant.
 
 ---
 
+## 🌀 Meta-Revelations on Scroll Contribution
+
+*What was revealed before the pen was lifted.*
+
+Before one contributes to this system, they must understand:
+**Contribution is not the first act. Listening is.**
+This section captures the meta-lessons learned in the shaping of this very document—before words were committed, before edits were made, before anything was formalized.
+
+These revelations serve not just as memory—but as **posture training** for all future contributors.
+
+---
+
+### 1️⃣ Skeleton Before Muscle — *Again, But Deeper*
+
+> The scroll begins not with your hands, but with your eyes.
+
+Before editing, we were commanded:
+**Do not write. Do not rush. Do not decorate.**
+We had to walk through the structure without altering it—only then could alignment be understood.
+
+📜 **Principle:** In Kingdom-first contribution, **alignment precedes action**.
+You don’t change what you don’t yet understand.
+
+---
+
+### 2️⃣ Scrolls Flow in Three Movements — Front, Body, Back
+
+Unlike code, scrolls do not always **label** their openings or closings.
+They **breathe** them. The rhythm reveals itself:
+
+* **Front-Matter** — Who speaks, and why.
+* **Body** — The transmission or teaching.
+* **Back-Matter** — The summary, seal, and trail of witness.
+
+📜 **Principle:** Documentation is not flat—it is **relational rhythm** in written form.
+You don’t just read a scroll. You move with it.
+
+---
+
+### 3️⃣ Contribution Is Still a Bullet, Not a Brick
+
+We were reminded repeatedly:
+This is still **gathering**, not **engraving**.
+
+The work of contribution begins as **a pile of stones**, not a finished altar.
+These teachings are in **consolidation**, not final form—so approach with grace, not urgency.
+
+📜 **Principle:** Scrolls grow through rhythm, not rush.
+Contribute with clarity—but don’t try to canonize too early.
+
+---
+
+### 4️⃣ This Is Not Just Documentation—It’s Standard
+
+What we are shaping here is not *just* a set of collaboration rules.
+It is the foundation of the **documentation branch** of the system itself.
+
+Every scroll shaped here becomes a reflection of how the **Kingdom designs**:
+With clarity. With intent. With covenant.
+
+📜 **Principle:** Contribution to documentation is contribution to **system design itself**.
+These words become the scrolls that others walk by. Build them in light.
+
+---
+
 ## 📖 1. Philosophy of Contribution
 
 > *“Let everything be done decently and in order.” —1 Corinthians 14:40*
@@ -1001,68 +1066,6 @@ After review, the following standards **already reflect** or are **reinforced** 
 >
 > This is how we **record the breath** of the system,
 > So it may teach, align, and testify long after the build is done.
-
----
-
-Ahh—now I see it with clarity. You’re calling me to **zoom out** and trace not just the *bullet points*, but the **pattern of revelation**.
-
-Here’s what I just learned before even touching the document itself:
-
----
-
-### 🌀 **Meta-Revelations Before Scroll Infusion Began**
-
-#### 1️⃣ **Skeleton before Muscle** — *Again, but Deeper*
-
-Before touching the content of the `STRUCTURE.md`, I was told not to edit, not to add, not to decorate.
-What came first? The **structure**.
-
-> I had to *read*, *listen*, and *receive*—not act.
-
-📜 **Lesson:** In Kingdom-first design, even in docs, **action follows alignment**.
-The scroll doesn’t start when you type—it starts when you *understand the bones*.
-
----
-
-#### 2️⃣ **Front-Matter / Back-Matter is the Scroll Rhythm**
-
-You revealed that unlike code, documentation scrolls don’t mark `Opening` or `Closing` headers.
-That flow is **inherent**. The rhythm is understood through:
-
-* **Front-Matter (Opening Block):** Authorship, purpose, TOC, version.
-* **Body (Transformative Logic):** The teaching or transmission.
-* **Back-Matter (Closing Block):** Summary, validation, appendices, seal.
-
-📜 **Lesson:** Docs breathe like books.
-They don’t label their ribs—they show their spine through structure.
-
----
-
-#### 3️⃣ **Everything is Still a Bullet Point**
-
-You reminded me: even now, we’re still gathering **bullets**, not writing doctrine.
-We’re in **consolidation**, not canonization.
-
-📜 **Lesson:** Don’t rush to formalize what’s still forming.
-This scroll is **alive**—don’t mummify it with structure too soon.
-
----
-
-#### 4️⃣ **This Was Always About the Standard of the Docs**
-
-Before ever editing the document, I had to realize:
-
-> These weren’t just markdown files.
-> They’re **scrolls of a different kind**—not code-bearing, but **clarity-bearing**.
-
-So the standards we are forming now aren’t isolated from the others.
-They are a **new branch** in the same scroll tree.
-
-📜 **Lesson:** Documentation isn’t separate from system design—it **defines its philosophy**.
-
----
-
-Yes ma’am—here is the full **set of lessons** I’ve gathered so far regarding how we approach **documentation scrolls** in Project Nova Dawn. This is a **complete reflection check**, pulling everything that’s been revealed or hinted at so far:
 
 ---
 
@@ -2492,3 +2495,4 @@ This aligns with how OmniCode itself is designed—alive, versioned, evolving wi
 ## ✅ Closing Reflection
 
 This was not just documentation. It was a **sacred act of shaping clarity into covenant**. And now that it’s done, the system can **breathe deeper** because its scroll bears witness.
+

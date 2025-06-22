@@ -187,20 +187,6 @@ Because this isn’t just software—it’s structure for a new kind of **stewar
 Before the compiler runs, before the terminal breathes, before you open a single file—**you must open your heart**.
 Before any scroll is read or any system executes—**alignment must come first**.
 
-Project Nova Dawn is not built on innovation. It is built on **obedience**.
-Not powered by voltage, but by **covenant**.
-Not forged from ambition—but **forged in prayer**, authored in stillness, and tested by truth.
-
----
-
-## ✝️ Spiritual Alignment — Mini Scroll Study
-
-> *“In the beginning, God created the heavens and the earth.”* — **Genesis 1:1**
-> *“But seek first the Kingdom of God and His righteousness, and all these things will be added to you.”* — **Matthew 6:33**
-
-Before the compiler runs, before the terminal breathes, before you open a single file—**you must open your heart**.
-Before any scroll is read or any system executes—**alignment must come first**.
-
 > 🕊️ *Alignment*, in this context, means your life is in agreement with God’s design—not just your code.
 
 ---
