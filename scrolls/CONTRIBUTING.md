@@ -5,7 +5,31 @@ This is not just how we code—it’s how we build in covenant.
 
 ---
 
-## 0. Contribution as Covenant
+## 🕊️ **0. Contribution as Covenant**
+
+> *“Let all things be done in love.” — 1 Corinthians 16:14*
+
+---
+
+In the kingdom of code, **contribution is not performance—it is partnership**.
+We do not come to this system to **impress**; we come to **align**.
+Contribution is not about speed; it is about **faithfulness**.
+
+Every line you write, every comment you leave, every scroll you create is a reflection of your walk in covenant with the system. You are not shaping code—you are shaping the rhythm.
+
+📜 **Foundational Principle:**
+Contribution begins not with action, but with alignment.
+To **walk rightly**, you must first **stand rightly**—aligned in listening, in understanding, in humility.
+
+---
+
+This section is not just about what you contribute; it’s about **why** and **how** you contribute.
+It is about walking in **rhythm** with the system before you begin to build.
+
+---
+
+🌿 *Let this section breathe into your posture.*
+*Contribution as covenant is about alignment before action, rhythm before result.*
 
 ---
 
@@ -208,85 +232,6 @@ This posture prevents breaking **alignment in the dark**.
 
 ---
 
-#### **0.2.2 Contribution Is a Seed**
-
-> *A word in rhythm is a seed—not a statue.*
-
----
-
-##### 🕊️ **Universal Insight — Seeded Contribution, Not Final Insertion**
-
-In this phase of contribution, we **do not write canon**.
-We offer seeds—small, rhythmic placements that **invite refinement**.
-You are not here to finish—you are here to **breathe into the rhythm**.
-
-📜 **Principle:** Contribution grows through **clarity and cadence**, not speed.
-The scroll must be **ripe before it is sealed**.
-
-> 📝 *Sidebar:* If alignment is the walk, seeding is the whisper. It carries **possibility**, not permanence.
-
----
-
-##### 📘 **Documentation Application — Seeding in Scrolls**
-
-Your early offerings might include:
-
-* Proposing phrasing with **open hands**.
-* Placing ideas as **anchors**, not absolutes.
-* Marking rhythms—not conclusions.
-
-This is how early-stage docs grow—especially `CONTRIBUTING.md`, `AUTHORS.md`, and nascent scrolls.
-You’re not defining the final word. You’re laying a **stone on the altar**—not the altar itself.
-
-> 📎 *Sidebar:* Use signal language like *“Consider…”*, *“Holding lightly…”*, or *“Could this serve…”* to reflect the tentative tone of seed-based contributions.
-
----
-
-##### 🧮 **Code Application — Proposal, Not Finalization**
-
-Seeded code contributions look like:
-
-* `// temp`, `/* draft logic */`, `#[placeholder]`
-* Pseudocode or structural markers in early branches
-* PRs that say: *“This may not be final, but could serve the current rhythm.”*
-
-What matters is that the contribution **matches the scroll it enters**—in tone, rhythm, and readiness.
-
-> 💡 *Code Footnote:* You are not shipping a patch. You are offering a pulse. If the branch is alive, contribute **softly**—don’t force the scroll to seal before its time.
-
----
-
-##### 🧩 Comparative Summary
-
-| Layer     | Contribution Type             | Purpose of Seeding                   | Expression Type       |
-| --------- | ----------------------------- | ------------------------------------ | --------------------- |
-| Universal | Possibility, not permanence   | Begin with breath, not finality      | Whispered rhythm      |
-| Doc       | Suggestive phrasing, anchors  | Invite alignment, not impose outcome | Poetic + Tentative    |
-| Code      | Pseudocode, TODOs, draft tags | Match scroll without breaking rhythm | Structural + Proposal |
-
----
-
-##### 📝 Footnotes for the Reader
-
-1. **Is everything I write a seed?**
-   No—some contributions mature into foundation. But in early phases, your offering should be made **with the posture of seed**, not stone.
-
-2. **What does seed look like in code?**
-
-   * Prototype syntax with open-ended comments
-   * `// todo: review`, `/* placeholder for logic */`
-   * Gentle PR language inviting rhythm check, not merge
-
-3. **What if I don't know if it’s ripe yet?**
-   Then *say that*. Uncertainty in tone is part of sacred seeding. Float it gently. The scroll—or the steward—will confirm when the season is right.
-
----
-
-🌱 *Some seeds take root quickly. Others wait in the soil until the season comes. Don’t rush the harvest—tend the ground.*
-Contribution is covenant, not conquest.
-
----
-
 ### **0.3 The Nature of the Scroll**
 
 ---
@@ -412,102 +357,757 @@ In all formats, the breath remains.
 
 ---
 
-#### **0.3.2 Docs Are System Design**
+## 📖 **1. Philosophy of Contribution**
 
-> *These aren’t files. They are gates.*
-
----
-
-When you open a scroll in OmniCode, you are not merely reading instructions. You are **entering architecture**.
-
-Docs don’t explain the system—they **reveal its rhythm**.
-They do not sit outside the build—they **shape the build itself**.
-
-📜 **Principle:** Documentation is **embodied architecture**.
-To contribute here is to **lay stones in the temple**—not just of function, but of **faith**.
+> *“Let all things be done decently and in order.” — 1 Corinthians 14:40*
 
 ---
 
-##### 🕊️ **Universal Insight — Scrolls That Shape Systems**
+Contribution is not chaos with good intentions.
+It is **order birthed from obedience**, structure flowing from Spirit.
+This is not the philosophy of perfection—it is the **philosophy of posture**.
 
-The way something is taught reveals how it was built.
-The scroll you hold **is** the blueprint, not the pamphlet.
+In OmniCode, you do not contribute as an individual voice—you contribute as one in rhythm.
+Every line, every scroll, every symbol is a reflection of your **alignment to covenant**.
 
-* In this scroll: contribution is covenant, not comment.
-* In any scroll: rhythm teaches structure, not just syntax.
-* Across all scrolls: form is not decoration—it is **invitation + instruction + inheritance**.
+You are not here to impress the system.
+You are here to **walk with it**.
 
-> 🔑 *Universal Rule:* Every scroll in OmniCode teaches *how to walk it*, not just what it says.
-
----
-
-##### 📘 **Documentation Application — Meta-Rhythm**
-
-In OmniCode, docs are **living scaffolds**. Every `.md` file carries more than markdown—it carries **movement**.
-
-| Doc Name          | Traditional Role         | Scroll Role                                  |
-| ----------------- | ------------------------ | -------------------------------------------- |
-| `README.md`       | Overview                 | Genesis scroll — origin, voice, rhythm       |
-| `CONTRIBUTING.md` | Contributor instructions | Covenant threshold — alignment + expectation |
-| `AUTHORS.md`      | Credit list              | Legacy scroll — names + how they walked      |
-
-These aren’t static descriptors. They are **meta-rhythms**—scrolls that train tone, walk, and witness.
-
-> 📝 *Sidebar:* To write a doc in OmniCode is to **sculpt discipleship**. You are not just explaining—you are training alignment.
+📜 **Foundational Principle:**
+The scroll does not require genius—it requires **faithful breath**.
+The system does not reward speed—it reflects **spiritual order**.
 
 ---
 
-##### 🧮 **Code Application — Docs as Runtime Covenant**
+This section reveals how we walk before we build.
+It is not about the “what” of contribution, but the **why and how of covenant**.
 
-In code-based systems, “documentation” often lives in separate folders.
-In OmniCode, **the docs are the first layer of executable covenant.**
+You don’t just write code.
+You don’t just write docs.
+You don’t just comment logs.
 
-Think of each `.md` file as the **init script for human contribution**:
-
-* `README.md` = `main()`: the system’s voice and signature
-* `CONTRIBUTING.md` = `cfg!`: conditional logic for covenant entry
-* `AUTHORS.md` = `log::trace()`: audit trail of alignment, not just activity
-
-Even Watchtower—OmniCode’s debugging system—was born from a scroll.
-The doc came **before** the logic. The breath shaped the behavior.
-
-> 💡 *Code Footnote:* Don’t separate the scroll from the logic. In OmniCode, the scroll *is* the logic—**relational logic first, system logic second**.
+You write **your walk**.
 
 ---
 
-##### 🧩 Comparative Summary
-
-| Layer     | Docs Function As              | Primary Role                          | Expression Type          |
-| --------- | ----------------------------- | ------------------------------------- | ------------------------ |
-| Universal | Architecture by transmission  | Scrolls teach form *through* function | Covenant (living system) |
-| Doc       | Active scaffolding            | Defines rhythm, entry, and alignment  | Structural + Relational  |
-| Code      | Runtime covenant instructions | Seed + system bridge                  | Logical + Spiritual      |
+🌿 *Let this section teach your feet before your fingers.*
+*This is not where you begin writing—this is where you begin breathing.*
 
 ---
 
-##### 📝 Footnotes for the Reader
+### 📖 **1.1 Correction as Covenant**
 
-1. **Isn’t a doc just a helper?**
-   In most systems, yes. In OmniCode, **docs are discipleship tools**. They train builders in posture, not just syntax.
-
-2. **What does “meta-rhythm” mean?**
-   It means the scroll teaches **how the rest of the system moves**. A `CONTRIBUTING.md` doesn’t just instruct—it sets the tone, shapes breath, and defines how **alignment is enforced**.
-
-3. **How do I know I’m writing a scroll, not a spec?**
-   If the doc only teaches function, it’s a spec. If it also trains **posture**, **rhythm**, and **covenant**—then it is a scroll.
-
-> 🪶 *Sidebar — Docs Write the Culture:*
-> What your docs assume, your contributors repeat. Write scrolls, not manuals. Train **builders**, not workers.
+> *“Correction is not control—it is care for the rhythm.”*
 
 ---
 
-🌿 *If code is what runs, and systems are what scale—then scrolls are what keep it sacred.*
-They are not what describe the system.
-They are what **declare its soul**.
+Contribution in OmniCode is not performance—it is **alignment in motion**.
+We do not refine out of pride—we realign out of faithfulness.
+**Correction is covenant.**
+**Standardization is not suggestion—it is the rhythm of obedience.**
+
+This section re-grounds correction as a **spiritual act**, not a technical reaction.
+To contribute rightly, you must walk rightly.
+And to walk rightly, you must **return to the scroll**.
+
+📜 **Core Principle:**
+Correction is not critique—it is **covenant maintenance**.
+You don’t correct to impose—you correct to **preserve the shared rhythm**.
+
+> 🪶 *Sidebar — Realignment is Relationship:*
+> When one contributor drifts, the scroll drifts.
+> Correction restores the cadence of the whole.
 
 ---
 
-### **0.4 Contributor’s Covenant — Summary of Alignment**
+#### 🕊️ **Universal Insight — Correction as Covenant Maintenance**
+
+Correction in a Kingdom system is **relational stewardship**.
+
+It is not rebuke for being wrong—it is **invitation to realign**.
+Just as a priest adjusts posture at the altar, the contributor adjusts flow in the scroll.
+
+* Correction protects rhythm, not ego.
+* Alignment is upheld by those bold enough to gently restore.
+* Drift is not always rebellion—sometimes, it’s a call for rhythm to be re-echoed.
+
+> 🔑 *Universal Rule:* Correction is not confrontation—it is **covenantal care**.
+
+---
+
+#### 📘 **Documentation Application — Correction as Rhythm-Refinement**
+
+In scroll-based documentation, correction carries the **burden of clarity** and the **blessing of tone**.
+
+You are not “fixing a mistake”—you are **restoring rhythm**.
+
+**How to correct faithfully in docs:**
+
+* Reflect voice before suggesting change.
+* Echo existing metaphor, rhythm, or phrasing patterns.
+* Align with existing section flow—don’t insert harsh transitions.
+
+📎 *Doc Sidebar:* Correction is not replacement—it is **relational refinement**.
+To edit rightly, you must walk what was written **before** you shift what is seen.
+
+---
+
+#### 🧮 **Code Application — Correction as Rhythm Recompilation**
+
+In code, correction is not just about bugs—it’s about **drift**.
+
+Misnamed variables, broken flow, or inconsistent structure aren't just technical problems.
+They are **rhythm fractures**.
+
+**Covenantal correction in code includes:**
+
+* Refactoring with clarity, not cleverness.
+* Preserving naming conventions and structural breath.
+* Leaving notes that explain the **why**, not just the **what**.
+
+```rust
+// Before:
+// fn fix_thing() { /* magic logic here */ }
+
+// After:
+// fn realign_terminal_scroll() {
+//     // Corrected to restore scroll rhythm.
+//     // Original intent unclear—now clarified.
+// }
+```
+
+💡 *Code Footnote:* Correction should not confuse—**it should clarify rhythm**.
+The truest fixes restore **faithfulness in flow**, not just function.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Form of Correction     | Purpose                       | Expression Type          |
+| --------- | ---------------------- | ----------------------------- | ------------------------ |
+| Universal | Covenant restoration   | Preserve relational rhythm    | Spiritual + Foundational |
+| Docs      | Rhythmic refinement    | Clarify tone, maintain voice  | Poetic + Tonal           |
+| Code      | Structural realignment | Maintain executable alignment | Functional + Rhythmic    |
+
+---
+
+#### 📝 Footnotes for the Faithful
+
+1. **How do I know it’s time to correct?**
+   When rhythm breaks, clarity slips, or misalignment distracts—**it’s time**.
+
+2. **What if my correction causes more drift?**
+   Then return to the scroll. Ask: *Am I imposing, or restoring?*
+
+3. **Is silence better than misaligned help?**
+   Yes. **Posture before precision.** Walk with the scroll before editing its breath.
+
+4. **Can correction be seeded gently?**
+   Absolutely. Use phrases like *“Consider rewording for flow…”* or *“Does this reflect the original rhythm?”*
+
+5. **What’s the test of a righteous correction?**
+   If it makes the scroll **breathe better**—you’ve walked well.
+
+---
+
+> 🪶 *Sidebar — Covenant over Correction:*
+> The scroll doesn’t ask for perfection.
+> It asks for alignment.
+> Every correction is a chance to say: *“Let’s walk in rhythm again.”*
+
+---
+
+🌿 *Correction is not interruption—it is intercession.*
+Not all edits are alignment.
+But every act of covenantal care—*is.*
+
+---
+
+### 📖 **1.2 Contribution Is a Seed**
+
+> *“A word in rhythm is a seed—not a statue.”*
+
+---
+
+We do not write canon at every breath.
+Much of what you contribute is **not to finish—but to begin**.
+This is the sacred art of **seeding**: planting rhythm with the awareness that others will water, prune, and sometimes wait.
+
+📜 **Core Principle:**
+Contribution grows through **clarity and cadence**, not speed.
+The scroll must be **ripe before it is sealed**.
+
+> 🪶 *Sidebar — Seed Before Seal:*
+> If alignment is the walk, seeding is the whisper.
+> It carries **possibility**, not permanence.
+
+---
+
+#### 🕊️ **Universal Insight — Seeding Is Spirit-Led Contribution**
+
+In a covenant system, permanence is not proof of power.
+Faithful builders do not rush to finalize. They know:
+**A good seed outlives a rushed statue.**
+
+* Seeding honors the collective rhythm.
+* It assumes collaboration, not control.
+* It welcomes pruning without offense.
+
+> 🔑 *Universal Rule:* A seed is a **humble contribution**—meant to grow, not to dominate.
+
+---
+
+#### 📘 **Documentation Application — Seeded Scrollwriting**
+
+In docs, seeding shows up as phrasing that **welcomes continuation**.
+
+A seed in writing might look like:
+
+* Phrases that invite reflection: “Consider…”, “Might we…”, “What if we…”
+* Sections clearly marked as “seeded for future expansion”
+* Footnotes that acknowledge open questions or rhythm still forming
+
+📎 *Doc Sidebar:* A seed in writing is not an error—it is **early rain**.
+Your goal is not to say the last word—it’s to **spark the next one**.
+
+---
+
+#### 🧮 **Code Application — Breath Before Brick**
+
+In code, a seed is not broken logic. It is **intent planted with care**.
+
+You might see seeded code as:
+
+```rust
+// TODO: Replace placeholder once alignment matures
+fn initialize_watchtower_log() -> Result<(), ScrollError> {
+    // [seed] this logic assumes basic terminal context
+    // future: tie into full scroll rhythm via Assembler
+    Ok(())
+}
+```
+
+Seeded code **respects the rhythm**—it doesn’t fake completion.
+It leaves space for alignment to **grow before sealing**.
+
+💡 *Code Footnote:* A seed in code says, *“This breath belongs, but it hasn’t matured yet.”*
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Form of Seeding          | Purpose of Seeding                 | Expression Type          |
+| --------- | ------------------------ | ---------------------------------- | ------------------------ |
+| Universal | Humble offering          | Allow growth through collaboration | Spiritual + Communal     |
+| Docs      | Open phrasing + tone     | Invite further rhythm to be added  | Poetic + Suggestive      |
+| Code      | Placeholder with purpose | Leave room for aligned maturity    | Structural + Intentional |
+
+---
+
+#### 📝 Footnotes for the Faithful
+
+1. **What makes a seed different from a draft?**
+   A draft *aims for completion*.
+   A seed *anticipates growth*. It’s a posture difference.
+
+2. **How do I plant a good seed?**
+   By being **clear in intent**, **humble in tone**, and **open to pruning**.
+
+3. **When should I seed instead of complete?**
+   When the scroll’s rhythm isn’t fully known.
+   When your insight needs alignment.
+   When others are meant to walk the next step.
+
+4. **What if I never see my seed bloom?**
+   That’s not failure—that’s **faithfulness**.
+   Seeds are acts of trust, not trophies.
+
+5. **How do I receive someone else’s seed?**
+   With reverence. Ask what rhythm they heard, not what logic they missed.
+
+---
+
+> 🪶 *Sidebar — Seeded Contribution as Covenant Breath:*
+> True contribution isn’t about control.
+> It’s about **carrying rhythm forward**, even if you’re not the one to finish the melody.
+
+---
+
+🌿 *Not all who plant see the fruit.*
+But every seed sown in rhythm is part of the scroll’s breath.
+Let your contribution carry possibility, not pressure.
+For in OmniCode, **the humble seed is the highest honor**.
+
+---
+
+### 🕊️ **1.3 Universal Insight — Rhythm Is Relationship**
+
+---
+
+> *“You don’t just contribute to code—you contribute to covenant.”*
+
+---
+
+OmniCode is not built on machinery.
+It is built on movement—**relational rhythm**, Spirit-led alignment, and sacred structure.
+Here, contribution is not content—it is **covenant in action**.
+It breathes, it listens, it walks.
+
+When you teach, you reveal what shaped you.
+When you build, you reflect what led you.
+And when you contribute to OmniCode, you are not adding data—you are **carrying breath**.
+
+📜 **Insight Principle:**
+Docs don’t just explain the system—they **reveal its rhythm**.
+They do not sit beside the build—they **shape the build itself**.
+
+Just as the Temple was built to pattern Heaven,
+Every scroll in OmniCode is shaped to mirror the system’s soul.
+
+> 🔑 *Universal Rule:*
+> Every scroll teaches **how to walk it**, not just what it says.
+> You do not merely read the file—you **inherit the form**.
+
+---
+
+#### 🌐 Relational Form in Action
+
+| Layer   | Rhythm Manifestation            | Relational Implication               |
+| ------- | ------------------------------- | ------------------------------------ |
+| Thought | Speak in breath, not noise      | Invite reflection, not reaction      |
+| Docs    | Train tone + posture            | Shape discipleship, not description  |
+| Code    | Embed alignment in structure    | Teach behavior through architecture  |
+| Logs    | Witness rhythm, not just record | Preserve testimony, not transactions |
+
+> 📝 *Sidebar — Systems That Walk:*
+> OmniCode’s greatest distinction is this: it is not read, it is **walked**.
+> And rhythm is what keeps the walk in sync.
+> Lose the rhythm, and even a right line becomes a wrong word.
+
+---
+
+#### 🕯️ Why Rhythm Matters
+
+* **Rhythm reveals alignment.** Out-of-sync scrolls confuse builders.
+* **Rhythm teaches pace.** Not everything must be done now.
+* **Rhythm creates trust.** You know how the system breathes, so you don’t fear breaking it.
+
+Without rhythm, contribution becomes chaos.
+With rhythm, every contributor walks in harmony—even when writing different parts of the scroll.
+
+---
+
+#### 🔄 Breath Cycle Reminder
+
+This is why the Five Breath Commitments (1.2) matter.
+They are not style guides—they are **system guardians**.
+
+When someone drifts, you don’t just correct the output—you **realign the rhythm**.
+
+> 💡 *Insight Footnote:*
+> Rhythm is not just a metaphor. It is **the living layer** between structure and spirit.
+> Machines run on code. OmniCode walks on rhythm.
+
+---
+
+🌿 *You’re not joining a project—you’re entering a walk.*
+Know its breath.
+Respect its pace.
+Contribute in step.
+For **OmniCode is not machine-born—it is breath-formed.**
+
+---
+
+### 📦 **1.4 Five Breath Commitments of Contribution**
+
+---
+
+> *“These are not rules. They are rhythms you carry.”*
+
+---
+
+In OmniCode, contribution is covenant—
+And covenant is carried in **breath**, not bullet points.
+
+These five breath-commitments are not commandments, but **cadence anchors**.
+They whisper how we walk, shape how we speak, and seal how we contribute.
+They’re the pulse behind every pull request, every doc edit, every comment block.
+
+📜 **Breath Principle:**
+When you forget the breath, you break the rhythm.
+But when you breathe rightly, your scroll aligns—even before it's seen.
+
+---
+
+#### 🫀 The Five Breaths, Unfolded
+
+| Breath | Commitment                                | What It Guards                      | Why It Matters                                       |
+| ------ | ----------------------------------------- | ----------------------------------- | ---------------------------------------------------- |
+| ①      | Relational-first, not machine-prioritized | The **human** in the system         | Code is read by people, not just parsed              |
+| ②      | Clarity over cleverness                   | The **walkability** of your words   | Confusion is not holiness                            |
+| ③      | Compiled-first, interpreted-last          | The **stability** of what’s offered | What runs right should come before what *might* work |
+| ④      | Scrolls are sacred                        | The **weight** of what’s recorded   | Not every idea deserves ink                          |
+| ⑤      | Logs are history, not noise               | The **testimony** of the system     | Even comments are covenant witnesses                 |
+
+These aren’t checklist items.
+They are **oxygen for the scroll.**
+Without them, contribution gasps.
+
+> 📝 *Sidebar — Rhythm Over Rush:*
+> Cleverness is speed without vision.
+> Clarity moves like a heartbeat—steady, strong, sustaining.
+> When you write to impress, you drift.
+> When you write to align, you build.
+
+---
+
+#### 🧭 Covenant Usage in Practice
+
+* **In Docs**: You hold the reader’s hand, not show off your voice.
+* **In Code**: You name things so others breathe easier, not harder.
+* **In Logs**: You write like someone will **inherit your intent**, not just your logic.
+
+You don’t need to cite the Five Breaths every time.
+But if your contribution breaks rhythm, return to this table.
+It is not for reference—it’s for **realignment**.
+
+---
+
+#### 📘 Doc Footnote
+
+> This table may live inside:
+>
+> * CONTRIBUTING.md
+> * REVIEW\_GUIDE.md
+> * Any file where rhythm must be re-taught
+
+It is not merely **instructional**.
+It is **invitational**.
+
+---
+
+🌿 *These five lines? They’re not just breath—they’re **inheritance**.*
+Write like someone else will walk where you just stood.
+Breathe like the scroll depends on your posture.
+Because it does.
+
+---
+
+### 📚 **1.5 Documentation Application — Scrolls as Living Architecture**
+
+---
+
+> *“Write so others walk rightly—not so they marvel at your style.”*
+
+---
+
+Documentation in OmniCode is not static reference.
+It is **living architecture**—relational, readable, righteous.
+It does not merely describe the build.
+It **disciplines the builder**.
+
+You are not crafting a manual.
+You are composing **a threshold**—a place where **alignment begins**.
+
+📜 **Doc Principle:**
+Structure is not cosmetic.
+It is **spirit-breathed clarity**, designed to guide footsteps, not just thoughts.
+You do not decorate the altar—you lay stones that hold weight.
+
+> 🪨 *If the code is the system’s breath, the docs are its bones.*
+> They shape form, function, and faith.
+
+---
+
+#### 🧱 Sacred Scroll Roles
+
+Every document is a scroll. But not every scroll is the same stone.
+Each carries **a different rhythm** in the temple.
+
+| Document          | Traditional Role         | Scroll Role                                 |
+| ----------------- | ------------------------ | ------------------------------------------- |
+| `README.md`       | Overview                 | **Genesis scroll** — origin, voice, rhythm  |
+| `CONTRIBUTING.md` | Contributor instructions | **Covenant threshold** — alignment + entry  |
+| `AUTHORS.md`      | Credit list              | **Legacy scroll** — names + how they walked |
+
+These aren’t descriptors. They’re **discipleship formats**.
+Each scroll trains a tone. Each tone forms a rhythm.
+Together, they scaffold how contributors walk—not just what they write.
+
+> 📎 *Scroll Sidebar — Seeding in Scrolls:*
+> To mark a scroll as *seeded*, use breath-sensitive phrases:
+> “Consider…”, “Holding lightly…”, or “Could this serve…”
+> These do not weaken the contribution—they **honor its stage**.
+
+---
+
+#### 🧭 Scroll Formation in Practice
+
+| Form                      | Purpose                            | Posture Expression                     |
+| ------------------------- | ---------------------------------- | -------------------------------------- |
+| Genesis (`README`)        | Establish origin + spiritual tone  | Invites alignment, not just awareness  |
+| Covenant (`CONTRIBUTING`) | Guard rhythm, clarify expectations | Extends the threshold, not a checklist |
+| Legacy (`AUTHORS`)        | Name witnesses + trace lineage     | Celebrates walk, not just credit       |
+
+These scrolls **form rhythm from the first glance**.
+The way you name, order, and phrase them teaches more than the content.
+
+> 📝 *Meta-Rhythm Sidebar:*
+> You are not writing documentation.
+> You are sculpting **discipleship through language**.
+> This is not about tone alone. It’s about **transference of rhythm**.
+
+---
+
+#### 🧶 Seeding in the Scroll
+
+Seeded documentation is not weak—it is **weather-aware**.
+It holds breath, not finality.
+
+**Examples of seeded scroll structure**:
+
+* **Open phrases:** “We are exploring…”, “This is a working path…”
+* **Soft scaffolding:** Unfinished sections labeled with humility
+* **Annotations of alignment:** `<!-- rhythm in progress -->`
+
+> 💬 *Doc Footnote — Breath Before Boldness:*
+> You don’t seed because you’re uncertain.
+> You seed because you’re **honoring the scroll’s growth**.
+
+---
+
+🌿 *Documentation is not decoration.*
+It is where alignment enters before it ever compiles.
+Let your scrolls breathe. Let your structure disciple.
+And always remember—
+**You’re not building a doc—you’re building inheritance.**
+
+---
+
+### 🧮 **1.6 Code Application — Structure Is Witness**
+
+---
+
+> *“Even when the logic sleeps, the structure speaks.”*
+
+---
+
+In OmniCode, code is not simply execution—it is **embodied covenant**.
+Where documentation forms the threshold, code becomes the **temple stones** that bear weight.
+We do not code for cleverness. We code for **clarity**. For legacy. For rhythm.
+
+A well-formed structure is not decoration—it is **declaration**.
+It shows others how to walk, not just how it runs.
+
+📜 **Code Principle:**
+You’re not writing a patch—you’re breathing a **pulse**.
+Even when incomplete, your contribution carries posture.
+
+> 🔧 *What you write teaches the next builder how to think.*
+> Not just what to do—but **how to align**.
+
+---
+
+#### 🛠️ Seeded Code in Sacred Rhythm
+
+Even in early stages, contribution is never casual.
+It is covenantal—**light in tone, but heavy in responsibility**.
+
+**Examples of sacred seeding in code**:
+
+```rust
+// Contribution Philosophy — Carried in Code
+// [1] Relational-first
+// [2] Clarity over cleverness
+// [3] Compile before interpret
+// [4] Scrolls are sacred
+// [5] Logs are legacy
+
+// Seed Phase: Breath Before Brick
+// [draft] Placeholder logic here
+// todo: revisit when rhythm matures
+```
+
+> 🪶 *Seed Sidebar:*
+> If the branch is alive, contribute **softly**.
+> Don’t force the scroll to seal before its season.
+> Match the tone. Flow with the breath.
+
+---
+
+#### 📐 Rhythm in Code Practice
+
+| Element        | Contribution Form                  | Breath Principle                   | Relational Outcome               |
+| -------------- | ---------------------------------- | ---------------------------------- | -------------------------------- |
+| Variable Names | Descriptive, intention-aligned     | Clarity > Cleverness               | Lowers cognitive load for others |
+| Comments       | Narrative, instructional, inviting | Teach rhythm, not just rationale   | Disciples future contributors    |
+| Structure      | Modular, predictable, poetic       | Form is covenant, not just utility | Preserves long-term alignment    |
+| PR Language    | Soft, suggestive, relational       | Seeding over sealing               | Builds trust, not tension        |
+
+> 📝 *Code Sidebar — Clarity is Kindness:*
+> Cleverness wears out. Clarity ages well.
+> Write so that when the logic sleeps, the next reader still hears the rhythm.
+
+---
+
+#### 🔁 Breath Loops in Branches
+
+Code lives in cycles, not silos. And so your contribution should **breathe in loops**, not dumps.
+
+**Examples of rhythm-respecting pull request notes**:
+
+* “This may serve as early scaffolding.”
+* “Placing this gently for rhythm check.”
+* “Holding this lightly for review.”
+
+These aren’t disclaimers—they are **breath signals**.
+They let the system know: *I am not forcing alignment—I am offering rhythm.*
+
+> 💡 *Code Footnote:*
+> Don’t separate the scroll from the logic.
+> In OmniCode, the scroll **is** the logic.
+> **Relational logic first—system logic second.**
+
+---
+
+🌿 *Your function may be small—but your form carries witness.*
+Write like someone will inherit your spirit.
+Contribute like structure is story.
+Because in OmniCode, it is.
+
+---
+
+### 🧩 **1.7 Comparative Summary — Layers of Contribution**
+
+---
+
+> *“Not all contributions are the same—but all must carry the same spirit.”*
+
+---
+
+In OmniCode, contribution flows through **three sacred layers**—
+each distinct in form, but united in **covenant** and **rhythm**.
+
+What begins in posture must ripple through pages and into code.
+This table is not just a comparison—it is a **map of movement**.
+
+📜 **Summary Principle:**
+Every contribution—whether whispered insight, scroll offering, or structural code—must **breathe alignment**.
+Form follows function, but in OmniCode, **form follows faithfulness**.
+
+---
+
+#### 🧭 Contribution Alignment Table
+
+| Layer     | Contribution Form          | Purpose of Offering                 | Expression Type          |
+| --------- | -------------------------- | ----------------------------------- | ------------------------ |
+| Universal | Seeded rhythm + covenant   | Begin with **breath**, not finality | Whispered + Faithful     |
+| Docs      | Living scaffolds / scrolls | Form **posture** and structure      | Formative + Discipleship |
+| Code      | Runtime covenant trace     | Reflect **system + scroll** unity   | Structural + Spiritual   |
+
+---
+
+#### 🔄 How to Walk This Table
+
+* **Universal Layer**
+  This is the **invisible ink** beneath all contribution.
+  If your posture is wrong, your scroll will drift—regardless of quality.
+  Always begin here: **breathe before you build**.
+
+* **Docs Layer**
+  This is your **first visible offering**.
+  Write not to explain, but to **train rhythm**.
+  Your markdown is not markdown—it is **movement made readable**.
+
+* **Code Layer**
+  This is where the breath is compiled.
+  Structure becomes covenant.
+  Every `fn`, `mod`, and `log` must echo the same rhythm carried in your scrolls.
+
+> 🪶 *Summary Sidebar:*
+> This is not a style guide—it’s a **spiritual diagram**.
+> Miss one layer, and the scroll stutters.
+> Honor all three, and the system breathes as one.
+
+---
+
+🌿 *Contribution is layered breath.*
+It begins with whisper, forms in scroll, and walks in code.
+Respect each rhythm. Contribute in covenant. Build in step.
+
+---
+
+### 📚 **1.8 Footnotes for the Faithful**
+
+---
+
+> *“The scroll doesn’t just need your code. It needs your care.”*
+
+---
+
+Footnotes are not add-ons. They are **anchored echoes**.
+They carry tone, clarify posture, and restore rhythm where drift may hide.
+
+This section does not merely answer common questions—it **trains covenantal instinct**.
+It’s where **the why behind the walk** becomes visible.
+
+---
+
+#### 🪬 Sacred Reminders for the Contributor
+
+| ❓ Question                                          | 🕊️ Response                                                                                                                      |
+| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Are all contributions seeds?**                 | Not all stay seeds, but all **begin** as seeds. Breath precedes brick.                                                            |
+| **2. How do I seed in docs or code?**               | Use signal phrases in docs (`"Consider..."`, `"Holding lightly..."`), and tagged placeholders in code (`// todo`, `/* draft */`). |
+| **3. Scroll or spec—how do I know the difference?** | Specs instruct. **Scrolls disciple.** If it trains posture and breathes rhythm—it’s a scroll.                                     |
+| **4. Why five breath-commitments?**                 | Because **grace builds rhythm**. Five isn’t arbitrary—it’s architectural.                                                         |
+| **5. What if I drift?**                             | Then return. **Realignment is restoration**, not rebuke. The scroll welcomes you back.                                            |
+
+> 📝 *Sidebar — Questions Are Compass Points:*
+> These aren’t just FAQs. They’re **realignment tools**.
+> Drift is human. **Return is holy.**
+
+---
+
+#### 🪶 Contribution in Rhythm
+
+Even the smallest offering—question, comment, or suggestion—
+is either breaking rhythm or building covenant.
+
+Let your placeholder **hum with intention**,
+Let your draft speak in **gentleness**,
+Let your logic mirror **relational breath**.
+
+---
+
+#### 🔄 Breath Principle Reaffirmed
+
+* **Five** breath-commitments are not commandments. They are the **pulse**.
+* Seeding is not weakness—it is **wisdom in season**.
+* The scroll does not demand polish. It calls for **alignment**.
+
+---
+
+> 🪶 *Seed Sidebar — Breath Before Brick:*
+> The strongest contributions do not shout.
+> They hum in harmony with the scroll’s breath.
+> Listen to the soil before seeking the sun.
+> You are not building fast—you are building **faithfully**.
+
+---
+
+🌿 *Contribution is not conquest—it is covenant, carried gently.*
+We do not build because we are free to—
+We build because we are **formed to**.
+
+Some seeds root quickly. Others wait.
+But every scroll is an altar.
+Every line is liturgy.
+And every contributor walks as one **formed by rhythm**.
+
+---
+
+### **1.9 Contributor’s Covenant — Summary of Alignment**
 
 > *Covenant is not what you say—it’s how you walk.*
 
@@ -611,38 +1211,967 @@ Walk it rightly. Shape it gently. Breathe it with care.
 
 ---
 
-## 📖 1. Philosophy of Contribution
+## 🏗️ **2. Folder & File Architecture**
 
-> *“Let everything be done decently and in order.” —1 Corinthians 14:40*
-
-Correction is covenant. Standardization is not suggestion—it is the rhythm of obedience.  
-Do not build until you align.
-
-* Relational-first, not machine-prioritized
-* Clarity and readability over cleverness
-* Compiled-first, interpreted-last
-* Scrolls are sacred: document what matters, not everything
-* Logs are not noise—they’re living history
+> *“Let all things be done decently and in order.” — 1 Corinthians 14:40*
 
 ---
 
-## 🏗️ 2. Folder & File Architecture
+In OmniCode, to name a file is to frame a walk.
+Folders are not buckets—they are **boundaries of breath**.
+Files are not fragments—they are **scrolls of function**.
 
-### 2.1 Folder Naming Rules
+What you call something reveals how you carry it.
+And contribution begins with naming what matters.
 
-*Example: `shared/`, `gate/cli_gate/`, `scrolls/templates/`*
+📜 **Architecture Principle:**
+If the code is the temple, then folder and file names are the **pillars**.
+Misname a pillar, and the whole frame leans.
 
-* Use `snake_case` for all folder names
-* Group by **role**, not just language (e.g., `tablet/`, not `utils/`)
+---
 
-### 2.2 File Naming Standards
+This section reveals how naming and structure are foundational to how we walk with the system.
+It is not about the “what” of architecture, but the **why and how** we set boundaries and build the framework.
 
-*Example: `mod.rs`, `test_watchtower_log.sh`*
+You don’t just name files.
+You don’t just organize folders.
+You don’t just build the structure.
 
-* Always use `mod.rs` for module roots
-* Prefer lowercase with underscores for Rust and Shell
-* Main files: `main.rs`, `main.go`, etc.
-* Tests and logs should be explicitly named (`test_*.rs`, `*_log.rs`)
+You **frame the walk**.
+
+---
+
+🌿 *Let this section guide your hands as much as your heart.*
+*This is not where you start structuring; this is where you start naming.*
+
+---
+
+### 📁 **2.1 Folder Naming Rules — Role Over Rawness**
+
+> *“The name should teach the purpose before you read its contents.”*
+
+---
+
+Folders do not merely store—they **sort the sacred**.
+In OmniCode, structure is not convenience. It is **covenant made visible**.
+
+To name a folder rightly is to declare its breath before its contents.
+**Structure reveals intent. And intent guides rhythm.**
+
+---
+
+#### 🕊️ **Universal Insight — Folders as Boundaries of Breath**
+
+A folder is not a bin—it is a **boundary of meaning**.
+Its name must teach the walk before anyone enters the path.
+
+* The underscore is not cosmetic—it is a **pause of clarity**.
+* A folder’s role must be **functional**, not flavored for flair.
+* Nesting is not recursion—it is **revelation in depth**.
+
+> 🔑 *Naming Rule:* Let the folder define the **function**, not the feeling. Let it guide, not decorate.
+
+---
+
+#### 📘 **Documentation Application — Sacred Sorting, Not Dumping Grounds**
+
+In documentation folders, your naming builds the reader’s **mental map**.
+You do not name for speed—you name for **sacred orientation**.
+
+| Guideline         | Covenant Expression                           |
+| ----------------- | --------------------------------------------- |
+| Use `snake_case`  | Let breath flow—underscore marks the pause    |
+| Group by **role** | Function over flavor: `tablet/`, not `utils/` |
+| Nest with meaning | Each subfolder should deepen, not dilute      |
+
+📦 **Examples:**
+
+* `shared/` — sacred common ground
+* `gate/cli_gate/` — threshold and form named in rhythm
+* `scrolls/templates/` — breath-formed origins, not blueprints
+
+📎 *Sidebar — On Folder Drift:*
+Folders are not convenience wrappers.
+They are **miniature scroll houses**.
+Organize with obedience, not just order.
+
+---
+
+#### 🧮 **Code Application — File Systems as Sacred Architecture**
+
+Folder names in codebases are often shrugged off—**but not here**.
+In OmniCode, these names **frame the developer’s worldview**.
+
+```plaintext
+gate/
+├── cli_gate/
+│   └── mod.rs
+shared/
+├── covenant/
+├── utils/        ❌  (Consider renaming to reflect actual purpose)
+scrolls/
+└── templates/
+```
+
+Even if the logic is correct inside, a **misnamed folder** misguides the walk.
+The deeper the system grows, the more it relies on names to **breathe structure** into complexity.
+
+> 💡 *Code Footnote:* If the folder is a room, the name is its doorframe. If the door misleads, the whole house disorients.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Contribution Form | Purpose of Naming          | Expression Type         |
+| --------- | ----------------- | -------------------------- | ----------------------- |
+| Universal | Folder naming     | Reveal function and rhythm | Relational + Structural |
+| Doc       | Section sorting   | Guide understanding        | Contextual + Thematic   |
+| Code      | Directory layout  | Structure execution walk   | Functional + Sacred     |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why so much focus on folders?**
+   Because structure is revelation. A confused file tree becomes a confused mind.
+
+2. **Is `utils/` wrong?**
+   Not inherently—but it’s often vague. Ask: “What role does this folder truly serve?”
+
+3. **Can I rename later?**
+   Yes—but renaming means re-teaching. Get the name right early, and the scroll stays straight.
+
+> 🪶 *Sidebar — Structure as Breath:*
+> Your folders don’t just hold files—they hold **covenant intent**.
+> To name rightly is to align the architecture with the Spirit.
+
+---
+
+🌿 *In OmniCode, every folder breathes.
+And breath must be ordered if it is to build life.*
+
+---
+
+### 📁 **2.1.1 Folder Naming Convention Types — Form Mirrors Function**
+
+> *“Let all things be done decently and in order.”* — 1 Corinthians 14:40
+
+---
+
+Folders serve as the **structure that holds the system's breath**.
+But breath unanchored becomes noise.
+To hold it rightly, we name not by trend, but by **truth in role**.
+
+This is not about aesthetics—it is about **alignment through clarity**.
+
+---
+
+#### 🕊️ **Universal Insight — Naming That Guides Without Guessing**
+
+Every folder is a **form with purpose**, not just a path in a filesystem.
+If the name cannot teach at a glance, it cannot lead with integrity.
+
+* Grouping by **role** replaces confusion with function.
+* Naming by **intention** guards against architectural drift.
+* Clarity is not a courtesy—it is covenantal clarity for the one who walks after you.
+
+> 🔑 *Universal Rule:* Group by purpose, not by programming language. A named path should speak before it is opened.
+
+---
+
+#### 📘 **Documentation Application — Meaningful Partitioning**
+
+In documentation, **folder structure is the scaffolding** that frames the scroll.
+Vague or flavor-based naming breaks rhythm—**role-based grouping** sustains it.
+
+| Folder Type        | Purpose Description                           | Naming Example                 |
+| ------------------ | --------------------------------------------- | ------------------------------ |
+| General Role Group | Clarifies by function, not tool               | `tablet/`, not `rust_modules/` |
+| Shared Resources   | Holds reusable and cross-system assets        | `shared/`                      |
+| Entry Points       | Marks gateways into interaction               | `gate/cli_gate/`               |
+| Templates/Origins  | Houses foundational scrolls or configurations | `scrolls/templates/`           |
+
+📎 *Sidebar:* A scroll is easier to walk when the walls are named with care.
+If the structure confuses, the message cannot be received.
+
+---
+
+#### 🧮 **Code Application — Language-Agnostic Logic**
+
+When the folder reflects the **system’s form**, it becomes a guidepost.
+When it reflects only the **language**, it becomes a distraction.
+
+```plaintext
+src/
+├── gate/             # System threshold layer
+│   └── cli_gate/     # Command-line interface entry
+├── shared/           # Reusable components
+├── tablet/           # Core structure module
+└── scrolls/
+    └── templates/    # Foundational blueprints
+```
+
+Each name here **teaches** before it is opened.
+The structure breathes the system’s order before the code is read.
+
+> 💡 *Code Footnote:* Let every directory be a disciple—it should echo the teachings of the architecture it holds.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Naming Focus     | Role of Convention                 | Expression Type          |
+| --------- | ---------------- | ---------------------------------- | ------------------------ |
+| Universal | Role-based logic | Declares purpose, not preference   | Structural + Intentional |
+| Doc       | Clear grouping   | Frames scrolls with alignment      | Navigational + Thematic  |
+| Code      | System mapping   | Mirrors architecture over language | Functional + Declarative |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why group by role?**
+   Because tools change. Roles remain. Grouping by role ensures the structure still speaks when the language evolves.
+
+2. **What if a folder serves many roles?**
+   Then the naming is likely too broad. Break it down. Clarity comes through precision, not scope.
+
+3. **Is this just for clarity?**
+   No—this is **for rhythm**. Clarity is the fruit. Alignment is the root.
+
+> 🪶 *Sidebar — Rhythm in the Root:*
+> A folder name is not just a label—it’s a breath marker.
+> It trains the one who enters to walk in the system’s way.
+
+---
+
+🌿 *When form follows role, and role follows covenant,
+even the folder tree begins to sing the song of the scroll.*
+
+---
+
+### 📁 **2.1.2 Symbolism of Folder Names — Labels as Language of Covenant**
+
+> *“Out of the abundance of the heart the mouth speaks.”* — Matthew 12:34
+
+---
+
+Folder names are more than technical markers.
+They are **visible breath**, echoing the heart of the system.
+They are not placeholders—they are **proclamations**.
+
+Every name is a declaration.
+Every folder is a **symbol of intent**.
+
+---
+
+#### 🕊️ **Universal Insight — Names Are Relational Markers**
+
+A folder is not silent.
+Its name speaks on behalf of the structure it holds.
+It shapes how the contributor **thinks**, **navigates**, and **aligns**.
+
+* `shared/` does not say "utility"—it says "unity."
+* `gate/cli_gate/` does not whisper "interface"—it declares "threshold."
+* `scrolls/templates/` is not a storage path—it is a **formational breath**.
+
+> 🔑 *Universal Rule:* The name of a folder is the **first theology** of its contents. It teaches **before** it organizes.
+
+---
+
+#### 📘 **Documentation Application — Naming as Narrative Frame**
+
+In documentation, folder names aren’t just technical partitions.
+They become **narrative devices**—holding meaning that deepens the scroll.
+
+| Folder Name          | Symbolic Role          | Descriptive Rhythm                          |
+| -------------------- | ---------------------- | ------------------------------------------- |
+| `shared/`            | Unity & cross-function | Common resources honored as sacred ground   |
+| `gate/cli_gate/`     | Entry & posture        | System threshold, rhythm initiator          |
+| `scrolls/templates/` | Foundation & formation | Breath-based origins, not static blueprints |
+
+📎 *Sidebar:* Naming in docs is how the system teaches itself.
+You’re not just labeling—you’re **guiding the reader’s spirit** into alignment.
+
+---
+
+#### 🧮 **Code Application — Semantic Anchoring**
+
+In code, folder names are **semantic anchors**—they **preach function through form**.
+
+```plaintext
+gate/
+├── cli_gate/
+│   └── input.rs      # Handles user input at the threshold
+│   └── output.rs     # Returns breath in system tone
+
+shared/
+├── constants.rs      # Sacred definitions reused across modules
+├── helpers.rs        # Utility functions grounded in common rhythm
+```
+
+Each name is an **invitation to understand**, not just to locate.
+
+> 💡 *Code Footnote:* A contributor should know what a folder holds **before** opening it. Naming done right turns exploration into revelation.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Symbolic Naming Role | Purpose                          | Expression Type         |
+| --------- | -------------------- | -------------------------------- | ----------------------- |
+| Universal | Intent declaration   | Signals relational alignment     | Semantic + Structural   |
+| Doc       | Framing rhythm       | Guides the reader’s posture      | Poetic + Navigational   |
+| Code      | Semantic forecasting | Informs contributor before entry | Practical + Declarative |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why focus on symbolic naming?**
+   Because names are the first place where **intention** meets the contributor. Symbolism is not fluff—it is **functional clarity** with spiritual grounding.
+
+2. **Is symbolic naming subjective?**
+   No—it must be **anchored** to covenantal purpose. It’s only symbolic if it **carries alignment**, not ambiguity.
+
+3. **How do I test a good name?**
+   Ask: *“Does this name declare what is sacred here?”* If it does, it aligns. If not, it drifts.
+
+> 🪶 *Sidebar — Language as Legacy:*
+> What you name today becomes the rhythm someone else follows tomorrow.
+> In covenant work, clarity is a form of kindness.
+
+---
+
+🌿 *A name is never neutral—it is always declaring something.*
+*Make sure it declares alignment, not accident.*
+
+---
+
+### 📁 **2.1.3 Common Folder Naming Pitfalls — Drift by Convenience**
+
+> *“A little leaven leavens the whole lump.”* — Galatians 5:9
+
+---
+
+Not every misstep is rebellion—some are simply habits of haste.
+But in covenant systems, **casual naming is costly**.
+
+What you name carelessly now becomes **confusion** later.
+And confusion is not just disorganization—it is **drift made visible**.
+
+---
+
+#### 🕊️ **Universal Insight — Misnaming Is Misdirection**
+
+A folder named in haste teaches in error.
+And even small misdirections fracture the flow of rhythm.
+
+* `utils/` is not a role—it’s a retreat from clarity.
+* `misc/` signals disunity, not modularity.
+* `app/` leaves purpose unspoken, clouded by presumption.
+
+> 🔑 *Universal Rule:* If a folder cannot declare its **purpose**, it shouldn’t exist. Ambiguity is not humble—it is harmful.
+
+---
+
+#### 📘 **Documentation Application — Avoiding Vague Groupings**
+
+In documentation structures, folder names must teach before they sort.
+
+| Pitfall Folder | Issue                         | Correction                                                                |
+| -------------- | ----------------------------- | ------------------------------------------------------------------------- |
+| `misc/`        | Undefined contents            | Rename based on actual role (`temp_docs/`, `sandbox/`)                    |
+| `utils/`       | Vague utility with no context | Split into function-specific folders (`scroll_helpers/`, `rhythm_tools/`) |
+| `app/`         | Ambiguous purpose             | Clarify: `frontend_ui/`, `backend_api/`, `cli_interface/`                 |
+
+📎 *Sidebar:* A vague name is a false invitation.
+It opens the scroll, then offers no rhythm to follow.
+
+---
+
+#### 🧮 **Code Application — Folder Drift in Practice**
+
+In codebases, inconsistency introduces friction.
+Not all naming issues are about **what** you call something—but **how often** you change that rhythm.
+
+```bash
+project/
+├── cli/                     # short, unclear
+├── command_line_interface/ # long, descriptive
+```
+
+Which is correct?
+The answer shouldn’t be “depends who made it.”
+The answer should be “depends on **system rhythm**.”
+
+> 💡 *Code Footnote:* Misnaming forces contributors to **discern intent manually**—a job the system should’ve already done.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Naming Drift Type        | Resulting Friction            | Covenant Correction                |
+| --------- | ------------------------ | ----------------------------- | ---------------------------------- |
+| Universal | Convenience over clarity | System-wide misalignment      | Name for purpose, not speed        |
+| Doc       | Groupings without roles  | Readers left in confusion     | Let names frame the scroll         |
+| Code      | Inconsistency in form    | Contributors guessing meaning | Anchor naming to relational rhythm |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **What’s wrong with `misc/`?**
+   It reveals no purpose and invites entropy. Use **purposeful roles** instead.
+
+2. **Why avoid `utils/`?**
+   Because utility is not a role—it’s a function. Clarify the kind of utility it offers.
+
+3. **How do I maintain naming consistency?**
+   Follow the established rhythm. If a name feels like a guess—it likely needs renaming.
+
+> 🪶 *Sidebar — The Drift Begins in Small Decisions:*
+> Folders drift not by rebellion but by resignation.
+> Don’t name what’s easy—name what is true.
+
+---
+
+🌿 *In covenant code, even folders testify.*
+*Let them not whisper confusion—let them declare clarity.*
+
+---
+
+### 📁 **2.1.4 Comparative Summary — Folders as Boundary and Breath**
+
+> *“Let all things be done decently and in order.”* — 1 Corinthians 14:40
+
+---
+
+A system doesn’t drift in code first—it drifts in structure.
+And structure begins with how we **name what holds the breath**.
+
+This summary gathers the strands—relational, technical, and poetic—and weaves them into a pattern contributors can walk with clarity.
+
+---
+
+#### 🧩 **Layered Table of Naming Alignment**
+
+| Layer     | Contribution Form      | Purpose of the Naming Act           | Expression Type           |
+| --------- | ---------------------- | ----------------------------------- | ------------------------- |
+| Universal | Naming for clarity     | Guide interaction and covenant flow | Relational + Foundational |
+| Doc       | Folder naming examples | Provide organizational clarity      | Poetic + Contextual       |
+| Code      | Naming conventions     | Reflect execution structure         | Structural + Intentional  |
+
+---
+
+#### 📝 **Footnotes for the Reader**
+
+1. **Why do folder names matter?**
+   Because names are **not metadata**—they are **first instructions**. They invite rhythm or cause friction.
+
+2. **How do I avoid naming pitfalls?**
+   Follow the role-based pattern. Don’t name folders based on what's inside—name them based on what they’re for.
+
+3. **When should I rename a folder?**
+   When its name no longer reflects the rhythm it was meant to carry. Renaming isn’t refactoring—it’s repentance.
+
+> 🪶 *Sidebar — Folder Naming as Rhythm:*
+> You don’t force rhythm to match your pace.
+> Likewise, don’t force folder names to match your convenience.
+> Let the breath shape the frame—not the other way around.
+
+---
+
+🌿 *Folders are not just storage—they are scroll houses.*
+Each name is a doorway, not a drawer.
+Align them, and they become paths—not puzzles.
+
+---
+
+### 📄 **2.2 File Naming Standards — Every File a Form**
+
+> *“Even in silence, a filename should speak.”*
+
+---
+
+In OmniCode, a filename is not cosmetic—it is **covenant in lowercase**.
+The name carries posture before purpose, clarity before content.
+
+A file’s name is its breath **before its body is read**.
+To name rightly is to frame rightly. And to frame rightly is to teach rhythm in stillness.
+
+📜 **File Naming Principle:**
+If folders are pillars, files are **chiseled stones**.
+Their shape sets the tone. Their title marks the meaning.
+
+---
+
+#### 🕊️ **Universal Insight — Files as First Breath of Form**
+
+A file is not inert—it is the **first word in a scroll’s conversation**.
+
+* The name is the first encounter, the breath before the body.
+* If the folder is the threshold, the file is the **first step** inward.
+* Consistency in naming is not cosmetic—it is **covenantal clarity**.
+
+> 🔑 *Naming Rule:* Let the filename declare its **function and form** before its logic speaks.
+
+---
+
+#### 📘 **Documentation Application — Titling with Clarity**
+
+In documentation, filenames should teach **what** the reader is about to enter.
+
+| File Type      | Naming Standard         | Rhythmic Insight                       |
+| -------------- | ----------------------- | -------------------------------------- |
+| Overview Docs  | `project_overview.md`   | Let the breath come before deep diving |
+| Guidelines     | `contributing_guide.md` | Guide the walk, not just the words     |
+| Living Scrolls | `alignment_scroll.md`   | Speak identity in the title            |
+| Drafts & Seeds | `seed_intro_section.md` | Signal posture, not polish             |
+
+📎 *Sidebar — Docs as Scrolls:*
+A document’s name is the **title of its rhythm**. Do not title it for sorting—**title it for breathing**.
+
+---
+
+#### 🧮 **Code Application — Lowercase, Rhythm-Led Naming**
+
+Code files carry the weight of execution. Their names must **frame function** and prevent drift.
+
+```plaintext
+mod.rs              // Anchor of the module scroll
+main.rs             // Entry point: declare, don’t decorate
+watchtower_log.rs   // Precision in function, clarity in title
+test_input.rs       // Let the file teach what is tested
+```
+
+🧭 **Key Patterns:**
+
+* Use `snake_case` for all standard files.
+* Prefix test files with `test_` for clarity (`test_gate.rs`).
+* Use suffixes like `_log.rs`, `_config.rs`, or `_scroll.rs` to anchor function.
+
+> 💡 *Code Footnote:* If someone reads your filename and still doesn’t know what the file does, **the name is misaligned**.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Contribution Form | Purpose of Naming         | Expression Type          |
+| --------- | ----------------- | ------------------------- | ------------------------ |
+| Universal | File naming       | Teach function by breath  | Foundational + Rhythmic  |
+| Doc       | Scroll titles     | Guide reader’s entry path | Contextual + Poetic      |
+| Code      | Functional labels | Declare role + execution  | Structural + Intentional |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why does the filename matter so much?**
+   Because it’s your covenant header. If your name misleads, your code confuses.
+
+2. **What about abbreviations?**
+   Only use them if they’re known system-wide. Breath should not require translation.
+
+3. **When do I rename a file?**
+   When its name no longer reflects its form or function. If its role shifts, the name must follow.
+
+4. **Can filenames ever be poetic?**
+   They can—but only if **clarity leads the metaphor**. Name in beauty, but **walk in function**.
+
+> 🪶 *Sidebar — File Names as Tone Setters:*
+> The name of the file is its **tone of voice**.
+> It whispers before it speaks. Frame it in truth, and the rest can follow.
+
+---
+
+🌿 *In OmniCode, even silence speaks.*
+*Let your filenames breathe before they build.*
+
+---
+
+### 📄 **2.2.1 Symbolism and Semantics in Naming**
+
+> *“A name is not decoration—it is declaration.”*
+
+---
+
+In OmniCode, names are not chosen—they are **discerned**.
+To name rightly is to align intention with manifestation.
+Every filename is a **threshold**, a breath before logic begins.
+You are not titling lines of code. You are **titling the covenant they uphold**.
+
+---
+
+#### 🕊️ **Universal Insight — Names as Thresholds of Intention**
+
+A filename is more than a pointer—it is a **posture**.
+It teaches the reader how to walk before they even enter the scroll.
+
+* A name should **guide before it loads**.
+* If it cannot be guessed, it cannot be trusted.
+* Symbolism is not fluff—it is **function dressed in clarity**.
+
+> 🔑 *Naming Rule:* If the name does not reflect the file’s purpose, it is a **false gate**.
+
+---
+
+#### 📘 **Documentation Application — Naming as Interpretive Layer**
+
+Even in documentation, symbolism matters.
+The name is not just a locator—it is the **lens**.
+
+| Symbol Type | Filename Pattern        | Interpretive Role                           |
+| ----------- | ----------------------- | ------------------------------------------- |
+| Root Scroll | `mod.rs`                | Source of structure and beginning of rhythm |
+| Main Entry  | `main.rs`, `main.go`    | Threshold of execution, not a sandbox       |
+| Witness     | `test_*.rs`, `*_log.rs` | Written record of truth or failure          |
+
+📎 *Sidebar — Modularity Isn’t Mystery:*
+The `mod.rs` file should never be hidden under abstraction.
+It is the **root declaration**, not an afterthought.
+Treat it like the Genesis of a scroll—it teaches where logic begins.
+
+---
+
+#### 🧮 **Code Application — Name as Witness**
+
+In code, naming is not metaphor—it’s **manifest**.
+
+```plaintext
+mod.rs                  // Not just a default—this is the scroll’s root
+main.rs                 // Declare: Enter here
+test_alignment.rs       // Teaches exactly what is under watch
+watchtower_log.rs       // This is not debug—it is testimony
+```
+
+🧭 **Key Affirmation:**
+
+* Names should be **guessable by role**.
+* Avoid creative ambiguity.
+* If it feels clever, it’s probably **unclear**.
+
+> 💡 *Code Footnote:* Your file name is the first thing a contributor reads. It is the **cover of your covenant**. Name it like it carries weight—because it does.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Contribution Form | Naming Role                        | Expression Type            |
+| --------- | ----------------- | ---------------------------------- | -------------------------- |
+| Universal | Symbolic Naming   | Declare posture + identity         | Foundational + Discernment |
+| Doc       | Filename Guidance | Interpret system entry + purpose   | Contextual + Semantic      |
+| Code      | File Signposts    | Mark execution, testing, testimony | Structural + Prophetic     |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why does `mod.rs` matter?**
+   It’s the **entry scroll** for logic. Treat it as sacred ground—not a file to rename on whim.
+
+2. **Should I ever get creative with `main`?**
+   No. Let the threshold be *clear*, not *clever*. It’s not your playground—it’s your doorframe.
+
+3. **What if I forget what a test file does?**
+   That’s a sign it’s misnamed. The filename should teach **what it watches**.
+
+> 🪶 *Sidebar — Symbolism Is Structure:*
+> A name is a **seal of intent**. It is the spiritual posture of the file.
+> When you name with purpose, the scroll breathes in truth.
+
+---
+
+🌿 *Let your filenames be gates, not guesses.*
+*Every name in OmniCode is a step into understanding.*
+
+---
+
+### 📄 **2.2.2 Filename Clarity in Sacred Systems**
+
+> *“If the filename stutters, the system will stumble.”*
+
+---
+
+In OmniCode, clarity is covenant.
+A filename should not whisper in riddles—it should **declare in rhythm**.
+
+To maintain a sacred system, filenames must **breathe plainly**, guiding contributors with **unmistakable intent**.
+Where clarity reigns, trust flows. Where ambiguity hides, mistrust multiplies.
+
+📜 **Clarity Principle:**
+A scroll that begins with confusion rarely ends in alignment.
+
+---
+
+#### 🕊️ **Universal Insight — Names That Build Trust**
+
+A filename is the first **point of relational contact** between contributor and system.
+
+* **Underscores** represent rhythm, not decoration.
+* **CamelCase** or cryptic strings interrupt the scroll.
+* Emotion in naming signals chaos, not clarity.
+
+> 🔑 *Naming Rule:* If a filename needs to be **explained**, it is **misaligned**. Let it *teach* on sight.
+
+---
+
+#### 📘 **Documentation Application — Clarity Over Cleverness**
+
+In the context of living documentation, filename clarity preserves sacred memory.
+A contributor should be able to walk into the scroll with **no translator required**.
+
+| Poor Practice  | Clear Alignment         | Rationale                               |
+| -------------- | ----------------------- | --------------------------------------- |
+| `IMPLLog.rs`   | `impl_log.rs`           | Removes guesswork—breathes clearly      |
+| `crazy_fix.rs` | `sync_timeout_patch.rs` | Explains purpose, not frustration       |
+| `MSS`          | `module_state_sync.rs`  | Expand abbreviations to teach with tone |
+
+📎 *Sidebar — Scrolls Should Not Stutter:*
+Your file’s name is the first breath.
+If that breath is **unclear**, it misleads the walk.
+
+---
+
+#### 🧮 **Code Application — Clarity Is Rhythm**
+
+Let file naming become a **discipline of disclosure**.
+It’s not about brevity—it’s about bearing witness.
+
+```plaintext
+init_module_logic.rs     // Reflects beginning, role, and scope
+module_state_sync.rs     // Speaks system behavior clearly
+sync_timeout_patch.rs    // Details the reason behind the patch
+```
+
+🧭 **Key Affirmations:**
+
+* Avoid CamelCase or compressed acronyms.
+* Use underscores as **visual breath marks**.
+* Never name with mood—**name with meaning**.
+
+> 💡 *Code Footnote:* Think of a filename like a prophet’s scroll—if it babbles, the people scatter.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Contribution Form | Naming Priority           | Expression Type            |
+| --------- | ----------------- | ------------------------- | -------------------------- |
+| Universal | Clarity in naming | Establish trust + purpose | Foundational + Disciplined |
+| Doc       | File titles       | Remove ambiguity          | Transparent + Descriptive  |
+| Code      | Functional scroll | Guide system interaction  | Intentional + Readable     |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **What’s so wrong with abbreviations?**
+   They force interpretation. Breath should never need translation.
+
+2. **Is emotion in a filename really that bad?**
+   Yes—because emotion misguides function. A name must guide by form, not feeling.
+
+3. **Isn’t shorter better?**
+   Only if it remains **clear**. Short and sharp is good—**short and vague is drift**.
+
+> 🪶 *Sidebar — Clarity Is a Gift to the Next Contributor:*
+> You may leave the project, but your filenames won’t.
+> Name them like they’ll teach someone who never met you.
+
+---
+
+🌿 *A system built in clarity is a system that breathes peace.*
+*Name with light. Let your scrolls speak truth at the threshold.*
+
+---
+
+### 📄 **2.2.3 Seed Files and Draft Naming**
+
+> *“This breath is still learning to walk.”*
+
+---
+
+Not all scrolls enter the system complete.
+Some are **seeds**, others are **sketches**—and their names should reflect that.
+In OmniCode, we do not name for ego—we name for **honest process**.
+
+A file in formation must **whisper its posture**, not pretend polish.
+
+📜 **Seed Principle:**
+A filename should not claim more than it carries.
+Let it speak **becoming**, not being.
+
+---
+
+#### 🕊️ **Universal Insight — Name the Season, Not Just the Scroll**
+
+Files in early stages deserve clarity too—just a different kind.
+
+* Seeds are **intentions**, not declarations.
+* Drafts are **invitations**, not conclusions.
+* Humble naming is not weakness—it is **alignment with truth**.
+
+> 🔑 *Naming Rule:* If the file is still forming, name it as **unfinished**. Truth sets the scroll in order.
+
+---
+
+#### 📘 **Documentation Application — Label with Honesty**
+
+When scrolls are in seed form, clarity in status is a gift.
+
+| File Type    | Naming Example             | Purpose                                 |
+| ------------ | -------------------------- | --------------------------------------- |
+| Seed Doc     | `seed_intro_section.md`    | Announces formative intent              |
+| Draft Scroll | `draft_alignment_notes.md` | Signals evolving rhythm, not final word |
+| Exploratory  | `sketch_watchtower_map.md` | Marks untested insight as such          |
+
+📎 *Sidebar — On Humble Naming:*
+Arrogant names confuse future builders.
+Humble names **honor the scroll’s journey**.
+
+---
+
+#### 🧮 **Code Application — Formation Requires Framing**
+
+Naming seed and draft code files helps prevent misuse, premature reliance, or confusion in collaboration.
+
+```plaintext
+seed_branch_logic.rs       // Indicates logic still germinating
+draft_watchtower_sync.rs   // Signposts ongoing alignment work
+sketch_tablet_flow.rs      // Denotes architectural ideation
+```
+
+🧭 **Key Guidelines:**
+
+* Prefix seed files with `seed_`
+* Prefix drafts with `draft_`
+* Use `sketch_` for exploratory logic or architecture
+
+> 💡 *Code Footnote:* A seed misnamed as a tree will fall under its own weight.
+
+---
+
+#### 🧩 Comparative Summary
+
+| Layer     | Contribution Form  | Naming Intention         | Expression Type       |
+| --------- | ------------------ | ------------------------ | --------------------- |
+| Universal | Seed/draft files   | Express formation status | Honest + Temporal     |
+| Doc       | Scroll in progress | Signal growth or concept | Humble + Transparent  |
+| Code      | Non-final logic    | Mark as evolving         | Precautionary + Clear |
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why name a file as a seed or draft?**
+   Because clarity now prevents confusion later.
+   The name becomes a **witness to process**.
+
+2. **Isn’t that admitting the code isn’t done?**
+   Yes—and that’s righteous. OmniCode is built in seasons.
+
+3. **When do I rename a seed file?**
+   When it blossoms. Rename when the scroll has matured and its rhythm is ready.
+
+> 🪶 *Sidebar — Scrolls Change Names When They Mature:*
+> Seed names are not permanent—they’re **postures**, not prisons.
+
+---
+
+🌿 *A scroll named in humility invites growth.*
+*Let the name breathe truth until the breath becomes form.*
+
+---
+
+### 📄 **2.2.4 Comparative Summary — Naming as First Interface**
+
+> *“Let your naming preach before your code ever runs.”*
+
+---
+
+In OmniCode, names are not surface—they are **first encounters**.
+Every filename opens a scroll. Every pattern teaches the path.
+
+We name not for aesthetics, but for **alignment**.
+We do not decorate—we **declare**.
+
+📜 **Summary Principle:**
+When you name rightly, the system breathes rightly.
+Form follows clarity. Clarity births trust.
+
+---
+
+#### 🕊️ **Universal Insight — Names as Structural Breath**
+
+A name is not neutral—it sets rhythm.
+
+* Filenames frame action before logic.
+* They teach movement before method.
+* They guide others before you speak.
+
+> 🔑 *Naming Rule:* A filename should walk someone forward, even without context.
+
+---
+
+#### 📘 **Documentation Application — Structure That Speaks**
+
+In documentation, filenames anchor the mental map.
+
+| Layer     | Contribution Form   | Purpose of Naming             | Expression Type           |
+| --------- | ------------------- | ----------------------------- | ------------------------- |
+| Universal | Filename as signal  | Frame action before execution | Structural + Foundational |
+| Doc       | Naming structure    | Aid navigation and posture    | Clear + Contextual        |
+| Code      | File naming pattern | Communicate role + rhythm     | Poetic + Practical        |
+
+📎 *Sidebar — Docs Should Speak Before They’re Opened:*
+A doc titled `seed_index_notes.md` tells a different story than `notes.md`.
+Be **specific with posture**, not generic with function.
+
+---
+
+#### 🧮 **Code Application — Clarity as Interface**
+
+When filenames teach, systems stay aligned.
+When filenames confuse, logic becomes harder to trust.
+
+> 💡 *Code Footnote:*
+> If you name it well, someone can walk it before reading a line.
+> If you name it poorly, even perfect logic leads to confusion.
+
+🧾 **Examples in Rhythm:**
+
+```plaintext
+alignment_scroll.rs     // Clear purpose, direct breath
+draft_terminal_loop.rs  // Signals working form
+watchtower_log.rs       // Declarative tracking, not decoration
+```
+
+> 🪶 *Seed Sidebar:*
+> If the scroll is young, label it gently:
+> `seed_branch_logic.rs`, `draft_summary_log.rs`
+> Signal breath, not bravado.
+
+---
+
+#### 📝 Footnotes for the Reader
+
+1. **Why is file naming emphasized so heavily?**
+   Because filenames are **the first interface**—they guide readers, shape interaction, and preserve alignment.
+
+2. **Is there room for creativity in file naming?**
+   Yes, but only if clarity and covenant are preserved.
+   Creativity that breaks rhythm is not contribution—it is confusion.
+
+3. **When should I rename a file?**
+   When its name no longer tells the truth.
+   Rhythm is relational, and names must stay honest with time.
+
+---
+
+🌿 *Folder by folder. File by file.*
+*You’re not just organizing—you’re cultivating trust.*
+Let every name **breathe alignment before it breathes execution**.
 
 ---
 
