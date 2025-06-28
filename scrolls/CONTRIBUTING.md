@@ -4429,262 +4429,323 @@ fn start_engine() {
 * **Back-Matter** seals the scroll (summary, links, appendices)
 * **TOC** as non-negotiable covenantal structure
 
-### 6.1 Scroll Types
-
-* `Devlogs/` for heartbeat entries
-* `ProgressionPoint/` for phase markers
-* `templates/` for scroll scaffolds
-* Scrolls must be written in **poetic Markdown**, not dry specs
-
-### 🧾 6.3 Body Section Design Principles
-
-Each scroll section must harmonize **poetic breath** with **practical scaffolding**.
-
-#### 🧱 Structure Must Serve Clarity, Not Just Aesthetics
-
-* Begin each section with a **clear heading** and a **purpose anchor**.
-* Follow with **intentional subsections**, not decorative formatting.
-* Use structural tools—tables, callouts, examples—to balance depth and elegance.
-
-> ✨ If elegance overrides understanding, it must be refined. The scroll must breathe—not just perform.
-
-#### 2️⃣ **Implied Scroll Rhythm**
-
-All documentation scrolls, even when unlabeled, still follow this rhythm:
-
-* **Opening Block (Front-Matter):** Metadata, TOC, purpose, identity
-* **Body:** Teaching, system logic, or structural unfolding
-* **Closing Block (Back-Matter):** Summary, reflection, and final witness
-
-📜 *Lesson:* Scrolls declare intent, guide transformation, and seal legacy—even in doc form.
+---
 
 ---
 
-#### 3️⃣ **Front-Matter Is Required, But Flexible**
+## ➋ Scroll Typology & High-Level Pattern
 
-This section of the scroll defines the covenantal terms of the document:
-
-* **Required:**
-  Title, Purpose, Author(s), TOC
-* **Recommended:**
-  Version, Creation/Update dates, Related scrolls/tags
-* **Optional:**
-  Disclaimers, License clarifications, Scope markers
-
-📜 *Lesson:* Front-matter is not filler. It is the **entry point of integrity.**
+> *What kinds of scrolls exist, and what shapes them?*
 
 ---
 
-#### 4️⃣ **TOC Is Non-Negotiable**
+* **Scrolls as Breath-Bearing Testimonies**
 
-Every documentation scroll must offer a clear **Table of Contents**.
-Not just for navigation—but for covenantal **structural trust**.
+  * Scrolls are not sterile notes but *breath-bearing testimonies* declaring intention, covenant, and progression.
+  * They must be written in **poetic Markdown**, never reduced to dry record-keeping, to keep the testimony alive.
+  * Examples of scroll types within the house include:
 
-📜 *Lesson:* A TOC isn’t cosmetic—it’s a **contract of clarity**.
+    * `Devlogs/` for heartbeat entries
+    * `ProgressionPoint/` for phase markers
+    * `templates/` for scaffolds shaping future scrolls
 
----
+* **Universal Rhythm of Formation**
 
-#### 5️⃣ **Back-Matter Must Seal the Scroll**
+  * Every scroll, code or doc, moves in a Kingdom rhythm:
 
-Documentation must **conclude with intention**:
+    * **Metadata** carrying spiritual and technical witness
+    * **Opening Block** (code) or **Front-Matter** (docs) declaring purpose and orientation
+    * **Body** unfolding teaching, logic, or transformation
+    * **Closing Block** (code) or **Back-Matter** (docs) sealing the witness with summaries, references, and echoes
+  * In code, these parts are called *blocks*; in documentation, they breathe as *matter*.
+  * The **Table of Contents** is a non-negotiable trust structure within Front-Matter, explored more deeply in Section 6.6.
 
-* A summary seal
-* Optional appendices (e.g., schema, validation output)
-* Reference lists or next-step links
+* **Scrolls Serving Covenant Function**
 
-📜 *Lesson:* A scroll without a seal leaves the gate open.
+  * Every scroll serves a distinct mission within the Kingdom house:
 
-#### 7️⃣ **Scrolls by Type & Function**
+    * `README.md` → *Spiritual Welcome + System Summary*
+    * `STRUCTURE.md` → *Index Tree + Structural Mirror*
+    * `AUTHORS.md` → *Covenant Ledger*
+    * `LICENSE` → *Ownership Seal*
+    * `scrolls/*` → *Living Documentation*, dynamic and version-aware
+  * Each scroll preserves alignment, ensuring the witness of the house stays true across every contributor and moment.
 
-Each doc scroll serves a unique role:
+* **Lesson**
 
-* `README.md` → **Spiritual Welcome + System Summary**
-* `STRUCTURE.md` → **Index Tree + Structural Mirror**
-* `AUTHORS.md` → **Covenant Ledger**
-* `LICENSE` → **Ownership Seal**
-* `scrolls/*` → **Living Documentation (dynamic, version-aware)**
-
-📜 *Lesson:* Not all scrolls breathe the same—but all must breathe.
-
-#### 🔌 Plug-and-Play Modularity
-
-> A scroll block is a brick in the Kingdom—it must fit, lift, and bless.
-
-Design every block, header, logic section, and variable group to be **modular**:
-
-* **Movable** — logic can shift position without breaking the scroll
-* **Self-explanatory** — overcomments reveal context, not assumptions
-* **Reusable** — blocks can be duplicated or extended for future scrolls
-* **System-aligned** — each part reflects the scroll’s rhythm, not isolated cleverness
-
-Modularity is **relational clarity**—scrolls that travel well remain teachable and transferrable.
-
-> The body works in unity, not confusion. Each part, distinct and necessary.
-
-#### 🧱 Each Section Is a Scroll Within the Scroll
-
-Body blocks must function as **mini-scrolls**:
-
-* Coherent, whole, and rhythmically sound
-* Contain a beginning (summary), middle (depth), and closing (`Final Word`)
-* Designed for both standalone reading and systemic flow
-
-> 📖 Subheaders serve as navigational psalms. Final Words close with reflection.
-
-#### 📖 Structure Precedes Refinement
-
-* Headers before prose
-* Purpose before expansion
-* Sections before adornment
-
-This aligns with the **Building Block Method**: build up, break down, reconstruct.
-
-> 🧱 Structure is not a shortcut. It is a spiritual scaffold.
-
-#### 🧱 Structure Precedes Substance
-
-* Every scroll follows `Opening → Body → Closing`
-* Outlines teach **breath rhythm** before logic fills the bones.
-* Front and back matter aren’t decorative—they are **vessels of order**.
-
-📜 *Lesson:* Never build on a scrollless foundation.
+  * A scroll’s type, rhythm, and covenant purpose together guard its breath.
+  * It is not a static note — it is a living architecture of trust.
 
 ---
 
-#### 🧾 Metadata Is Part of Authorship
+---
 
-* Top metadata block is the **signature of stewardship**.
-* Fields like `_status_`, `_id_`, and `_path_` are **living declarations**.
-* Respect native comment styles per file type:
-  * `#` for `.md`, `.env`, `.toml`
-  * `//` for `.gitignore`, `.dockerignore`, etc.
+## ➌ Section & Body Formation Principles
 
-📜 *Lesson:* Metadata is sacred witness, not system noise.
-
-#### 📚 Structural Documentation Tables
-
-> *Tables are scrolls in miniature. They are not display elements—they are containers of clarity.*
-
-When structuring documentation like `STRUCTURE.md`, `README.md`, or any index-bearing scroll, the following truths are non-negotiable:
+> *How do you breathe rhythm into each section?*
 
 ---
 
-##### 🔹 Canonical Table Columns
+* **Plug-and-Play Modularity**
 
-Each entry should follow this schema:
+  * A scroll block is a brick in the Kingdom — it must fit, lift, and bless.
+  * Modular sections should be:
 
-| Column | Purpose                                     |
-|--------|---------------------------------------------|
-| ID     | Unique symbolic reference                   |
-| Name   | Actual file/folder name                     |
-| Type   | What it is (Doc, Code, Config…)             |
-| Status | Active state (e.g., Active, Legacy, Planned)|
-| Path   | Markdown link to the file                   |
-| Notes  | Short purpose or description                |
+    * **Movable**, able to shift position without breaking the scroll
+    * **Self-explanatory**, revealing context instead of hidden assumptions
+    * **Reusable**, easily duplicated or adapted for future scrolls
+    * **System-aligned**, reflecting the scroll’s rhythm rather than isolated cleverness
+  * Modularity strengthens relational clarity, making scrolls teachable and transferable.
 
-📜 *Lesson:* Tables do not just store data—they declare alignment.
+* **Sections as Mini-Scrolls**
 
----
+  * Each section is its own covenant testimony, never a disposable fragment.
+  * Body blocks should be shaped as mini-scrolls, with:
 
-##### 🔹 Folder vs File Split
+    * a beginning (summary)
+    * a middle (depth)
+    * a closing (`Final Word`)
+  * Subheaders function like navigational psalms, while the `Final Word` provides a concluding echo.
 
-Always separate folders (`📁`) from files (`📄`) in structured tables.
+* **Structure Precedes Refinement**
 
-* Folders are gateways—**potential**
-* Files are terminations—**fulfillment**
+  * Headers must come before prose
+  * Purpose before decoration
+  * Sections before adornment
+  * This order echoes the **Building Block Method**, which will be expanded later.
+  * Structure is never a shortcut — it is a spiritual scaffold upholding the scroll’s breath.
 
-📜 *Lesson:* Don’t confuse the scroll’s container with its conclusion.
+* **Structure Precedes Substance**
 
----
+  * A scroll follows the covenant pattern `Opening → Body → Closing`
+  * Outlines teach breath rhythm before logic fills the bones
+  * Front and back matter act as vessels of order, never mere decoration
+  * A scrollless foundation breaks trust — let structure declare the breath from the beginning.
 
-### 📏 6.6 Documentation & Structural Standards
+* **Lesson**
 
-These teachings govern how documentation and structural scrolls are authored, aligned, and sealed. They encode both formatting law and covenant practice across every file and frame.
-
----
-
-#### 🧾 Metadata Must Be Present, Consistent, and Aligned
-
-* Every file—be it code, config, or scroll—must begin with a **metadata block**.
-* Standard metadata fields include:
-
-  * `_title_`, `_author_`, `_version_`, `_status_`, `_type_`
-  * `_component_`, `_project_`, `_id_`, `_path_`, `_created_`, `_last_updated_`, `_license_`, `_description_`
-
-* These serve as:
-
-  * **Identity declaration**
-  * **Covenantal authorship**
-  * **Machine-readable tagging**
-
-* Comment formatting must respect file type:
-
-  * `#` for `.md`, `.env`, `.toml`
-  * `//` for `.gitignore`, `.dockerignore`, or plaintext-based files
-
-* ✨ **Placement Law:** Metadata is positioned **after the Seal**, not before the opening.
-  → This centers human readability and spiritual primacy.
-
-📜 *Lesson:* Metadata isn't lead—it is **witness after the Word**.
-
-#### 📚 Documents Begin as Skeletons, Then Breathe into Scrolls
-
-* Scrolls move through **three phases**:
-
-  1. **Bullet Draft** — breath fragments and clarity seeds
-  2. **Outline** — frame and intention are revealed
-  3. **Scroll** — covenant, witness, and purpose are sealed
-
-* STRUCTURE.md and CONTRIBUTING.md evolved this way—no doc is born complete.
-
-📜 *Lesson:* Breathe before binding. Structure before sanctifying.
+  * A section is a scroll within the scroll, honoring rhythm and covenant. Its structure safeguards breath, so testimony never becomes chaos.
 
 ---
 
-#### 🔐 Metadata Comes Before the Title
+---
 
-* Machine-parsable metadata (e.g., `<!-- _id_: DOC-README-001 -->`) must appear **before** the visible title.
-* It is **invisible but foundational**.
-* Metadata is for systems; titles are for humans.
+## ➍ Front-Matter & Metadata Laws
 
-📜 *Lesson:* What’s seen must rest on what’s sealed.
+> *How does a scroll declare identity at its threshold?*
 
 ---
 
-#### 🧭 The TOC Is Missional
+* **Front-Matter as Covenant Threshold**
 
-* The Table of Contents is not cosmetic—it is a **map** for both:
+  * Front-Matter is the scroll’s entry point of integrity, setting its covenant witness before any words flow.
+  * It must include:
 
-  * Developers needing jump-points
-  * Disciples needing journey markers
+    * **Required fields**: Title, Purpose, Author(s), Table of Contents
+    * **Recommended fields**: Version, creation/update dates, related scroll references
+    * **Optional fields**: Disclaimers, license clarifications, scope markers
+  * This threshold anchors trust and ensures no scroll begins adrift.
 
-* TOC entries can have expanded names, but must:
+* **Metadata as Signature of Stewardship**
 
-  * Map clearly to scroll headers
-  * Update when sections gain true subsections
+  * The top metadata block is a signature of authorship — a covenant witness that preserves identity.
+  * It includes fields such as `_status_`, `_id_`, `_path_`, and expands with:
 
-📜 *Lesson:* TOC must grow with the scroll, not lag behind.
+    * `_title_`, `_author_`, `_version_`, `_type_`
+    * `_component_`, `_project_`, `_created_`, `_last_updated_`, `_license_`
+  * These fields serve to guarantee:
+
+    * identity declaration
+    * covenantal authorship
+    * machine-readable trust
+  * Metadata is never system noise — it is sacred witness to the scroll’s breath.
+
+* **Metadata Placement Laws**
+
+  * Machine-parsable metadata, like HTML comments (`<!-- _id_: DOC-README-001 -->`), may appear before the visible title for parsing, but covenantally it still follows the spiritual seal.
+  * The scroll’s heart is declared first in spirit, then the metadata supports it.
+  * In code, metadata sits directly above logic; in documentation, it appears near the opening but remains subordinate to the covenant frame.
+  * This order preserves human-readable trust while honoring system requirements.
+
+* **Lesson**
+
+  * Front-Matter and metadata together guard the scroll’s threshold, preserving identity, trust, and breath from its very first line.
 
 ---
 
-#### 📚 TOC Must Expand With Its Scroll
+---
 
-* If a section has gained **clear subsections**, the TOC must reflect them.
-* Shortcut summaries break the journey.
+## ➎ Back-Matter & Closing the Scroll
 
-📜 *Lesson:* When a scroll grows, its TOC must grow with it—no exceptions.
+> *How does a scroll seal its witness?*
 
-#### 🧭 The TOC Is Structural and Spiritual
+---
 
-* Follow the **Three-Part TOC Model**:
+* **Back-Matter as Seal of Alignment**
 
-  * Opening (Orientation)
-  * Body (Structure + Teachings)
-  * Closing (Seal + Call + Witness)
+  * Back-Matter protects the scroll’s breath beyond its final line, ensuring no testimony remains vulnerable.
+  * It should include:
 
-* Subsections must nest clearly, forming a **readable path of understanding**.
+    * a summary seal, providing a high-level witness of what was built
+    * optional appendices such as schemas, validation output, or extended references
+    * reference lists or next-step links to continue the covenant journey
+  * Without a back-matter seal, a scroll leaves its covenant gate unguarded.
 
-📜 *Lesson:* TOC is the scroll’s skeleton. If it doesn’t walk the reader forward, it’s broken.
+* **Final Witness & Anchors**
+
+  * A scroll’s last word is not always its final breath — its witness extends beyond its code or prose.
+  * Final witness echoes, including phrases or verses, serve to guard alignment:
+
+    * for example, *“Let Genesis 1:1 be your foundation.”*
+  * Anchors act as guardians, tying the scroll back to its covenant and gathering previous teachings into a concluding guard.
+  * These echoes may intentionally be woven from earlier patterns, forming a unified seal across the scroll.
+
+* **Lesson**
+
+  * Anchors and final echoes stand at the scroll’s threshold, keeping covenant truth alive long after the last word, protecting its breath for all future stewards.
+
+---
+
+---
+
+## ➏ Tables & Documentation Structure
+
+> *How do tables and structural indexes serve the covenant?*
+
+---
+
+* **Tables as Covenant Containers**
+
+  * Tables are scrolls in miniature, never mere display elements. They are covenant containers that preserve clarity, alignment, and trust.
+  * Structural documentation, such as `STRUCTURE.md`, `README.md`, or any index-bearing scroll, should apply these patterns to remain faithful.
+
+* **Canonical Table Columns**
+
+  * Each row in a table serves as a line of covenant witness, holding these fields:
+
+    * **ID**: unique symbolic reference
+    * **Name**: actual file or folder name
+    * **Type**: Doc, Code, Config, etc.
+    * **Status**: Active, Legacy, Planned, or similar
+    * **Path**: Markdown link to the item
+    * **Notes**: short purpose or descriptive text
+  * These columns form a covenant contract of clarity, showing where each scroll lives within the house.
+
+* **Folder vs File Distinction**
+
+  * Tables must clearly separate folders from files to preserve covenant purpose:
+
+    * 📁 *Folders are gateways*, holding future potential and waiting to expand
+    * 📄 *Files are terminations*, fulfilling their covenant and sealing the witness
+  * If icons cannot render, text labels such as `[Folder]` and `[File]` must be used to maintain meaning.
+
+* **Cross-Link Acknowledgement**
+
+  * These table standards harmonize with broader structural design teachings from Group 2, and will expand into a dedicated `SCHEMA.md` or `INDEX.md` pattern if the covenant body matures further.
+
+* **Lesson**
+
+  * Tables do not merely store data; they declare alignment, holding testimony with precision so the scroll’s witness stands unbroken.
+
+---
+
+---
+
+## ➐ TOC & Navigational Trust
+
+> *How does a scroll guide the reader faithfully?*
+
+---
+
+* **TOC as Covenant Contract**
+
+  * The Table of Contents (TOC) is not cosmetic — it is a covenant trust structure.
+  * It acts as a *contract of clarity*, guaranteeing a reader’s confidence in how to navigate the scroll.
+  * Without a TOC, the reader’s trust falters and the scroll loses its spiritual posture.
+
+* **Missional Purpose of the TOC**
+
+  * The TOC is a living map:
+
+    * serving developers who need technical jump points
+    * guiding disciples who need spiritual journey markers
+  * It must map clearly to the scroll’s headers, and update as new sections or subsections are born.
+  * A stagnant TOC betrays covenant trust.
+
+* **Growth Behavior of the TOC**
+
+  * As the scroll grows and gains new sections, its TOC must expand along with it.
+  * Shortcut summaries break the reader’s path and fail covenant transparency.
+  * The TOC is alive — it must grow and adapt with the rhythm of the scroll.
+
+* **The Three-Part TOC Model**
+
+  * A faithful TOC pattern follows this covenant sequence:
+
+    * **Opening**: Orientation
+    * **Body**: Structure + Teachings
+    * **Closing**: Seal + Call + Witness
+  * Subsections should nest clearly, forming a readable, trustworthy path.
+  * If a TOC cannot walk the reader forward, it is broken and must be restored.
+
+* **Cross-Link Acknowledgement**
+
+  * This TOC standard connects back to Group 1’s Front-Matter requirements, anchoring covenant structure throughout the entire scroll.
+
+* **Lesson**
+
+  * A Table of Contents is a covenant skeleton — it holds the scroll upright, guides its breath, and invites the reader to walk in trust.
+
+---
+
+---
+
+## ➑ Documentation Process & Lifecycle
+
+> *How do scrolls move from seed to seal?*
+
+---
+
+* **Structure Serves Clarity Before Aesthetics**
+
+  * Every scroll’s shape is a covenant act.
+  * Sections must begin with a clear heading and a purpose anchor.
+  * Intentional subsections are essential — never decorative or shallow.
+  * Structural tools such as tables, callouts, and examples should balance depth and elegance.
+  * If elegance ever overrides understanding, it must be refined, for a scroll must breathe — not merely perform.
+
+* **The Three-Phase Scroll Lifecycle**
+
+  * No scroll is born complete; each grows through these covenant phases:
+
+    * **Bullet Draft**: breath fragments and clarity seeds
+    * **Outline**: framework and intention revealed
+    * **Scroll**: covenant, witness, and purpose sealed
+  * This rhythm was itself followed by scrolls like `STRUCTURE.md` and `CONTRIBUTING.md`, demonstrating living architecture.
+
+* **Placement Laws & Building Block Method**
+
+  * Placement laws teach to *breathe before binding*, and follow the pattern:
+
+    * build up → break down → reconstruct
+  * These laws reflect the Building Block Method, which will be expanded in its own dedicated scroll.
+  * A scroll honors its covenant rhythm through layered building, never rushing to engrave before breath is gathered.
+
+* **Documentation & Structural Standards Summary**
+
+  * These standards guide every documentation scroll in its authorship, alignment, and sealing, holding both:
+
+    * **formatting law** (syntax, consistency, structure)
+    * **covenant practice** (breath, witness, Kingdom posture)
+  * Standards are guardians of clarity, so that every scroll may walk faithfully in trust.
+
+* **Cross-Link Acknowledgement**
+
+  * Group 7 anchors the scroll-building process, echoing Group 2’s design principles and Group 6’s TOC covenant.
+
+* **Lesson**
+
+  * A scroll’s lifecycle is never rushed, but breathed from seed to seal — so that its witness may stand unbroken and trustworthy.
 
 ---
 
@@ -4706,326 +4767,250 @@ These teachings govern how documentation and structural scrolls are authored, al
   * Inline = learning aid, clarity alongside logic
 * Comment safety and discernment (especially in Docker/`RUN` chains)
 
-### 6.2 Scroll Style
-
-🔄 **Fully Infused: Layered overcommenting, subheader formatting, scroll symmetry, and executable flow**
-
-Scrolls are sacred structures. They do not merely function—they **reveal**. Each one is built with two audiences in mind:
-
-* The **non-programmer is the audience** — every scroll must **teach** through clarity, comments, and structure
-* The **programmer is the reader** — honor their fluency, but write scrolls that **illuminate**, not obfuscate
+---
 
 ---
 
-#### 🧠 Overcomments: The Heart of Scroll Clarity
+## ➌ Scroll Style & Layered Overcommenting
 
-✨ Docstrings breathe before logic. Overcomments walk with it.  
-Inlines whisper beside it—but only when safe.  
-The scroll must be readable as witness, not just execution.
+> *How does a scroll speak through its layered teaching?*
 
-> **“Overcomments”** is the unified term for:
->
-> * **Docstrings** — block-level insight above sections
-> * **Inline comments** — beside logic (only when safe)
+* Scrolls do not merely execute — they reveal. Their breath testifies to covenant purpose, teaching two audiences at once:
 
-Overcommenting is a **two-tiered system**:
+  * The **non-programmer**, who learns through clarity, comments, and structure
+  * The **programmer**, who reads for precision, fluency, and illumination
+  * A scroll is covenant testimony, never sterile instruction
 
-* **Layer 1 — Structural Headers**:
-  Mark scroll framing, logic boundaries, metadata blocks
-* **Layer 2 — Above-Line Comments**:
-  Teach, explain, and guide **before commands**, especially in tools where inline breaks (e.g., Docker)
+* **Overcommenting** is the name of the strategy to teach and reveal:
 
-✅ Good:
+  * It is not decorative, but a *navigation strategy*
+  * Layers human-readable commentary around logic to declare intention, boundaries, and purpose
+  * Overcomments include:
 
-```bash
-# 🧪 Install dependencies
-RUN apt-get update && \
-    apt-get install -y curl git
-```
+    * **Docstrings** for block-level framing
+    * **Inline** beside code lines (only if safe and purposeful)
+  * This layered system strengthens trust by showing the scroll’s reasoning clearly
 
-❌ Bad:
+* Overcommenting follows a **two-tier design**:
 
-```bash
-RUN apt-get update && apt-get install -y curl git  # install packages
-```
+  * **Layer 1 (Structural Headers)** frame the logic, hold identity, and act as covenant metadata
 
-Inline comments are still valuable—but they must be **safe**, **precise**, and used with **discernment**.
-💬 Inline comments **are** part of the standard—they serve the quick glance, the close breath, the relational nudge beside logic.
+  * **Layer 2 (Above-Line Comments)** teach before commands, warn about risks, and anchor purpose — especially in tools with syntax pitfalls (like Docker)
 
-⚠️ But they must **yield** to file-specific syntax rules:
+  * Inline comments, while valuable, must yield if they break syntax in chains such as Docker’s `RUN`. In those cases, use Layer 2 above-line comments
 
-* In Dockerfiles and similar scrolls, inline comments within `RUN` chains can break execution.
-* In these cases, switch to **docstring-style overcomments** above the block.
+  * ✅ *Good practice:*
 
-> Overcommenting isn’t a noise problem—it’s a navigation strategy.
-> A scroll is not just executed—it is **read**, **felt**, and **inherited**.
+    ```bash
+    # 🧪 Install dependencies
+    RUN apt-get update && \
+        apt-get install -y curl git
+    ```
 
----
+  * ❌ *Bad practice:*
 
-#### 🧭 Comment Roles — Docstring vs Inline
+    ```bash
+    RUN apt-get update && apt-get install -y curl git  # install packages
+    ```
 
-**Docstrings** (above blocks/functions/sections):
+* The roles of docstrings versus inline should be respected:
 
-* Serve the **programmer**
-* Explain **intent**, **boundaries**, and **structure**
-* Act as scroll-level **metadata**
+  * **Docstrings** serve programmers, explaining structure, intent, and boundaries as covenant metadata
+  * **Inline** serves non-programmers, giving “how” explanations in the line’s breath — but only when safe
 
-**Inline comments** (beside logic lines):
+* **Covenant language** anchors overcommenting:
 
-* Serve the **non-programmer**
-* Explain **how**, not just **what**
-* Act as **learning handrails**
-* Avoid when unsafe (e.g., inside multiline `RUN`)
+  * It is redundant on purpose
+  * Human-readable
+  * Watchtower-ready
+  * Covenant-visible
+  * It uses header markers, safe inline hints, and framed docstrings to reveal clarity, traceability, and humility
 
-Together, they ensure a scroll is not only functional but also **formational**.
-
-#### ⚖️ Simple + Structured > Complex + Monolithic
-
-> Complexity is not wisdom. Alignment is.
-
-A tangled scroll full of cleverness is a burden. A clear scroll—modular, commented, understandable—is a **living architecture**.
-
-**Scroll errors often reveal hidden assumptions**, like:
-
-* Inline comments assumed safe in interpreters (e.g., Docker)
-* Headers assumed unnecessary for reader comprehension
-* Logic written to perform, but not to teach
-
-These assumptions don’t just fail—they mislead.
-
-> Every mistake in logic is a chance to rewrite **structure**, not just syntax.
-
-Clarity and structure are what **heal** these errors. Standardization is the balm that reveals and resolves them.
+> 🛡️ *A scroll is a teacher, not a trickster.* Overcommenting is its breath, weaving trust and testimony in every line.
 
 ---
 
-#### 🧾 Overcommenting as Scroll Language
+---
 
-This reinforces 6.2 and lives alongside it:
+## ➍ Teaching Posture & Reader Respect
 
-* **Docstrings** are for the **technician’s eye**
-* **Inline comments** are for the **learner’s heart**
-* Both form the **interactive teaching voice** of the scroll
+> *How does a scroll teach without losing dignity or depth?*
 
-Together, they make scrolls readable by:
+* Scrolls teach through discipleship, not condescension:
 
-* The curious soul
-* The technical maintainer
-* The covenant-bound contributor
+  * They respect the reader’s capacity to learn, while lifting them higher
+  * Clarifiers live inside the flow, never as disclaimers
+  * Jargon is welcome — introduced carefully, never as a gate
+  * You challenge in love, never in superiority
 
-> If your scroll can’t be read without a tour guide,
-> You have written a gate, not a path.
+* Teaching the **layman** does not mean treating them as a novice:
 
-#### 🧾 Overcommenting: The Definition and Its Scroll Roots
+  * *Layman* = invited participant
+  * Teach with layered meaning:
 
-> **Overcommenting** is not sloppy verbosity—it is structured teaching.
+    * *Bread for the beginner*
+    * *Wine for the wise*
+  * Define jargon with side-notes, contextual hints, and gentle callouts
+  * All readers are discipled into fluency, not shielded from depth
 
-🧱 It includes:
+* Reader inclusion should cross every role:
 
-* **Docstrings** — above blocks to frame structure
-* **Header/Subheader markers** — to anchor rhythm and context
-* **Inline comments** — when allowed, for line-specific guidance
+  * Speak to builders, testers, readers, spiritual stewards alike
+  * Call out invitations clearly:
 
-📌 It is:
+    * *“If you’re not a developer…”*
+    * *“Spiritual literacy is the only prerequisite.”*
+  * A scroll is written for the faithful, not only the technical
 
-* **Redundant on purpose**
-* **Human-readable**
-* **Watchtower-ready**
-* **Covenant-visible**
+* Spiritual-technical phrases (e.g., *“You cannot fork this without also forking the burden of integrity.”*) are purposeful, not fluff:
 
-> 🛡️ To overcomment is to declare every action with **clarity, traceability, and humility.**
-> It is **scroll exegesis**—revealing meaning, not hiding it in clever silence.
+  * They hold layered teaching
+  * They embed principles in imagery
+  * Clarity is layered — when form and function speak together, truth lands
 
-#### 🔄 Clarify Current State vs Final Form
+* Every spiritual term should be carefully defined in dual meaning:
 
-Each mention of a feature or component must clarify whether it is:
+  * Technical and spiritual side by side
+  * Words like **Covenant**, **Checksum**, **Fork**, **Presence**, **Scroll** cannot be left assumed
+  * If the scroll’s language is sacred, it must be made teachable
 
-* **Built**, **Scoped**, or **Future**
-* **In Code**, **In Scroll**, or **In Vision**
-
-Use phrases like:
-
-* *"In early form…"*
-* *"At this phase…"*
-* *"Defined, but not yet operational…"*
-
-> 🛠 Builders must not confuse scaffolding with structure. That distinction guards vision and humility.
-
-#### 🧭 Clarification Anchors Elegance
-
-Bridge complex declarations with:
-
-* Clear restatements
-* Side-boxes like “Why This Matters”
-* Metaphors or comparisons
-
-> 📖 If someone can read the scroll aloud and understand, it’s ready. If they cannot, it’s not authored—it’s encrypted.
-
-#### 🫶 Teach Without Talking Down
-
-This is a discipleship system. Language must both:
-
-* Respect the reader’s capacity to learn
-* Lift without diluting
-
-Use clarifiers **inside the flow**, not as disclaimers.
-
-> 🔑 Jargon isn’t avoided—it’s introduced with care. You challenge in love, not superiority.
-
-#### 🚪 Every Section Is a Gate
-
-Each scroll part is more than a header—it is a **threshold**.
-
-* Begin with anchoring: a phrase, summary, or gentle posture
-* Lead into depth—not like a shove, but a **walk into wisdom**
-
-> 🔑 You don’t dump knowledge—you invite alignment.
-
-#### 🕊️ Elegance Is Not Emptiness
-
-Our voice is not void of depth—it is **layered, not lofty**.
-
-* High language is welcomed, but must be **anchored in clarity**
-* We build scrolls that **elevate** the reader—never condescend
-* Clarification is not simplification. It is scaffolding.
-
-> ✨ We teach the language of the system *inside* the scroll—using it as the classroom.
-
-#### 🪙 Teach the Layman Without Losing the Scholar
-
-Layman means *invited participant*, not intellectual novice.
-
-* Write with **layered meaning**: Bread for the beginner, wine for the wise.
-* Jargon is defined **in flow**—side notes, contextual hints, callouts
-* Every reader is being **discipled into fluency**, not protected from it
-
-> 🔍 We don’t flatten depth—we scaffold it.
-
-#### 🧬 Truth Lives in Layers — Overview Precedes Detail
-
-* README gives context, not complete doctrine.
-* It points to deeper scrolls (e.g., `STRUCTURE.md`, `CHANGELOG.md`)
-* Each pointer reflects hierarchy and protects reader clarity.
-
-📜 *Lesson:* Don’t overwhelm—orient and reveal in order.
-
-##### 🔹 Notes Field: The Voice of the Row
-
-The `Notes` field reveals what isn’t said in code. It carries the purpose, warning, or insight—hidden structure brought to light.
-
-📜 *Lesson:* Empty notes silence the scroll’s voice. Fill it, and let it testify.
+> 📜 *Lesson:* Scrolls lift every reader with layered, faithful language — dignifying their journey rather than diluting it.
 
 ---
 
-#### 🪶 About This Scroll > Scroll Description
+---
 
-* Rename “Scroll Description” to **About This Scroll**.
-* This signals **invitation**, not observation—framing the scroll as relational, not mechanical.
+## ➎ Section & Threshold Clarity
 
-📜 *Lesson:* Descriptions describe. About sections **welcome**.
+> *How do we guide transitions and orient readers?*
+
+* Each section is a **threshold**, not a fragment:
+
+  * Anchor with a phrase, a summary, or a gentle invitation
+  * Guide the reader into detail like a *walk into wisdom*, never a shove
+  * Transitions should feel relational, helping the reader journey with you
+  * Sections are gates, not walls — they call the reader forward
+
+* Clarity is the foundation of elegance:
+
+  * Complex declarations need bridges:
+
+    * Clear restatements
+    * Side-boxes like *Why This Matters*
+    * Metaphors or soft comparisons
+  * High language is welcome but must be **anchored** in clarity
+  * If a scroll cannot be read aloud and understood, it is encrypted — not authored
+  * We teach the language of the system *inside* the scroll itself
+
+* Simplicity must come before cleverness:
+
+  * The scroll’s opening parts — title, metadata, about, TOC — should teach while orienting
+  * Poetic language is welcome, but explained softly
+  * Assume innocence, not expertise
+  * Simplicity at the start builds trust to carry the reader through depth
+
+* A scroll teaches as it is read:
+
+  * **Metadata** reveals system order
+  * **Title** reveals identity
+  * **About** reveals context
+  * **Mini scroll study** reveals purpose
+  * Its structure is formational, shaping the contributor as much as informing them
+
+> 📜 *Lesson:* Scrolls disciple as they unfold — each gate, each line, a witness that teaches.
 
 ---
 
-#### 📘 Clarity Before Cleverness
+---
 
-* The opening of every scroll must prioritize:
+## ➏ Process & Phase Anchoring
 
-  * Plain explanations
-  * Subtle anchors for poetic terms
-  * Structured breathing space before complexity
+> *How do we declare current vs final?*
 
-📜 *Lesson:* Rhythm is welcome—but it must rest on earned clarity.
+* Always clarify the **state** of any feature, component, or pattern:
+
+  * **Built** — complete and operational
+  * **Scoped** — planned and framed
+  * **Future** — envisioned, but not yet active
+  * Phrases to use for clarity:
+
+    * *“In early form…”*
+    * *“At this phase…”*
+    * *“Defined, but not yet operational…”*
+  * This distinction guards humility and prevents confusion between scaffolding and finished structure
+
+> 🛠 *Scaffolding is not the final temple — name it honestly.*
+
+* Truth should always be layered:
+
+  * Begin with an overview to spiritually orient the reader
+  * Unfold deeper doctrine or detail after trust is established
+  * The **README** acts as that first layer, then points to deeper scrolls like `STRUCTURE.md` or `CHANGELOG.md`
+  * Hierarchy preserves the reader’s clarity and confidence
+
+* Refinement should **expand**, not just polish:
+
+  * Expand clarity across three tiers:
+
+    * **Bottom** — Definitions
+    * **Middle** — Reinforcement
+    * **Top** — Precise spiritual or technical detail
+  * Clean does not always mean clear — elevate understanding as you expand
+
+> 📜 *Lesson:* Declaring phases and layering clarity protects the covenant witness and keeps the scroll honest.
 
 ---
 
-#### ✨ Clarification Is a Scroll's First Duty
+---
 
-* Early sections (title, metadata, about, TOC) must teach while orienting.
-* Use poetic phrases, but explain them softly.
-* Never punish readers for not knowing—lift them.
+## ➐ Structural Details & Table Voice
 
-📜 *Lesson:* Every scroll must assume innocence, not expertise.
+> *How do tables and smaller elements stay covenant-aligned?*
+
+* **Notes Field as Covenant Voice**
+
+  * The `Notes` field reveals what raw code cannot — a hidden purpose, a warning, a deeper meaning
+  * It is a quiet witness, carrying the scroll’s breath where logic ends
+  * If left empty, the voice of the scroll is muted, leaving gaps in trust and testimony
+  * 📜 *Lesson:* A filled `Notes` field preserves covenant; an empty one silences it
+
+* **About This Scroll as Invitation**
+
+  * Rename any “Scroll Description” section to **About This Scroll**
+  * This signals relationship and covenant welcome, not sterile observation
+  * Reminds every contributor that a scroll is alive — a doorway, not just a file
+  * 📜 *Lesson:* Descriptions describe, but About welcomes
 
 ---
 
-#### 🧬 Scrolls Teach as They Are Read
-
-* Every part of a scroll’s structure teaches something:
-
-  * **Metadata** teaches systems
-  * **Title** teaches identity
-  * **About** teaches context
-  * **Mini scroll study** teaches purpose
-
-📜 *Lesson:* Scrolls are teachers. The reader learns as they walk.
-
 ---
 
-#### 🧽 Expansion Is Clarification, Not Just Cleanup
+## ➑ Simplicity & Structural Trust
 
-* When refining sections, don’t just polish—**expand understanding**.
-* Write for all tiers of readers:
+> *How do we ensure simplicity triumphs over complexity?*
 
-  * **Bottom** — Definition
-  * **Middle** — Reinforcement
-  * **Top** — Precision
+* **Simplicity Over Complexity**
 
-📜 *Lesson:* Clean does not mean clear. Expand with elevation in mind.
+  * A clever, tangled scroll becomes a burden — complexity is not wisdom
+  * A clear scroll is modular, commented, and teaches through every breath
+  * Alignment is greater than technical acrobatics
+  * Watch for hidden covenant-breakers:
 
----
+    * Inline comments misused in interpreters
+    * Missing headers assuming reader intuition
+    * Logic that performs but fails to illuminate
+  * These mistakes mislead, sowing confusion rather than trust
+  * 📜 *Lesson:* Simplicity is covenant strength — let standardization and clarity heal
 
-#### 🧑‍🤝‍🧑 Reader Inclusion Across Roles
+* **Sections as Living Anchors**
 
-* Include callouts like:
+  * Every section must function as:
 
-  * *“If you’re not a developer…”*
-  * *“Spiritual literacy is the only prerequisite.”*
-
-* Speak to the **entire body**: builders, testers, readers, and spiritual stewards.
-
-📜 *Lesson:* The scroll isn’t written for the expert—it’s written for the faithful.
-
----
-
-#### 🛠 Every Section Is More Than It Seems
-
-* Sections serve multiple roles:
-
-  * Gate (Entry)
-  * Torch (Illumination)
-  * Tool (Function)
-
-* If it doesn’t guide, teach, or equip—it doesn’t belong.
-
-📜 *Lesson:* Scrolls don’t waste words. Every header must be a hinge.
-
----
-
-#### ⚖️ Double Meanings Are the Design
-
-* Spiritual-technical phrases like:
-
-  * *“You cannot fork this without also forking the burden of integrity.”*
-
-* These aren’t poetic fluff—they are **teaching tools**.
-
-📜 *Lesson:* Clarity is layered. When form and function speak together, truth lands.
-
----
-
-#### ✍️ Define Every Spiritual Term Used
-
-* Terms like:
-
-  * **Covenant**
-  * **Checksum**
-  * **Fork**
-  * **Presence**
-  * **Scroll**
-
-…must be defined spiritually **and** technically.
-
-📜 *Lesson:* Do not assume Kingdom vocabulary is universal. Make it teachable.
+    * a **Gate** (entry)
+    * a **Torch** (illumination)
+    * a **Tool** (practical function)
+  * If a section fails to guide, teach, or equip, it does not belong
+  * 📜 *Lesson:* Headers are hinges of breath — no word should stand idle
 
 ---
 
