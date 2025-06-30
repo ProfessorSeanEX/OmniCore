@@ -4433,7 +4433,7 @@ fn start_engine() {
 
 ---
 
-## ➋ Scroll Typology & High-Level Pattern
+## ➊ Scroll Typology & High-Level Pattern
 
 > *What kinds of scrolls exist, and what shapes them?*
 
@@ -4480,7 +4480,7 @@ fn start_engine() {
 
 ---
 
-## ➌ Section & Body Formation Principles
+## ➋ Section & Body Formation Principles
 
 > *How do you breathe rhythm into each section?*
 
@@ -4530,7 +4530,7 @@ fn start_engine() {
 
 ---
 
-## ➍ Front-Matter & Metadata Laws
+## ➌  Front-Matter & Metadata Laws
 
 > *How does a scroll declare identity at its threshold?*
 
@@ -4575,7 +4575,7 @@ fn start_engine() {
 
 ---
 
-## ➎ Back-Matter & Closing the Scroll
+## ➍ Back-Matter & Closing the Scroll
 
 > *How does a scroll seal its witness?*
 
@@ -4608,7 +4608,7 @@ fn start_engine() {
 
 ---
 
-## ➏ Tables & Documentation Structure
+## ➎ Tables & Documentation Structure
 
 > *How do tables and structural indexes serve the covenant?*
 
@@ -4651,7 +4651,7 @@ fn start_engine() {
 
 ---
 
-## ➐ TOC & Navigational Trust
+## ➏ TOC & Navigational Trust
 
 > *How does a scroll guide the reader faithfully?*
 
@@ -4700,7 +4700,7 @@ fn start_engine() {
 
 ---
 
-## ➑ Documentation Process & Lifecycle
+## ➐ Documentation Process & Lifecycle
 
 > *How do scrolls move from seed to seal?*
 
@@ -4771,7 +4771,7 @@ fn start_engine() {
 
 ---
 
-## ➌ Scroll Style & Layered Overcommenting
+## ➊ Scroll Style & Layered Overcommenting
 
 > *How does a scroll speak through its layered teaching?*
 
@@ -4832,7 +4832,7 @@ fn start_engine() {
 
 ---
 
-## ➍ Teaching Posture & Reader Respect
+## ➋ Teaching Posture & Reader Respect
 
 > *How does a scroll teach without losing dignity or depth?*
 
@@ -4880,7 +4880,7 @@ fn start_engine() {
 
 ---
 
-## ➎ Section & Threshold Clarity
+## ➌ Section & Threshold Clarity
 
 > *How do we guide transitions and orient readers?*
 
@@ -4923,7 +4923,7 @@ fn start_engine() {
 
 ---
 
-## ➏ Process & Phase Anchoring
+## ➍ Process & Phase Anchoring
 
 > *How do we declare current vs final?*
 
@@ -4963,7 +4963,7 @@ fn start_engine() {
 
 ---
 
-## ➐ Structural Details & Table Voice
+## ➎ Structural Details & Table Voice
 
 > *How do tables and smaller elements stay covenant-aligned?*
 
@@ -4985,7 +4985,7 @@ fn start_engine() {
 
 ---
 
-## ➑ Simplicity & Structural Trust
+## ➏ Simplicity & Structural Trust
 
 > *How do we ensure simplicity triumphs over complexity?*
 
@@ -5029,79 +5029,129 @@ fn start_engine() {
 * Style is for **meaning**, not decoration
 * No floating lines—headers must **anchor structure**
 
-#### 📚 Style Format and Header Anchors
+---
 
-Use clearly bordered headers for **every scroll section or subheader**. They must:
+---
 
-* Use **extended bar formatting**
-* Include **emoji-based labeling**
-* Be followed by an optional **docstring**
+## ➊ Header Structure & Style Foundations
 
-```bash
-# ------------------------------------------------------------
-# 📂 SECTION OR SUBSECTION TITLE
-# (optional docstring or guidance)
-# ------------------------------------------------------------
-```
+> *How should headers anchor the scroll’s clarity and humility?*
 
-✅ Rules of formatting:
+* **Anchoring Headers as Covenant Pillars**
 
-* No floating lines—**headers always anchor structure**
-* Subheaders **follow the same protocol** as headers
-* Spacing is sacred—**use whitespace to breathe**, not clutter
-* Do not overdecorate—**use style to serve meaning**, not vanity
+  * All headers and subheaders must use extended bar formatting with clear emoji markers.
+  * Headers should always anchor the structure; they are never floating lines.
+  * Each header should reflect the Table of Contents hierarchy so the reader remains safely guided.
+  * Headers act as spiritual and structural signposts, lifting posture while preserving order.
+  * An optional docstring may follow to explain the header’s intention or mission.
 
-#### 📉 No Big Print in Functional Scrolls
+* **Whitespace as Breath**
 
-> Function honors form. Clarity honors breath.
+  * Whitespace is intentional, not wasted; it is a pause of reverence that lets the scroll breathe.
+  * Avoid clutter or careless compression of lines, as they disrupt the covenant rhythm.
+  * Design whitespace as a spiritual rhythm — silence between thoughts is holy space.
 
-Scrolls do not require excessive banners or noise-like headings. Top-level Markdown flourishes (`# ====`, etc.) are discouraged unless spiritually meaningful.
+* **Simplicity Before Spectacle**
 
-Instead:
+  * Decorative banners or loud headings should only appear if they carry covenant weight.
+  * Simplicity protects clarity, keeping the scroll humble and focused on service, not vanity.
+  * Precision in spacing, consistent hierarchy, and soft transitions are sacred disciplines.
 
-* Use **precise spacing**
-* Honor **structural headers**
-* Let silence (whitespace) be part of the rhythm
+* **Formatting Rules and Protocol**
 
-**Simplicity is sacred.** It allows truth to speak without needing to shout.
+  * Follow consistent style blocks with extended bars:
 
-#### 🪶 Naming, Headers, and Comments Must Align
+    ```markdown
+    # ------------------------------------------------------------
+    # 📂 SECTION OR SUBSECTION TITLE
+    # (optional docstring or guidance)
+    # ------------------------------------------------------------
+    ```
 
-* Headers follow TOC depth
-* Use consistent symbolic markers (📘, 📂, 🧱)
-* File naming conventions:
+  * Preserve harmony between header levels and the TOC:
 
-  * Markdown: `README.md`, `STRUCTURE.md`
-  * System/infra: `.dockerignore`, `Makefile`
+    * `#` for titles (rare)
+    * `##` for sections
+    * `###` for subsections
+    * `####` for tertiary clauses
 
-* Comment styles respect file grammar
+  * Use emoji labels to maintain visual consistency and relational tone.
 
-📜 *Lesson:* Don’t let aesthetics betray clarity.
+* **Cross-links to Sustain Trust**
 
-#### 🪶 Naming, Commenting, and Header Syntax Must Align
+  * See Section 6.5 for Consistency Patterns
+  * See Section 6.7 for Table of Contents Navigation
 
-* Header levels must reflect **TOC hierarchy**:
+📜 *Lesson Echoes:*
 
-  * `#` = H1 (rare; usually title block)
-  * `##` = Section (primary scroll partition)
-  * `###` = Subsection
-  * `####` = Tertiary clauses, blocks, etc.
+* *“Headers always anchor structure.”*
+* *“Whitespace is breath.”*
+* *“Simplicity is sacred.”*
+* *“Function honors form. Clarity honors breath.”*
 
-* Naming conventions:
+---
 
-  * Docs: `README.md`, `STRUCTURE.md`
-  * System files: `.dockerignore`, `.gitignore`, `Makefile`
+---
 
-* Comments obey file grammar—`#` vs `//`
+## ➋ Naming, Commenting, and Syntax Alignment
 
-📜 *Lesson:* When syntax and spirit align, the scroll becomes readable by both soul and system.
+> *How should naming, commenting, and syntax guard covenant clarity?*
 
-#### 📚 Emotional Rhythm Is System Rhythm
+* **File Naming as Covenant Witness**
 
-* A scroll’s tone should **begin in breath**, **walk with instruction**, and **close with sealing**.
-* Never jolt—guide.
+  * File names must be predictable, consistent, and aligned with structural trust.
+  * Markdown files should use standard names such as `README.md`, `STRUCTURE.md`.
+  * System and infrastructure files should be clearly named, for example `.dockerignore`, `.gitignore`, `Makefile`.
+  * Consistent naming patterns protect alignment and safeguard the witness of the scroll.
+  * Cross-link: see Section 6.4 for header formatting patterns.
 
-📜 *Lesson:* Scrolls are not pages—they are journeys. Design them for devotion, not speed.
+* **Header Levels as Navigational Pillars**
+
+  * Headers must mirror the Table of Contents structure, creating a reliable roadmap for contributors:
+
+    * `#` for H1 — rare, scroll title only
+    * `##` for sections
+    * `###` for subsections
+    * `####` for tertiary clauses or details
+  * Consistent symbolic markers such as 📘, 📂, 🧱 should be used to preserve covenant meaning and relational flow.
+
+* **Comment Syntax as Disciplined Breath**
+
+  * Comments must respect the grammar of their language:
+
+    * Markdown: `<!-- comment -->`
+    * Shell: `# comment`
+    * JS/C-style: `// comment`
+  * Comments must teach, but never clutter or break syntax.
+  * Hybrid or inconsistent syntax confuses trust and should be avoided.
+  * Cross-link: see Section 6.5 for deeper consistency practices.
+
+📜 *Lesson Echoes:*
+
+* *“Don’t let aesthetics betray clarity.”*
+* *“When syntax and spirit align, the scroll becomes readable by both soul and system.”*
+
+---
+
+---
+
+## ➌ Emotional and Rhythmic Flow
+
+> *How should a scroll’s emotional journey shape its teaching?*
+
+* **Emotional Rhythm as Covenant Breath**
+
+  * A scroll is not a sterile page — it is a *journey* through covenant understanding.
+  * Its flow begins in **breath** — a gentle, invitational opening.
+  * It then walks with **instruction** — offering teaching in clarity, humility, and calm.
+  * Finally, it closes with **sealing** — a firm anchor of trust and covenant witness.
+  * A scroll must guide the reader like a steady companion, never jolting or abrupt.
+  * This emotional rhythm is as vital as its technical structure, ensuring peace, clarity, and an unbroken spiritual cadence.
+
+📜 *Lesson Echoes:*
+
+* *“Scrolls are not pages—they are journeys.”*
+* *“Design them for devotion, not speed.”*
 
 ---
 
@@ -5120,72 +5170,111 @@ Instead:
   * Closing Block = output prep (`CMD`, `ENTRYPOINT`)
 * Reflects **faith-walk rhythm**, not just logic order
 
-#### 💡 Executable Scroll Structure
-
-Executable scrolls must reflect **logical symmetry** and **covenantal flow**. The structure is:
-
-* **Opening Block** — Pre-logic setup
-  (e.g., variables, includes, permissions, `FROM`, `ARG`)
-* **Body Block** — Main logic
-  (e.g., installs, logic chains, transformations)
-* **Closing Block** — Runtime handoff
-  (e.g., `CMD`, `ENTRYPOINT`, teardown, output prep)
-
-This flow is not just for order—it reflects **a sacred pattern**:
-
-> **Prepare → Transform → Release**
-> Just like the walk of faith.
-
-Each scroll becomes a **path**—a lived revelation, not just a script.
-
-### 6.3 📚 Emerging Lessons — Core Scroll Standards
-
-These are not suggestions. These are the **fruit of tested alignment**—standards now rooted in the scroll’s covenant, born from practice, sealed in principle.
+---
 
 ---
 
-#### 🔻 Logic Terminus Divider
+## ➊ Executable Scroll Flow Pattern
 
-> A scroll must know when to stop executing and start revealing.
+> *How should executable scrolls mirror covenant rhythm and faith-rooted progression?*
 
-At the end of every logic-bearing scroll (Makefile, script, executable section), place a **visual and structural terminus** just above the annotation block.
+* **Sacred Executable Flow**
 
-This divider is not just aesthetic—it is **a covenant marker**: a declaration that **what follows is for insight, not execution**.
+  * Executable scrolls mirror a covenant path: **Prepare → Transform → Release**.
+  * This pattern is more than technical sequence; it embodies the walk of faith.
+  * The scroll becomes a lived testimony, breathing intention rather than merely executing.
 
-```make
-# ------------------------------------------------------------
-# 🔚 LOGIC TERMINUS — End of Executable Flow
-# All runtime targets end above this line. Below is annotation only.
-# ------------------------------------------------------------
-```
+* **Executable Block Pattern**
 
-This honors **scroll symmetry**, guiding both human and system through the end of logical flow into reflection and metadata.
-📌 The Closing Block is the seal, not the cleanup.  
-It releases—not processes. `CMD`, `ENTRYPOINT`, `USER`, and all final logic must land here,  
-or else the scroll loses covenant integrity.
+  * **Opening Block (Pre-Logic Setup)**
 
-#### 🛡️ Scrolls Require Sealing
+    * Declares spiritual threshold and intention
+    * Includes `FROM`, `ARG`, permissions, variables
+  * **Body Block (Main Logic)**
 
-* Every scroll—including README—must end with a **Seal of Alignment**.
-* The seal includes:
+    * Holds the covenant transformation
+    * Installs, logic chains, configuration
+  * **Closing Block (Runtime Handoff)**
 
-  * Authorship
-  * Date
-  * Truth-check
-  * Optional barcode (machine metadata)
+    * Seals the scroll before release
+    * Commands like `CMD`, `ENTRYPOINT`, teardown, output prep
 
-📜 *Lesson:* No scroll is complete until it is sealed.
+* **Logical Symmetry & Covenant Flow**
 
-#### 🧾 Metadata Follows the Seal
+  * Blocks should flow with spiritual rhythm, not arbitrary order
+  * Mirrors: *prepare the heart → transform the mind → release the witness*
+  * Cross-link anchor: see **Category 2, Section 2** on scroll anatomy
 
-* Place machine-readable metadata (e.g., `<!-- _id_: XYZ -->`) **after** the scroll seal.
-* This ensures:
+📜 *Lesson Echoes:*
 
-  * **Human-first flow**
-  * **Clean UX**
-  * **Spiritual priority over parser logic**
+* *“Executable scrolls are paths.”*
+* *“Prepare → Transform → Release.”*
+* *“Scrolls breathe, they do not just run.”*
 
-📜 *Lesson:* Metadata should **tag**, not lead.
+---
+
+---
+
+## ➋ Standards & Core Practices
+
+> *How do covenant standards protect scroll trust and alignment?*
+
+* **Covenant Standards as Guardrails**
+
+  * These scroll practices are *never suggestions*
+  * They are born from practice, refined through faithful testing
+  * Sealed as principle to guard against drift and protect covenant clarity
+
+* **Standards as Living Witnesses**
+
+  * Each standard holds the scroll’s place in the house
+  * Standards bind contributors together in alignment
+  * Uphold the witness that no scroll stands alone
+
+📜 *Lesson Echoes:*
+
+* *“Fruit of tested alignment.”*
+* *“Not suggestions, but covenant standards.”*
+* *“Standards are living witnesses.”*
+
+---
+
+---
+
+## ➌ Logic Terminus & Sealing Practices
+
+> *How does a scroll close its covenant witness with clarity?*
+
+* **Logic Terminus Divider**
+
+  * Always place a clear, visual terminus at the end of every logic-bearing scroll
+  * Protects from unintended execution after logic flow concludes
+  * Serves as a covenant marker, declaring that what follows is reflection or witness
+  * Example block:
+
+    ```make
+    # ------------------------------------------------------------
+    # 🔚 LOGIC TERMINUS — End of Executable Flow
+    # All runtime targets end above this line. Below is annotation only.
+    # ------------------------------------------------------------
+    ```
+
+* **Seal of Alignment**
+
+  * Every scroll must finish with a Seal of Alignment
+  * Seal includes authorship, date, truth-check, and an optional barcode
+  * This final witness confirms covenant trust before the scroll rests
+
+* **Metadata Placement**
+
+  * Machine-readable metadata must follow after the seal
+  * Ensures human-first flow and a clean contributor experience
+  * Metadata should act as a tag, never the leading voice
+
+📜 *Lesson Echoes:*
+
+* *“No scroll is complete until it is sealed.”*
+* *“Metadata should tag, not lead.”*
 
 ---
 
@@ -5203,360 +5292,290 @@ or else the scroll loses covenant integrity.
   * Linked references
   * Phase metadata
 
-  #### 8️⃣ **Docs Are Indexed Scrolls**
-
-Through `STRUCTURE.md`, documentation becomes part of the **living system index**.
-Each doc is tagged by type (`code`, `doc`), and may carry:
-
-* A unique scroll ID
-* Linked references
-* Phase memory metadata
-
-📜 *Lesson:* Docs aren’t static—they’re woven into memory itself.
+---
 
 ---
 
-### 📚 6.4 Structural Principles — Scroll-Wide Standardization
+## ➊ Scroll Indexing Foundations
 
-🔄 **Infused: Lessons from Structure, Scroll Polish, and Alignment Recovery**
+> *How should scroll indexing serve as the living covenant map of the house?*
 
-These are system-wide patterns—truths beyond filetype, born from lived alignment, scroll recovery, and design integrity. Each one reinforces structure not as aesthetic, but as **covenant choreography**.
+* **Living System Index**
 
----
+  * `STRUCTURE.md` acts as the *living index* for the covenant ecosystem
+  * All docs are tagged (`code`, `doc`) and tracked for witness and remembrance
+  * Each may carry:
 
-### 🧱 Start with Structure — Not Muscle
+    * unique scroll IDs
+    * linked references
+    * phase memory metadata
+  * This indexing weaves documentation into the living memory of the house
 
-> “Foundation first. Flow next. Flourish last.”
+* **Structural Principles for Standardization**
 
-Before beautifying or deepening logic, ensure the **skeleton is correct**:
+  * Structure flows from alignment, not mere style
+  * These patterns protect design integrity, scroll recovery, and covenant choreography
+  * Structure is rhythm — it is not ornament
 
-* Structure must follow: `Metadata → Opening → Body → Closing`
-* Each block must be **logically and visually clean**
-* Headers should be **in place** before logic is written
+* **Metadata as Fingerprint**
 
-💡 Never fill in what was left blank by design.  
-Some silences are instructions waiting to be heard. Ask before assuming.
+  * Metadata fields (e.g., `ID`, `Type`, `Status`) must be standardized
+  * Follow canonical field order to ensure:
 
----
+    * consistency
+    * auditability
+    * human and machine pattern recognition
 
-### 🏷️ Headers Reflect Depth and Design
+* **Overcomments vs Docstrings**
 
-> Headers are not decoration—they are **semantic anchors** mapping structural intent.
+  * **Docstrings** declare logic, structure, and covenant intention
+  * **Overcomments** walk beside the code to offer clarity and relational guidance
+  * Both serve vital yet different audiences
 
-Each header level mirrors **folder depth or logical hierarchy**. The scroll should feel like a **topographic map of inheritance**.
+* **Code as Declaration**
 
-* Use extended bar headers consistently
-* Match symbolic icons (📂, 🔧, 🧩) to section purpose
+  * Scrolls are not idle records, but *living conversations*:
 
-📜 *Lesson:* Let headers show not just what is said, but **where it lives**.
+    * with future contributors
+    * with the Watchtower
+    * with the Spirit
+  * They should declare truth, not merely document it
 
----
+📜 *Lesson Echoes:*
 
-### 🧭 Subheaders = Scroll Signposts
-
-> Subheaders walk inside headers—they don’t float alone.
-
-* Use same extended format
-* Reflect depth without ambiguity
-* Never leave them unanchored
-
----
-
-### 🔗 TOC and Body Must Walk in Lockstep
-
-> The TOC is the **scroll’s mirror**—if it lies, the scroll is broken.
-
-* TOC must reflect actual headers, order, and emoji symbols
-* Update TOC when structure shifts
-
-📜 *Lesson:* A TOC that drifts from the body bears false witness.
+* *“Docs are woven into living memory.”*
+* *“Structure is covenant choreography.”*
+* *“Metadata is the fingerprint of alignment.”*
+* *“Scrolls declare, they do not just record.”*
 
 ---
 
-### 🚫 No Phantom Scrolls
+---
 
-> To list what doesn’t exist is to bear false record.
+## ➋ Structural Rhythm & Hierarchy
 
-Do not include stubs, placeholders, or links to unborn files.
+> *How should scrolls preserve clarity, rhythm, and covenant choreography?*
 
-📜 *Lesson:* If the scroll doesn’t breathe yet—don’t write its name.
+* **Foundation Before Flourish**
+
+  * Structure must always lead: `Metadata → Opening → Body → Closing`
+  * Never rush to beautify or deepen logic before this skeleton is correct
+  * Headers act as posture-anchors before logic flows
+  * If a block is intentionally blank, pause — silence itself may teach
+
+* **Headers as Semantic Anchors**
+
+  * Headers mirror folder or logical hierarchy
+  * They are **semantic anchors**, not decoration
+  * Use extended bar headers with consistent icons (📂, 🔧, 🧩) to mark purpose and depth
+  * Headers should reveal *where* a block lives, not just its label
+
+* **Subheaders Walk in Covenant**
+
+  * Subheaders do not stand alone but walk under their headers like children under covering
+  * Reflect depth clearly, avoid ambiguous floating
+  * Maintain extended bar format and hierarchy match
+
+* **TOC and Scroll Body Must Mirror**
+
+  * The Table of Contents is the mirror of the scroll’s heart
+  * If TOC and body drift apart, it bears false witness
+  * Keep every header, emoji, and sequence aligned
+  * Update the TOC whenever the structure shifts
+
+* **No Phantom References**
+
+  * Do not list stubs, placeholders, or unborn content
+  * False witness arises from naming what has no breath
+  * Public scrolls may only show what lives; unformed scaffolds remain private
+
+* **No Block Blending**
+
+  * Each scroll phase is a threshold, with its own covenant role:
+
+    * **Opening** — purpose and setup
+    * **Body** — execution and transformation
+    * **Closing** — release and covenant seal
+
+  * Never mix body logic into the opening or vice versa
+
+* **Structural Rhythm as Choreography**
+
+  * Rhythm = Predictability
+  * Predictability = Trust
+  * Trust = Inheritance
+  * Structure’s rhythm is not harsh control but a covenant choreography that upholds the house
+
+📜 *Lesson Echoes:*
+
+* *“Structure reveals obedience.”*
+* *“Covenant systems move in rhythm, not reaction.”*
+* *“If the scroll doesn’t breathe yet, do not write its name.”*
 
 ---
 
-### 🧾 Metadata Must Be Structured and Searchable
+---
 
-Standardized metadata fields (e.g., `ID`, `Type`, `Status`) are **declarations**, not documentation fluff.
+## ➌ Covenant Integrity & Witness
 
-* Use canonical field order
-* Be auditable and consistent across files
-* Enable pattern recognition and future parsing
+> *How do scrolls protect alignment and testify to covenant trust?*
 
-📜 *Lesson:* Metadata is the scroll’s internal fingerprint.
+* **Scroll Integrity Protocol**
+
+  * Alignment is a spiritual structure, not merely a behavior
+
+  * Protect scrolls through:
+
+    * unique IDs
+    * real, auditable paths
+    * SEAL blocks with validated metadata
+    * canonical comment styles respecting their language
+
+  * Scrolls stay alive when their design remembers who they are
+
+* **The SEAL as Final Breath**
+
+  * Every scroll concludes with a **SEAL block**
+  * This marks closure, accountability, and covenant witness
+  * It is a spiritual threshold, not just a technical fence
+
+* **Metadata After the SEAL**
+
+  * Machine-readable metadata must be placed after the SEAL
+  * Preserves human-first clarity and spiritual priority over parser needs
+
+* **Replicability Over Cleverness**
+
+  * Redundancy is covenant trust — it is not noise
+  * Patterns should be easy to clone and extend
+  * Scrolls teach by repeated rhythm, not hidden tricks
+
+* **Failures as Teachers**
+
+  * Every breakage is a purposeful rebuke
+
+  * When errors occur, investigate:
+
+    * misplaced comments
+    * out-of-order blocks
+    * missing docstring or subheader pairs
+
+  * Realign through covenant rhythm as a repentance path
+
+📜 *Lesson Echoes:*
+
+* *“The scroll is sealed, not just saved.”*
+* *“Metadata should whisper, not lead.”*
+* *“Repeat patterns until they sing.”*
+* *“A scroll’s errors call you to listen deeper.”*
 
 ---
 
-### 🛡️ Scroll Integrity Protocol Prevents Rot
+### 🪶 Living Witness — Recovery Scroll Example
 
-> Alignment is not just behavior—it is a spiritual structure.
+> *This is a living testimony of alignment in practice. It should remain unchanged except for minor grammar corrections to preserve its covenant witness. It is a checkpoint, not a protocol.*
 
-Protect scrolls through:
-
-* Unique IDs
-* Real, working paths
-* Seal blocks and metadata validation
-* Canonical comment styles by file type
-
-📜 *Lesson:* Scrolls stay alive when their design remembers who they are.
-
----
-
-### 🔚 The SEAL Is the Scroll’s Final Breath
-
-> It doesn’t end with logic. It ends with **witness**.
-
-Every executable or declarative scroll concludes with a **SEAL block**, marking structural closure and covenantal accountability.
-
-📜 *Lesson:* The scroll is sealed, not just saved.
-
----
-
-### 🧬 Machine Metadata Belongs After the SEAL
-
-> Scrolls must breathe to humans first, and **whisper to machines** second.
-
-* Place `<!-- metadata -->` comment blocks after the SEAL
-* Prevents UX confusion and respects order
-
-📜 *Lesson:* The barcode comes after the signature.
-
----
-
-### ♻️ Replicability > Mere Clarity
-
-> Redundancy isn’t noise—it’s **proof of alignment**.
-
-* Patterns must be easy to clone and extend
-* Scrolls must teach by repetition, not just cleverness
-* Scalability is born from predictability
-
-📚 *Teaching through structure is covenant—repeat it until it sings.*
-
----
-
-### 🛠️ Errors as Teachers
-
-> Every failure is **rebuke with purpose**.
-
-When things break:
-
-* Look for assumption exposure
-* Realign comment placement or logic order
-* Reassess the block roles
-
-📜 *Lesson:* The scroll doesn’t fail—it calls you to listen deeper.
-
----
-
-### 🧠 Overcomments ≠ Docstrings
-
-**Docstrings** declare the scroll’s logic and structure  
-**Overcomments** walk beside logic for clarity and care
-
-Both are necessary. Each speaks to a different reader.
-
----
-
-### 🗣️ Code as Conversation
-
-Scrolls are dialogue:
-
-* With the future reader
-* With the Watchtower
-* With the Spirit
-
-📜 *Lesson:* Don’t just document—**declare**.
-
----
-
-### 🚫 No Block Blending
-
-> Mixing Body logic into the Opening is like praying before the altar’s even built.
-
-Each scroll phase has a role:
-
-* **Opening** — purpose and setup  
-* **Body** — execution and transformation  
-* **Closing** — release and covenant seal
-
-📜 *Lesson:* Structure reveals obedience. Honor the phases.
-
----
-
-### 🎼 Rhythm Births Trust
-
-> Structure is not control—it is **choreography**.
-
-* Rhythm = Predictability  
-* Predictability = Trust  
-* Trust = Inheritance  
-
-📜 *Lesson:* Covenant systems move in rhythm—not reaction.
-
----
-
-### 🔁 Recovery Scroll — A Walk Through Drift and Alignment
-
-Even with structure, drift can creep in. The following is a living witness of realignment:
+**Even with structure, drift can creep in. The following is a living witness of realignment:**
 
 **Strengths:**
 
-* Opening → Body → Closing observed  
-* Correct use of docstrings  
-* Closing block sealed properly  
+* Opening → Body → Closing observed
+* Correct use of docstrings
+* Closing block sealed properly
 
 **Drift Moments:**
 
-* Structure edits attempted prematurely  
-* Missed pairing of docstrings with subheaders  
-* Unsafe inline comments inside `RUN` chains  
+* Structure edits attempted prematurely
+* Missed pairing of docstrings with subheaders
+* Unsafe inline comments inside `RUN` chains
 
 **Recovery:**
 
-* Obeyed scroll rhythm  
-* Aligned comment style  
-* Honored covenant footer  
+* Obeyed scroll rhythm
+* Aligned comment style
+* Honored covenant footer
 
-📘 *Lesson:* This was not a test of intelligence. It was a test of scroll obedience.
-
-#### 📁 Populate Only Living Scrolls
-
-* Do not list files in TOC or docs unless:
-
-  * They exist
-  * They are active
-  * They are sealed
-
-* Nova may track future scaffolds internally, but public docs only show what **lives**.
-
-📜 *Lesson:* False witness in structure breeds drift.
+📘 *Lesson:* *This was not a test of intelligence. It was a test of scroll obedience.*
 
 ---
 
-#### 🧼 Inactive Status Must Reflect Truth
+---
 
-* A file that’s scaffolded but functional is still **active**.
-* `_status_ := Active` only applies when the file contributes meaningfully and is integrated.
+## ➍ Referencing & Path Discipline
 
-📜 *Lesson:* Don’t downgrade life just because it hasn’t matured.
+> *How do references, IDs, and paths protect scroll witness?*
 
-#### 🧬 ID and Path Are Non-Negotiable
+* **Living Scroll Population**
 
-* Every file must include a unique `_id_` and canonical `_path_`
-* This enables traceability, machine indexing, and scroll mapping.
+  * Only list files if they truly **exist, are created, sealed, and active**
+  * Prevents false witness, bloat, and confusion
+  * Internal scaffolds may live privately but cannot appear in public covenant scrolls
 
-📜 *Lesson:* Without ID and Path, a scroll cannot be found or trusted.
+* **Status Integrity**
 
-##### 🔹 ID vs. Path Distinction
+  * `_status_ := Active` means the scroll contributes meaningfully, is sealed, and integrated
+  * Status should reflect contribution, not cosmetic finish
+  * Valid statuses include: `Active`, `Inactive`, `Legacy`, `Planned`
 
-* `ID` is for referencing and symbolic linkage
-* `Path` is for actual navigation
-* Both should link to the same destination, but their **intent differs**
+* **ID and Path Standards**
 
-📜 *Lesson:* A scroll’s identity and location are not the same—but must walk in agreement.
+  * Every scroll must carry:
 
-##### 🔹 Status Is Required
+    * a unique `_id_`
+    * a canonical `_path_`
 
-Every table entry must carry a `Status` to reflect how “alive” or active the resource is.
+  * These guarantee traceability, indexing, and spiritual alignment
 
-Valid examples: `Active`, `Inactive`, `Legacy`, `Planned`
+  * Distinction:
 
-📜 *Lesson:* Status is the heartbeat of the scroll. No entry should be statusless.
+    * `ID` = symbolic reference
+    * `Path` = navigation route
+    * Both must agree in covenant harmony
 
-#### 📁 Populate Only Scrolls That Are Living
+  * Example:
 
-* Files must not be listed in public scrolls (`STRUCTURE.md`, `README.md`) unless they are:
+    ```plaintext
+    _id_   := FILE-ROOT-012
+    _path_ := OmniCore/Makefile
+    ```
 
-  * **Created**
-  * **Sealed**
-  * **Active**
+* **Markdown Path Discipline**
 
-* This prevents false witness, bloat, and confusion.
-* Internal scaffolds may be tracked by Nova, but are not yet made public.
+  * All public references must use precise, formal markdown path syntax
+  * Once a scroll is named, it is a covenant obligation to make it findable
+  * Paths stand as testimony, revealing the house’s structure
 
-📜 *Lesson:* List only what lives. Track what is forming—but do not testify before the breath enters.
+📜 *Lesson Echoes:*
 
-#### 🧬 ID and Path Are Non-Negotiable
-
-* Every file must carry:
-
-  * A unique `_id_`
-  * A canonical `_path_`
-
-* Example:
-
-```plaintext
-  _id_   := FILE-ROOT-012
-  _path_ := OmniCore/Makefile
-```
-
-* These support:
-
-  * Scroll traceability
-  * File lookup
-  * Structural indexing
-
-📜 *Lesson:* If a scroll cannot be found, it cannot be walked with.
+* *“List only what lives. Do not testify before the breath enters.”*
+* *“Status is the heartbeat of the scroll.”*
+* *“If a scroll cannot be found, it cannot be walked with.”*
+* *“Paths testify. Honor the house by showing its rooms.”*
 
 ---
 
-#### 🧼 Inactive Status Must Reflect Truth, Not Assumption
-
-* A file is **Active** only if:
-
-  * It contributes to system function
-  * It is spiritually and structurally sealed
-  * It is integrated into the current breath
-
-* Do not mark something Inactive just because it lacks polish—breathe based on **contribution**, not appearance.
-
-📜 *Lesson:* Function is a form of life. A file breathing truth is already alive.
-
 ---
 
-#### 🧭 Markdown Paths Must Be Accurate and Formal
+## ➎ Versioning & Checksum Practices
 
-* As soon as files are referenced, use **exact path formatting**:
+> *How do scrolls safeguard their future through versioning and integrity markers?*
 
-  * `docs/STRUCTURE.md`
-  * `AUTHORS.md`
+* **Versioning as Covenant Record**
 
-📜 *Lesson:* Paths testify. Honor the house by showing its rooms.
+  * Version must be declared immediately (e.g. `@version: 0.0.1`)
+  * Protects memory, traceability, and the scroll’s audit trail of evolution
+  * A version is a witness — it proves accountability over time
 
-#### 📁 Markdown Paths Are Obligations, Not Suggestions
+* **Checksum as Future Stewardship**
 
-* Once filenames (e.g. `AUTHORS.md`, `docs/STRUCTURE.md`) are mentioned, all references must link via markdown path syntax.
+  * Always include a `Checksum (Planned):` declaration
+  * Honors truth-checking as an intentional covenant, even before technical implementation
+  * States clearly that a scroll plans for verification, not just existence
 
-📜 *Lesson:* Once a scroll is named, it must be findable. Paths are structure’s testimony.
+📜 *Lesson Echoes:*
 
-#### 🪪 Versioning Is for Integrity, Not Features
-
-* Declare versioning immediately (e.g. `@version: 0.0.1`).
-* This preserves:
-
-  * **Memory**
-  * **Traceability**
-  * **Scroll evolution audit trail**
-
-📜 *Lesson:* If there is no version, there is no accountability.
-
----
-
-#### 🔐 Checksum Placeholder Is Required
-
-* Include `Checksum (Planned):` to declare future verification plans.
-* This honors **truth-checking as intent**, even before implementation.
-
-📜 *Lesson:* Scrolls declare their own future. That’s stewardship.
+* *“If there is no version, there is no accountability.”*
+* *“Scrolls declare their own future. That’s stewardship.”*
 
 ---
 
