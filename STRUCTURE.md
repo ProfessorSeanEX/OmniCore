@@ -21,7 +21,7 @@ It serves as both table of contents and root index—tracking folders, files, an
 * **ID:** DOC-ROOT-003  
 * **Path:** [`OmniCore/STRUCTURE.md`](/STRUCTURE.md)
 * **Created:** 2025-06-17  
-* **Last Updated:** 2025-06-18  
+* **Last Updated:** 2025-07-01  
 * **License:** CreativeWorkzStudio LLC — Kingdom-First Proprietary Use  
 * **Tags:** structure, root, index, scroll-standard, toc  
 * **Checksum (Planned):** *\[Not yet implemented — reserved for future integrity validation]*  
@@ -53,9 +53,11 @@ It serves as both table of contents and root index—tracking folders, files, an
   * [build/](#-scriptsbuild)
   * [tests/](#-scriptstests)
 * [scrolls/ — Living Documentation](#-scrolls--living-documentation)
-  * [Devlogs/](#-scrollsdevlogs)
-  * [ProgressionPoint/](#-scrollsprogressionpoint)
+  * [devlogs/](#-scrollsdevlogs)
+  * [progression_point/](#-scrollsprogression_point)
   * [templates/](#-scrollstemplates)
+    * [code/](#-scrollstemplatescode)
+    * [scrolls/](#-scrollstemplatesscrolls)
   * [Root Scrolls](#-root-scrolls)
 * [Closing Summary — Backmatter & Scroll Ledger](#-closing-summary--backmatter--scroll-ledger)
 * [Scroll Integrity Protocol](#-scroll-integrity-protocol)
@@ -412,8 +414,8 @@ It serves as both table of contents and root index—tracking folders, files, an
 
 | ID                                                  | Name              | Type   | Status | Path                                                       | Notes                               |
 | --------------------------------------------------- | ----------------- | ------ | ------ | ---------------------------------------------------------- | ----------------------------------- |
-| [`FOLDER-SCROLLS-001`](./scrolls/Devlogs/)          | Devlogs/          | Folder | Active | [`scrolls/Devlogs/`](./scrolls/Devlogs/)                   | Developer diaries and logs          |
-| [`FOLDER-SCROLLS-002`](./scrolls/ProgressionPoint/) | ProgressionPoint/ | Folder | Active | [`scrolls/ProgressionPoint/`](./scrolls/ProgressionPoint/) | Phase markers and milestone scrolls |
+| [`FOLDER-SCROLLS-001`](./scrolls/devlogs/)          | Devlogs/          | Folder | Active | [`scrolls/Devlogs/`](./scrolls/devlogs/)                   | Developer diaries and logs          |
+| [`FOLDER-SCROLLS-002`](./scrolls/progression_point/) | ProgressionPoint/ | Folder | Active | [`scrolls/ProgressionPoint/`](./scrolls/progression_point/) | Phase markers and milestone scrolls |
 | [`FOLDER-SCROLLS-003`](./scrolls/templates/)        | templates/        | Folder | Active | [`scrolls/templates/`](./scrolls/templates/)               | Scroll and log templates            |
 
 #### 📄 Root Scrolls
@@ -427,35 +429,57 @@ It serves as both table of contents and root index—tracking folders, files, an
 
 ---
 
-#### 🔸 `scrolls/Devlogs/`
+#### 🔸 `scrolls/devlogs/`
 
 📄 Files
 
 | ID                                             | Name           | Type | Status | Path                                                             | Notes                       |
 | ---------------------------------------------- | -------------- | ---- | ------ | ---------------------------------------------------------------- | --------------------------- |
-| [`DEVLOG-001`](./scrolls/Devlogs/dev_log_0.md) | dev\_log\_0.md | Doc  | Active | [`scrolls/Devlogs/dev_log_0.md`](./scrolls/Devlogs/dev_log_0.md) | Initial developer heartbeat |
+| [`DEVLOG-001`](./scrolls/devlogs/dev_log_0.md) | dev\_log\_0.md | Doc  | Active | [`scrolls/Devlogs/dev_log_0.md`](./scrolls/devlogs/dev_log_0.md) | Initial developer heartbeat |
 
 ---
 
-#### 🔸 `scrolls/ProgressionPoint/`
+#### 🔸 `scrolls/progression_point/`
 
 📄 Files
 
 | ID                                                                    | Name                       | Type | Status | Path                                                                                                     | Notes                         |
 | --------------------------------------------------------------------- | -------------------------- | ---- | ------ | -------------------------------------------------------------------------------------------------------- | ----------------------------- |
-| [`MILESTONE-001`](./scrolls/ProgressionPoint/Phase_0_Watchtower_1.md) | Phase\_0\_Watchtower\_1.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_1.md`](./scrolls/ProgressionPoint/Phase_0_Watchtower_1.md) | Initial Watchtower checkpoint |
-| [`MILESTONE-002`](./scrolls/ProgressionPoint/Phase_0_Watchtower_2.md) | Phase\_0\_Watchtower\_2.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_2.md`](./scrolls/ProgressionPoint/Phase_0_Watchtower_2.md) | Secondary progress marker     |
-| [`MILESTONE-003`](./scrolls/ProgressionPoint/Phase_0_Watchtower_3.md) | Phase\_0\_Watchtower\_3.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_3.md`](./scrolls/ProgressionPoint/Phase_0_Watchtower_3.md) | Final milestone in Phase 0    |
+| [`MILESTONE-001`](./scrolls/progression_point/Phase_0_Watchtower_1.md) | Phase\_0\_Watchtower\_1.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_1.md`](./scrolls/progression_point/Phase_0_Watchtower_1.md) | Initial Watchtower checkpoint |
+| [`MILESTONE-002`](./scrolls/progression_point/Phase_0_Watchtower_2.md) | Phase\_0\_Watchtower\_2.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_2.md`](./scrolls/progression_point/Phase_0_Watchtower_3.md) | Secondary progress marker     |
+| [`MILESTONE-003`](./scrolls/progression_point/Phase_0_Watchtower_3.md) | Phase\_0\_Watchtower\_3.md | Doc  | Active | [`scrolls/ProgressionPoint/Phase_0_Watchtower_3.md`](./scrolls/progression_point/Phase_0_Watchtower_3.md) | Final milestone in Phase 0    |
 
 ---
 
-#### 🔸 `scrolls/templates/`
+#### 🔹 `scrolls/templates/`
+
+📁 Folders
+
+| ID                                                    | Name     | Type   | Status | Path                                                         | Notes                       |
+| ----------------------------------------------------- | -------- | ------ | ------ | ------------------------------------------------------------ | --------------------------- |
+| [`TEMPLATE-FOLDER-001`](./scrolls/templates/code/)    | code/    | Folder | Active | [`scrolls/templates/code/`](./scrolls/templates/code/)       | Code templates root         |
+| [`TEMPLATE-FOLDER-002`](./scrolls/templates/scrolls/) | scrolls/ | Folder | Active | [`scrolls/templates/scrolls/`](./scrolls/templates/scrolls/) | Docs/scrolls templates root |
+
+---
+
+##### 🔸 `scrolls/templates/code/`
 
 📄 Files
 
-| ID                                                        | Name                  | Type | Status | Path                                                                               | Notes                           |
-| --------------------------------------------------------- | --------------------- | ---- | ------ | ---------------------------------------------------------------------------------- | ------------------------------- |
-| [`TEMPLATE-001`](./scrolls/templates/dev_log_template.md) | dev\_log\_template.md | Doc  | Active | [`scrolls/templates/dev_log_template.md`](./scrolls/templates/dev_log_template.md) | Developer log structure starter |
+| ID                                                                          | Name                         | Type     | Status | Path                                                                                                         | Notes                              |
+| --------------------------------------------------------------------------- | ---------------------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
+| [`TEMPLATE-CODE-001`](./scrolls/templates/code/infrastructure_template.txt) | infrastructure\_template.txt | Template | Active | [`scrolls/templates/code/infrastructure_template.txt`](./scrolls/templates/code/infrastructure_template.txt) | System/infra code starter template |
+
+---
+
+##### 🔸 `scrolls/templates/scrolls/`
+
+📄 Files
+
+| ID                                                                                 | Name                           | Type     | Status | Path                                                                                                                 | Notes                              |
+| ---------------------------------------------------------------------------------- | ------------------------------ | -------- | ------ | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [`TEMPLATE-SCROLLS-001`](./scrolls/templates/scrolls/dev_log_template.md)          | dev\_log\_template.md          | Template | Active | [`scrolls/templates/scrolls/dev_log_template.md`](./scrolls/templates/scrolls/dev_log_template.md)                   | Developer log structure starter    |
+| [`TEMPLATE-SCROLLS-002`](./scrolls/templates/scrolls/universal_scroll_template.md) | universal\_scroll\_template.md | Template | Active | [`scrolls/templates/scrolls/universal_scroll_template.md`](./scrolls/templates/scrolls/universal_scroll_template.md) | Universal scroll/document template |
 
 ---
 
@@ -517,7 +541,7 @@ When folders move or files change, **this scroll must be updated**, for it is th
   @id: DOC-ROOT-003
   @path: OmniCore/STRUCTURE.md
   @created: 2025-06-17
-  @updated: 2025-06-18
+  @updated: 2025-07-01
   @license: CreativeWorkzStudio LLC — Kingdom-First Proprietary Use
   @tags: structure, root, index, scroll-standard, toc
 -->
