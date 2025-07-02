@@ -82,6 +82,8 @@
 
 ## 📚 Table of Contents
 
+---
+
 ### 🧾 Opening — Orientation, Navigation, & Alignment
 
 * [About This Scroll](#-about-this-scroll)  
